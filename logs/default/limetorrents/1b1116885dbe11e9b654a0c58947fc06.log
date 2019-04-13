@@ -1,0 +1,203 @@
+2019-04-13 15:31:24 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-13 15:31:24 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-13 15:31:24 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\limetorrents\\1b1116885dbe11e9b654a0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-13 15:31:24 [scrapy.extensions.telnet] INFO: Telnet Password: 4a82a457f5d31abd
+2019-04-13 15:31:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-13 15:31:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-13 15:31:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-13 15:31:24 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-13 15:31:24 [scrapy.core.engine] INFO: Spider opened
+2019-04-13 15:31:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-13 15:31:24 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2019-04-13 15:31:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/search/all/hello/seeds/1/> (referer: None)
+2019-04-13 15:31:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Scandal-Season-3-Episode-04-Say-Hello-to-My-Little-Friend-2013-HDTV-XviD-LOL[ettv]-torrent-3386270.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Scandal-S03E04-Say-Hello-to-My-Little-Friend-HDTV-XviD-ASAP-FR-torrent-3440764.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Scandal-S03E04-Say-Hello-to-My-Little-Friend-ESPANOL-HD-[ettv]-torrent-3371239.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Scandal-Season-3-Episode-04-Say-Hello-to-My-Little-Friend-2013-HDTV-XviD-LOL[ettv]-torrent-3386270.html>
+None
+2019-04-13 15:31:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Scandal-S03E04-Say-Hello-to-My-Little-Friend-HDTV-XviD-ASAP-FR-torrent-3440764.html>
+None
+2019-04-13 15:31:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Scandal-S03E04-Say-Hello-to-My-Little-Friend-ESPANOL-HD-[ettv]-torrent-3371239.html>
+None
+2019-04-13 15:31:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Scandal-Season-3-Episode-04-Say-Hello-to-My-Little-Friend-HDTV-XviD-2HD-ettv-torrent-3308180.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/DL-Hello-I-Must-Be-Going-2012-DVDRiP-X264-AAC-READNFO-nLiBRA-torrent-1425464.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-XviD-v2-DoNE-HD-torrent-1776165.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Scandal-Season-3-Episode-04-Say-Hello-to-My-Little-Friend-HDTV-XviD-2HD-ettv-torrent-3308180.html>
+None
+2019-04-13 15:31:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/DL-Hello-I-Must-Be-Going-2012-DVDRiP-X264-AAC-READNFO-nLiBRA-torrent-1425464.html>
+None
+2019-04-13 15:31:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-XviD-v2-DoNE-HD-torrent-1776165.html>
+None
+2019-04-13 15:31:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-XviD-READNFO-ALLiANCE-torrent-1457254.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-XviD-READNFO-ALLiANCE-torrent-1457254.html>
+None
+2019-04-13 15:31:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-AC3-XViD-RemixHD-torrent-1809119.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Dexter-S05E02-Hello-Bandit-HDTV-XviD-FQM-[eztv]-torrent-3070784.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-XviD-MAXSPEED-FASTSPEED-torrent-1758609.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-AC3-XViD-RemixHD-torrent-1809119.html>
+None
+2019-04-13 15:31:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Dexter-S05E02-Hello-Bandit-HDTV-XviD-FQM-[eztv]-torrent-3070784.html>
+None
+2019-04-13 15:31:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-XviD-MAXSPEED-FASTSPEED-torrent-1758609.html>
+None
+2019-04-13 15:31:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Scandal-Season-3-Episode-04-Say-Hello-to-My-Little-Friend-HDTV-XviD-LOL-VTV-torrent-3441062.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-BRRip-XviD-NYDIC-MAX-torrent-1409001.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-Guru-Prema-Kosame-(2018)-Telugu-DVDScr-x264-MP3-700MB-torrent-11578051.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-R5-XViD-sC0rp-PirateBAY-torrent-1419015.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Scandal-Season-3-Episode-04-Say-Hello-to-My-Little-Friend-HDTV-XviD-LOL-VTV-torrent-3441062.html>
+None
+2019-04-13 15:31:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-BRRip-XviD-NYDIC-MAX-torrent-1409001.html>
+None
+2019-04-13 15:31:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-XviD-ALLiANCE-torrent-1409002.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/BrazzersExxtra--Amina-Danger--Say-Hello-to-Her-Little-Friend-torrent-11897783.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-Guru-Prema-Kosame-(2018)-Telugu-DVDScr-x264-MP3-700MB-torrent-11578051.html>
+None
+2019-04-13 15:31:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-R5-XViD-sC0rp-PirateBAY-torrent-1419015.html>
+None
+2019-04-13 15:31:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-Mrs-Money-2018-WEB-DL-1080P-H264-AAC-JBY%20ViPHD-torrent-11969979.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-Naan-Pei-Pesuren-(2016)[DVDScr--x264--700MB--Tamil]-torrent-7618352.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-Neighbor-CODEX-[rarbg-to]-torrent-10336756.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-Guru-Prema-Kosame-(2018)-Telugu-Proper-True-HQ-HDRip-x264-MP3-700MB-ESub-torrent-11890432.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-XviD-ALLiANCE-torrent-1409002.html>
+None
+2019-04-13 15:31:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/BrazzersExxtra--Amina-Danger--Say-Hello-to-Her-Little-Friend-torrent-11897783.html>
+None
+2019-04-13 15:31:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-Mrs-Money-2018-WEB-DL-1080P-H264-AAC-JBY%20ViPHD-torrent-11969979.html>
+None
+2019-04-13 15:31:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-Naan-Pei-Pesuren-(2016)[DVDScr--x264--700MB--Tamil]-torrent-7618352.html>
+None
+2019-04-13 15:31:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-(2017)-Telugu-HQ-720p-HDTVRip-x264-AC3-5-1-1-4GB-torrent-10759805.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-Neighbor-(Alpha-4)-torrent-8833059.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-Neighbor-by-xatab-torrent-12422759.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-Neighbor-CODEX-[rarbg-to]-torrent-10336756.html>
+None
+2019-04-13 15:31:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-Guru-Prema-Kosame-(2018)-Telugu-Proper-True-HQ-HDRip-x264-MP3-700MB-ESub-torrent-11890432.html>
+None
+2019-04-13 15:31:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-(2017)-Telugu-HQ-720p-HDTVRip-x264-AC3-5-1-1-4GB-torrent-10759805.html>
+None
+2019-04-13 15:31:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-Neighbor-(Alpha-4)-torrent-8833059.html>
+None
+2019-04-13 15:31:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Taqdeer-(Hello)-(2018)-720p-HDRip-x264-AAC-Hindi-Dubbed-torrent-10936848.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-(2017)-Telugu-HQ-HDTVRip-x264-MP3-400MB-TEAMTR-torrent-10755707.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-How-Are-You-DVD-XviD-avi-torrent-2597483.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-Neighbor-by-xatab-torrent-12422759.html>
+None
+2019-04-13 15:31:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Taqdeer-(Hello)-(2018)-720p-HDRip-x264-AAC-Hindi-Dubbed-torrent-10936848.html>
+None
+2019-04-13 15:31:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-Mr-Billionaire-2018-1080p-WEB-DL-X264-AAC-BTxiaba-torrent-11707863.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-(2017)-Telugu-HQ-HDTVRip-x264-MP3-400MB-TEAMTR-torrent-10755707.html>
+None
+2019-04-13 15:31:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-How-Are-You-DVD-XviD-avi-torrent-2597483.html>
+None
+2019-04-13 15:31:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Michael-McIntyre-Hello-Wembley-DVDRip-XviD-HAGGiS-[www-torrentfive-com]-torrent-197131.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-(2017)-Telugu-True-HDTV--720p--UNTOUCHED--AVC--AAC--1-6GB-torrent-10755978.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-Mr-Billionaire-2018-1080p-WEB-DL-X264-AAC-BTxiaba-torrent-11707863.html>
+None
+2019-04-13 15:31:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Michael-McIntyre-Hello-Wembley-DVDRip-XviD-HAGGiS-[www-torrentfive-com]-torrent-197131.html>
+None
+2019-04-13 15:31:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-(2017)-Telugu-True-HDTV--720p--UNTOUCHED--AVC--AAC--1-6GB-torrent-10755978.html>
+None
+2019-04-13 15:31:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-Mr-Billionaire-2018-4K%201080p-4in1-WEB-DL-HEVC%20AVC-AAC-HQC-torrent-11712012.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-Mr-Billionaire-2018-4K%201080p-4in1-WEB-DL-HEVC%20AVC-AAC-HQC-torrent-11712012.html>
+None
+2019-04-13 15:31:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/BigTitsRoundAsses--Brooke-Wylde-(Hello-Brooke-Wylde--BangBros)-NEW-January-02%20-2014-torrent-4025864.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/DL-Hello-I-Must-Be-Going-2012-DVDRip-XviD-MAXSPEED-torrent-1457268.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Vampire-Diaries-S05E06-HDTV-x264-hello-rar-torrent-3824937.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-Neighbor-[v1-2]-torrent-12435523.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-Neighbor-v1-1-4-torrent-11175033.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-Namasthe-2016-DVDRip-x264-Malayalam-ESubs-ViZNU-[P2PDL]-torrent-7716504.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/BigTitsRoundAsses--Brooke-Wylde-(Hello-Brooke-Wylde--BangBros)-NEW-January-02%20-2014-torrent-4025864.html>
+None
+2019-04-13 15:31:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/DL-Hello-I-Must-Be-Going-2012-DVDRip-XviD-MAXSPEED-torrent-1457268.html>
+None
+2019-04-13 15:31:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Vampire-Diaries-S05E06-HDTV-x264-hello-rar-torrent-3824937.html>
+None
+2019-04-13 15:31:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/[HorribleSubs]-Hello%20%20-Kiniro-Mosaic--11-[720p]-mkv-torrent-6313187.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-Neighbor-[v1-2]-torrent-12435523.html>
+None
+2019-04-13 15:31:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-Neighbor-v1-1-4-torrent-11175033.html>
+None
+2019-04-13 15:31:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-Namasthe-2016-DVDRip-x264-Malayalam-ESubs-ViZNU-[P2PDL]-torrent-7716504.html>
+None
+2019-04-13 15:31:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/[HorribleSubs]-Hello%20%20-Kiniro-Mosaic--11-[720p]-mkv-torrent-6313187.html>
+None
+2019-04-13 15:31:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-X264-AAC-TARGET-FR-NL-ENG-SUB-torrent-1801525.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/REL-Hello-I-Must-Be-Going-2012-DVDRip-XViD-aXXo-torrent-1416873.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hawthorne-S01E10-Hello-and-Goodbye-HDTV-XviD-FQM-[eztv]-torrent-370111.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-X264-AAC-TARGET-FR-NL-ENG-SUB-torrent-1801525.html>
+None
+2019-04-13 15:31:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-XviD-26K-MAXSPEED-torrent-1768251.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/REL-Hello-I-Must-Be-Going-2012-DVDRip-MAXSPEED-torrent-1430126.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/REL-Hello-I-Must-Be-Going-2012-DVDRip-XViD-aXXo-torrent-1416873.html>
+None
+2019-04-13 15:31:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hawthorne-S01E10-Hello-and-Goodbye-HDTV-XviD-FQM-[eztv]-torrent-370111.html>
+None
+2019-04-13 15:31:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/[tin-023]-Nurse-who-are-excited-to-see-the-erection-and-nurse-who-get-excited-%20hello-to-Black-Jack%20-and-seen-a-naked-THE-AV-torrent-3048551.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRIP-Xvid-BHRG-MAXSPEED-torrent-1776876.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-XviD-26K-MAXSPEED-torrent-1768251.html>
+None
+2019-04-13 15:31:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/REL-Hello-I-Must-Be-Going-2012-DVDRip-MAXSPEED-torrent-1430126.html>
+None
+2019-04-13 15:31:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/[tin-023]-Nurse-who-are-excited-to-see-the-erection-and-nurse-who-get-excited-%20hello-to-Black-Jack%20-and-seen-a-naked-THE-AV-torrent-3048551.html>
+None
+2019-04-13 15:31:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRIP-Xvid-BHRG-MAXSPEED-torrent-1776876.html>
+None
+2019-04-13 15:31:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-My-Name-Is-Doris-2015-HDRip-XviD-AC3-EVO-torrent-7777379.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-R5-MD-XViD-SERUM-FR-SUB-torrent-1769768.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-My-Name-Is-Doris-2015-HDRip-XviD-AC3-EVO-torrent-7777379.html>
+None
+2019-04-13 15:31:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Scandal-S03E04-Say-Hello-to-My-Little-Friend-HDTV-XviD-FQM-FR-SUB-torrent-3363372.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Scandal-Season-3-Episode-04-Say-Hello-to-My-Little-Friend-HDTV-XviD-FQM-torrent-3363377.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-R5-MD-XViD-SERUM-FR-SUB-torrent-1769768.html>
+None
+2019-04-13 15:31:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Scandal-S03E04-Say-Hello-to-My-Little-Friend-HDTV-XviD-FQM-FR-SUB-torrent-3363372.html>
+None
+2019-04-13 15:31:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-XviD-READNFO-COCAIN-torrent-1457253.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-XviD-v2-Anarchy-torrent-1760188.html> (referer: https://www.limetorrents.info/search/all/hello/seeds/1/)
+2019-04-13 15:31:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Scandal-Season-3-Episode-04-Say-Hello-to-My-Little-Friend-HDTV-XviD-FQM-torrent-3363377.html>
+None
+2019-04-13 15:31:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-XviD-READNFO-COCAIN-torrent-1457253.html>
+None
+2019-04-13 15:31:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-I-Must-Be-Going-2012-DVDRip-XviD-v2-Anarchy-torrent-1760188.html>
+None
+2019-04-13 15:31:30 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-13 15:31:30 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 23373,
+ 'downloader/request_count': 51,
+ 'downloader/request_method_count/GET': 51,
+ 'downloader/response_bytes': 476534,
+ 'downloader/response_count': 51,
+ 'downloader/response_status_count/200': 51,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 13, 7, 31, 30, 743590),
+ 'item_scraped_count': 50,
+ 'log_count/DEBUG': 101,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 51,
+ 'scheduler/dequeued': 51,
+ 'scheduler/dequeued/memory': 51,
+ 'scheduler/enqueued': 51,
+ 'scheduler/enqueued/memory': 51,
+ 'start_time': datetime.datetime(2019, 4, 13, 7, 31, 24, 830392)}
+2019-04-13 15:31:30 [scrapy.core.engine] INFO: Spider closed (finished)
