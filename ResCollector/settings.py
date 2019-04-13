@@ -125,9 +125,6 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
-    # "C:/Users/lzy/Desktop/ResCollector-master/static",
 )
 
 os.environ['SCRAPY_SETTINGS_MODULE'] = 'mybt.settings'
-print(BASE_DIR)
-print(STATICFILES_DIRS)

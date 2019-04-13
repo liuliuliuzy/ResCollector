@@ -19,17 +19,18 @@ scrapyd = ScrapydAPI('http://localhost:6800')
 last_query = ''
 
 def index(request):
+	global last_query
 	BtCollector.objects.all().delete()
+	last_query = ''
 	return render(request, 'BtCollector/bt_home.html')
 
 def search(request, search, cat):
 	global last_query
 	current_result = BtCollector.objects.filter(search = search, cat = cat)
-	if not current_result or last_query == request.path:
-		current_result.delete()
+	if not current_result and last_query != request.path:
 		for spider in support_category[cat]:
 			task = scrapyd.schedule('default', spider, search = search, cat = cat)
-		sleep(12)
+		sleep(8)
 	last_query = request.path
 
 	results = BtCollector.objects.filter(search = search, cat = cat).order_by('-seeder', '-leecher')

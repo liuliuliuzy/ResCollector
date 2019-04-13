@@ -1,0 +1,235 @@
+2019-04-13 23:52:24 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-13 23:52:24 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-13 23:52:24 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\1337x\\1e856e805e0411e9b008a0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-13 23:52:24 [scrapy.extensions.telnet] INFO: Telnet Password: 5907e380285720b2
+2019-04-13 23:52:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-13 23:52:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-13 23:52:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-13 23:52:24 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-13 23:52:24 [scrapy.core.engine] INFO: Spider opened
+2019-04-13 23:52:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-13 23:52:25 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-13 23:52:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/search/titanic/1/> (referer: None)
+2019-04-13 23:52:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/search/titanic/3/> (referer: None)
+2019-04-13 23:52:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/search/titanic/2/> (referer: None)
+2019-04-13 23:52:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3539033/Titanic-1997-UHD-2160p-Blu-ray-x265-HDR-DTS-HDMA-5-1-En-Hi-DTOne/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3249510/Titanic-Voices-From-the-Disaster-by-Deborah-Hopkinson-EPUB/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3539033/Titanic-1997-UHD-2160p-Blu-ray-x265-HDR-DTS-HDMA-5-1-En-Hi-DTOne/>
+None
+2019-04-13 23:52:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3280090/Shadow-of-the-Titanic-by-Andrew-Wilson-epub/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3249510/Titanic-Voices-From-the-Disaster-by-Deborah-Hopkinson-EPUB/>
+None
+2019-04-13 23:52:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3280090/Shadow-of-the-Titanic-by-Andrew-Wilson-epub/>
+None
+2019-04-13 23:52:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3345578/The-Titanic-For-Dummies/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/387983/Titanic-1997-1080p-BluRay-DTS-X264-BLOW-PublicHD/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3315509/Shameless-S09E07-Down-Like-the-Titanic-1080p-5-1-2-0-x264-Phun-Psyz/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1287428/Titanic-1997-BDrip-720p-H264-Italian-Aac-Drammatico-storico-sentimentale/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3345578/The-Titanic-For-Dummies/>
+None
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/322483/Celine-Dion-My-Heart-Will-Go-On-Titanic-Soundtrack-1997-Sebastian-Ub3r/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/387983/Titanic-1997-1080p-BluRay-DTS-X264-BLOW-PublicHD/>
+None
+2019-04-13 23:52:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3315509/Shameless-S09E07-Down-Like-the-Titanic-1080p-5-1-2-0-x264-Phun-Psyz/>
+None
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3315110/Shameless-US-S09E07-Down-Like-The-Titanic-1080p-AMZN-WEBRip-DDP5-1-x264-NTb/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1287428/Titanic-1997-BDrip-720p-H264-Italian-Aac-Drammatico-storico-sentimentale/>
+None
+2019-04-13 23:52:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/322483/Celine-Dion-My-Heart-Will-Go-On-Titanic-Soundtrack-1997-Sebastian-Ub3r/>
+None
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3358584/Titanic-1997-Open-Matte-1080p-BluRay-x265-HEVC-10bit-AAC-5-1-Silence-QxR/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3315110/Shameless-US-S09E07-Down-Like-The-Titanic-1080p-AMZN-WEBRip-DDP5-1-x264-NTb/>
+None
+2019-04-13 23:52:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3358584/Titanic-1997-Open-Matte-1080p-BluRay-x265-HEVC-10bit-AAC-5-1-Silence-QxR/>
+None
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/316039/Titanic-1997-1080p-HDTV-x264-2-1GB-YIFY/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3017598/Titanic-1943-BluRay-720p-YTS-YIFY/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/563254/Titanic-1997-1080p-BluRay-x264-Dual-Audio-English-Hindi-TBI/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/316039/Titanic-1997-1080p-HDTV-x264-2-1GB-YIFY/>
+None
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3033726/Titanic-1943-iNTERNAL-BDRip-x264-MANiC-N1C/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3482186/Titanic-1997-MULTi-UHD-2160p-Bluray-x265-HDR-DTS-HDMA-5-1-DTOne/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3017598/Titanic-1943-BluRay-720p-YTS-YIFY/>
+None
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3077272/Titanic-on-Trial-The-Night-the-Titanic-Sank-by-Nic-Compton-EPUB/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/563254/Titanic-1997-1080p-BluRay-x264-Dual-Audio-English-Hindi-TBI/>
+None
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/742510/Titanic-1953-720p-BrRip-x264-YIFY/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2922423/Poppy-Poppy-Computer-2017-MP3-320kbps-RiCK/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3016042/Titanic-1997-Open-Matte-1080p-10bit-BluRay-x265-HEVC-6CH-MRN/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3033726/Titanic-1943-iNTERNAL-BDRip-x264-MANiC-N1C/>
+None
+2019-04-13 23:52:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3482186/Titanic-1997-MULTi-UHD-2160p-Bluray-x265-HDR-DTS-HDMA-5-1-DTOne/>
+None
+2019-04-13 23:52:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3077272/Titanic-on-Trial-The-Night-the-Titanic-Sank-by-Nic-Compton-EPUB/>
+None
+2019-04-13 23:52:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/742510/Titanic-1953-720p-BrRip-x264-YIFY/>
+None
+2019-04-13 23:52:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3315016/Shameless-US-S09E07-Down-Like-The-Titanic-720p-AMZN-WEBRip-DDP5-1-x264-NTb/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2922423/Poppy-Poppy-Computer-2017-MP3-320kbps-RiCK/>
+None
+2019-04-13 23:52:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3016042/Titanic-1997-Open-Matte-1080p-10bit-BluRay-x265-HEVC-6CH-MRN/>
+None
+2019-04-13 23:52:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3239866/Titanic-1997-x264-720p-BluRay-Dual-Audio-English-Hindi-GOPISAHI/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3550052/Secret-History-S16E10-Titanic-The-New-Evidence-iNTERNAL-720p-HDTV-x264-PLUTONiUM-eztv/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3315016/Shameless-US-S09E07-Down-Like-The-Titanic-720p-AMZN-WEBRip-DDP5-1-x264-NTb/>
+None
+2019-04-13 23:52:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3677079/Celine-Dion-Taking-Chances-World-Tour-Concert-480p-AC3-from-2010-DVD-musicfromrizzo-mkv/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3550228/Secret-History-S16E10-Titanic-The-New-Evidence-iNTERNAL-480p-x264-mSD-eztv/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3239866/Titanic-1997-x264-720p-BluRay-Dual-Audio-English-Hindi-GOPISAHI/>
+None
+2019-04-13 23:52:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3550052/Secret-History-S16E10-Titanic-The-New-Evidence-iNTERNAL-720p-HDTV-x264-PLUTONiUM-eztv/>
+None
+2019-04-13 23:52:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3677079/Celine-Dion-Taking-Chances-World-Tour-Concert-480p-AC3-from-2010-DVD-musicfromrizzo-mkv/>
+None
+2019-04-13 23:52:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3550228/Secret-History-S16E10-Titanic-The-New-Evidence-iNTERNAL-480p-x264-mSD-eztv/>
+None
+2019-04-13 23:52:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/141367/Titanic-II-2010-720p-BRRip-x264-Feel-Free/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2634945/Titanic-VR/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3371588/Madison-Ivy-Titanic-cock-for-Madison-Ivy-2018-720p/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/141367/Titanic-II-2010-720p-BRRip-x264-Feel-Free/>
+None
+2019-04-13 23:52:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2634945/Titanic-VR/>
+None
+2019-04-13 23:52:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3371588/Madison-Ivy-Titanic-cock-for-Madison-Ivy-2018-720p/>
+None
+2019-04-13 23:52:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2934782/Titanic-1997-1080p-BluRay-10bit-x265-HEVC-DTS-HD-MA-5-1-Qman-UTR/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1251577/Titanic-1997-720p-BluRay-x264-NeZu/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2934782/Titanic-1997-1080p-BluRay-10bit-x265-HEVC-DTS-HD-MA-5-1-Qman-UTR/>
+None
+2019-04-13 23:52:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3550050/Secret-History-S16E10-Titanic-The-New-Evidence-HDTV-x264-PLUTONiUM-eztv/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3538887/DK-Eyewitness-Books-Titanic-By-Simon-Adams/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1251577/Titanic-1997-720p-BluRay-x264-NeZu/>
+None
+2019-04-13 23:52:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3666887/Shameless-US-9x07-Giu-come-il-Titanic-ITA-ENG-1080p-AMZN-WEB-DLMux-H-264-Morpheus-mkv/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3268102/Unearthed-2016-S04E01-Titanic-The-Last-Secrets-WEBRip-x264-CAFFEiNE-eztv/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3550050/Secret-History-S16E10-Titanic-The-New-Evidence-HDTV-x264-PLUTONiUM-eztv/>
+None
+2019-04-13 23:52:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3538887/DK-Eyewitness-Books-Titanic-By-Simon-Adams/>
+None
+2019-04-13 23:52:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2769607/Titanic-1997-720p-BDRip-Tamil-Telugu-Hindi-Eng-x264-1-8GB-ESubs-TEAM-TR/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3666887/Shameless-US-9x07-Giu-come-il-Titanic-ITA-ENG-1080p-AMZN-WEB-DLMux-H-264-Morpheus-mkv/>
+None
+2019-04-13 23:52:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3268102/Unearthed-2016-S04E01-Titanic-The-Last-Secrets-WEBRip-x264-CAFFEiNE-eztv/>
+None
+2019-04-13 23:52:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2769607/Titanic-1997-720p-BDRip-Tamil-Telugu-Hindi-Eng-x264-1-8GB-ESubs-TEAM-TR/>
+None
+2019-04-13 23:52:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3305138/TITANIC-Shipwreck-Exploration-SKIDROW/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3040111/Adeptus-Titanicus-Dominus/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3305138/TITANIC-Shipwreck-Exploration-SKIDROW/>
+None
+2019-04-13 23:52:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3494143/Celine-Dion-Une-Seule-Fois-Live-2013-Quebec-concert-ENG-FRE-1080p-H-264-musicfromrizzo/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2999010/Titanic-1997-Open-Matte-BluRay-1080p-x265-10bit-z97/> (referer: https://1337x.to/search/titanic/2/)
+2019-04-13 23:52:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3310065/TITANIC-Shipwreck-Exploration-DODI-Repack/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3040111/Adeptus-Titanicus-Dominus/>
+None
+2019-04-13 23:52:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1286105/Titanic-1997-DVDrip-H264-Italian-mp3-Drammatico/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3494143/Celine-Dion-Une-Seule-Fois-Live-2013-Quebec-concert-ENG-FRE-1080p-H-264-musicfromrizzo/>
+None
+2019-04-13 23:52:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2999010/Titanic-1997-Open-Matte-BluRay-1080p-x265-10bit-z97/>
+None
+2019-04-13 23:52:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3310065/TITANIC-Shipwreck-Exploration-DODI-Repack/>
+None
+2019-04-13 23:52:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1522306/Raise-the-Titanic-Act-1980-J-Robards-720p-BrRip/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1179272/Titanic-1997-BDrip-720p-H264-Ita-Eng-Spa-Ac3-5-1-Sub-Ita-Eng-Spa-TNTvillage-by-nicola939/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1286105/Titanic-1997-DVDrip-H264-Italian-mp3-Drammatico/>
+None
+2019-04-13 23:52:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1522306/Raise-the-Titanic-Act-1980-J-Robards-720p-BrRip/>
+None
+2019-04-13 23:52:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2421731/18-Titanic-720p-BluRay-x264-Dual-Audio-English-Hindi-With-Sample/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1179272/Titanic-1997-BDrip-720p-H264-Ita-Eng-Spa-Ac3-5-1-Sub-Ita-Eng-Spa-TNTvillage-by-nicola939/>
+None
+2019-04-13 23:52:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2573929/Titanic-1943-720p-BluRay-x264-x0r/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2421731/18-Titanic-720p-BluRay-x264-Dual-Audio-English-Hindi-With-Sample/>
+None
+2019-04-13 23:52:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3364906/Strand-Anal-bird-titanic-tanya/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2757233/I-m-Poppy-S01E01-720p-RED-WEB-DL-AAC-5-1-x264-RiCK/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2825962/Titanic-1994-DVDRip-H264-Ita-Ac3-5-1-Eng-2-0-Sub-Ita-Eng-BaMax71-MIRCrew/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/389861/Titanic-1997-1080p-BluRay-3D-H-SBS-DTS-x264-z-man-PublicHD/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2573929/Titanic-1943-720p-BluRay-x264-x0r/>
+None
+2019-04-13 23:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3232383/Titanic-1997-Open-Matte-1080p-10bit-Bluray-x265-HEVC-Org-BD-5-1-Hindi-DD-5-1-English-MSubs-TombDoc/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2484420/BBC-Ships-That-Changed-The-World-Series-1-1of3-Titanic-And-The-Race-For-The-Atlantic-720p-HDTV-x264-AAC-mp4-eztv/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3364906/Strand-Anal-bird-titanic-tanya/>
+None
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2757233/I-m-Poppy-S01E01-720p-RED-WEB-DL-AAC-5-1-x264-RiCK/>
+None
+2019-04-13 23:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3487935/Titanic-1997-BRRip-Hindi-Eng-x264-720p-AAC-KoMmu/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2825962/Titanic-1994-DVDRip-H264-Ita-Ac3-5-1-Eng-2-0-Sub-Ita-Eng-BaMax71-MIRCrew/>
+None
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/389861/Titanic-1997-1080p-BluRay-3D-H-SBS-DTS-x264-z-man-PublicHD/>
+None
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3232383/Titanic-1997-Open-Matte-1080p-10bit-Bluray-x265-HEVC-Org-BD-5-1-Hindi-DD-5-1-English-MSubs-TombDoc/>
+None
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2484420/BBC-Ships-That-Changed-The-World-Series-1-1of3-Titanic-And-The-Race-For-The-Atlantic-720p-HDTV-x264-AAC-mp4-eztv/>
+None
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3487935/Titanic-1997-BRRip-Hindi-Eng-x264-720p-AAC-KoMmu/>
+None
+2019-04-13 23:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1202672/Titanic-1997-BDrip-1080p-H264-Ita-Eng-Esp-Ac3-5-1-Sub-Ita-Eng-Esp-TNTvillage-by-nicola939/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/126582/Titanic-Music-From-The-Motion-Picture-Mp3-320-kbps-TNT-Village/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2626353/Titanic-20-Years-Later-With-James-Cameron-2017-480p-HDTV-x264-RMTeam/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1202672/Titanic-1997-BDrip-1080p-H264-Ita-Eng-Esp-Ac3-5-1-Sub-Ita-Eng-Esp-TNTvillage-by-nicola939/>
+None
+2019-04-13 23:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2969074/Titanic-1997-1080p-x265-HEVC-10bit-AAC-5-1-Prof/> (referer: https://1337x.to/search/titanic/3/)
+2019-04-13 23:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3017766/Titanic-1943-BluRay-1080p-YTS-YIFY/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/126582/Titanic-Music-From-The-Motion-Picture-Mp3-320-kbps-TNT-Village/>
+None
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2626353/Titanic-20-Years-Later-With-James-Cameron-2017-480p-HDTV-x264-RMTeam/>
+None
+2019-04-13 23:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/390536/Titanic-1997-3D-BrRip-x264-YIFY/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2370596/Titanic-1997-720p-YTS-YIFY/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2969074/Titanic-1997-1080p-x265-HEVC-10bit-AAC-5-1-Prof/>
+None
+2019-04-13 23:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2371030/Titanic-1997-1080p-YTS-YIFY/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3017766/Titanic-1943-BluRay-1080p-YTS-YIFY/>
+None
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/390536/Titanic-1997-3D-BrRip-x264-YIFY/>
+None
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2370596/Titanic-1997-720p-YTS-YIFY/>
+None
+2019-04-13 23:52:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2371030/Titanic-1997-1080p-YTS-YIFY/>
+None
+2019-04-13 23:52:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1337959/Titanic-1997-720p-HDTV-x264-YIFY/> (referer: https://1337x.to/search/titanic/1/)
+2019-04-13 23:52:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1337959/Titanic-1997-720p-HDTV-x264-YIFY/>
+None
+2019-04-13 23:52:31 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-13 23:52:31 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 23875,
+ 'downloader/request_count': 63,
+ 'downloader/request_method_count/GET': 63,
+ 'downloader/response_bytes': 441844,
+ 'downloader/response_count': 63,
+ 'downloader/response_status_count/200': 63,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 13, 15, 52, 31, 51597),
+ 'item_scraped_count': 60,
+ 'log_count/DEBUG': 123,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 63,
+ 'scheduler/dequeued': 63,
+ 'scheduler/dequeued/memory': 63,
+ 'scheduler/enqueued': 63,
+ 'scheduler/enqueued/memory': 63,
+ 'start_time': datetime.datetime(2019, 4, 13, 15, 52, 24, 981817)}
+2019-04-13 23:52:31 [scrapy.core.engine] INFO: Spider closed (finished)
