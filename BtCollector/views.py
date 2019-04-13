@@ -18,6 +18,10 @@ scrapyd = ScrapydAPI('http://localhost:6800')
 
 last_query = ''
 
+def index(request):
+	BtCollector.objects.all().delete()
+	return render(request, 'BtCollector/bt_home.html')
+
 def search(request, search, cat):
 	global last_query
 	current_result = BtCollector.objects.filter(search = search, cat = cat)
@@ -25,17 +29,12 @@ def search(request, search, cat):
 		current_result.delete()
 		for spider in support_category[cat]:
 			task = scrapyd.schedule('default', spider, search = search, cat = cat)
-		sleep(10)
-	else:
-		last_query = request.path
+		sleep(12)
+	last_query = request.path
 
 	results = BtCollector.objects.filter(search = search, cat = cat).order_by('-seeder', '-leecher')
 	context = {'results': results, 'search': search, 'cat': cat}
 	return render(request, 'BtCollector/bt_result.html', context)
-
-def startpage(request):
-	BtCollector.objects.all().delete()
-	return render(request, 'BtCollector/bt_home.html')
 
 def to_search(request):
 	try:
