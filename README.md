@@ -12,4 +12,4 @@
 确保位于项目根目录，运行命令，使用pip安装相关python依赖包<br>
 `$ pip install -r requirements.txt`<br>
 启动执行脚本<br>`$ runserver.bat`<br>
-之后就可以在 http://127.0.0.1:8000/bt/ 访问
+之后就可以用浏览器访问 http://127.0.0.1:8000/bt/ 
