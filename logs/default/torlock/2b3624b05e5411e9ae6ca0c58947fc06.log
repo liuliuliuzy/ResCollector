@@ -1,0 +1,278 @@
+2019-04-14 09:25:49 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-14 09:25:49 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-14 09:25:49 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\torlock\\2b3624b05e5411e9ae6ca0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-14 09:25:49 [scrapy.extensions.telnet] INFO: Telnet Password: 19f2175a49ffb30c
+2019-04-14 09:25:49 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-14 09:25:49 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-14 09:25:49 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-14 09:25:49 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-14 09:25:49 [scrapy.core.engine] INFO: Spider opened
+2019-04-14 09:25:49 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-14 09:25:49 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-14 09:25:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/all/torrents/titanic.html?sort=seeds> (referer: None)
+2019-04-14 09:25:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7890054/titans-2018-s01e11-webrip-esc%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8038569/titanes-1x1-%5B720p%5D%5Bcastellano%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8047061/titans-temporada-1-%5B-720p%5D%5Bcap-104_106%5D%5B-5-1-castellano%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8046316/titans-temporada-1-%5B-720p%5D%5Bcap-101_103%5D%5B-5-1-castellano%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8440706/clash-of-the-titans-%281981%29-%5B%5D-%5B720p%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7890054/titans-2018-s01e11-webrip-esc%5Beztv%5D.html>
+None
+2019-04-14 09:25:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8038569/titanes-1x1-%5B720p%5D%5Bcastellano%5D.html>
+None
+2019-04-14 09:25:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8047061/titans-temporada-1-%5B-720p%5D%5Bcap-104_106%5D%5B-5-1-castellano%5D.html>
+None
+2019-04-14 09:25:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8046316/titans-temporada-1-%5B-720p%5D%5Bcap-101_103%5D%5B-5-1-castellano%5D.html>
+None
+2019-04-14 09:25:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7894411/attack-on-titan-the-roar-of-awakening-2018-french.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8440714/clash-of-the-titans-%281981%29-%5B%5D-%5B1080p%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7961953/titans-s01-french-web-dl.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8440706/clash-of-the-titans-%281981%29-%5B%5D-%5B720p%5D.html>
+None
+2019-04-14 09:25:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7894411/attack-on-titan-the-roar-of-awakening-2018-french.html>
+None
+2019-04-14 09:25:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8440714/clash-of-the-titans-%281981%29-%5B%5D-%5B1080p%5D.html>
+None
+2019-04-14 09:25:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7961953/titans-s01-french-web-dl.html>
+None
+2019-04-14 09:25:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7890145/titans-2018-s01e11-webrip-esc%5Bettv%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7890263/titans-2018-s01e11-web-avid%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7890045/titans-2018-s01e11-1080p-webrip-esc%5Btgx%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7890145/titans-2018-s01e11-webrip-esc%5Bettv%5D.html>
+None
+2019-04-14 09:25:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8135911/titanes-1x7-%5B720p%5D%5Bcastellano%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7890263/titans-2018-s01e11-web-avid%5Beztv%5D.html>
+None
+2019-04-14 09:25:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7890045/titans-2018-s01e11-1080p-webrip-esc%5Btgx%5D.html>
+None
+2019-04-14 09:25:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7892284/titans-2018-s01e11-dick-grayson-720p-dcu-web-dl-aac2-0-h264.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8440377/titan-slayer-ii.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8038742/titanes-1x10-%5B720p%5D%5Bcastellano%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8135911/titanes-1x7-%5B720p%5D%5Bcastellano%5D.html>
+None
+2019-04-14 09:25:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8451690/%5Br-g-mechanics%5D-titan-quest-anniversary-edition-ragnarok.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7892284/titans-2018-s01e11-dick-grayson-720p-dcu-web-dl-aac2-0-h264.html>
+None
+2019-04-14 09:25:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8440377/titan-slayer-ii.html>
+None
+2019-04-14 09:25:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8038742/titanes-1x10-%5B720p%5D%5Bcastellano%5D.html>
+None
+2019-04-14 09:25:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8451690/%5Br-g-mechanics%5D-titan-quest-anniversary-edition-ragnarok.html>
+None
+2019-04-14 09:25:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8130224/teen-titans-go-to-the-movies-il-film-%282018%29-720p-h264-ita-sub-ita-nuita.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7957823/titans-2018-s01-ita-1080p-dcu-web-dlmux-dd5-1-h264.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8130224/teen-titans-go-to-the-movies-il-film-%282018%29-720p-h264-ita-sub-ita-nuita.html>
+None
+2019-04-14 09:25:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7957823/titans-2018-s01-ita-1080p-dcu-web-dlmux-dd5-1-h264.html>
+None
+2019-04-14 09:25:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7962100/titans-2018-s01-multi-720p-nf-web-dl-dd5-1-ark01.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8182149/the-titan-games-s01e08-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7952205/titans-s01e01-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8266896/teen-titans-go-s05e24-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8062179/the-titan-games-s01e05-720p-web-tbs%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7962100/titans-2018-s01-multi-720p-nf-web-dl-dd5-1-ark01.html>
+None
+2019-04-14 09:25:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8182149/the-titan-games-s01e08-480p.html>
+None
+2019-04-14 09:25:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7952205/titans-s01e01-480p.html>
+None
+2019-04-14 09:25:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7897382/titanic-1997-multi-uhd-2160p-x265-hdr-dts-hdma-5-1-dtone.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8266896/teen-titans-go-s05e24-480p.html>
+None
+2019-04-14 09:25:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8062179/the-titan-games-s01e05-720p-web-tbs%5Beztv%5D.html>
+None
+2019-04-14 09:25:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7897382/titanic-1997-multi-uhd-2160p-x265-hdr-dts-hdma-5-1-dtone.html>
+None
+2019-04-14 09:25:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7933444/the-titan-games-s01e01-720p-web-tbs%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7933444/the-titan-games-s01e01-720p-web-tbs%5Beztv%5D.html>
+None
+2019-04-14 09:25:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8125620/the-titan-games-s01e06-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7890047/titans-2018-s01e11-720p-webrip-esc%5Btgx%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8062562/the-titan-games-s01e05-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8125620/the-titan-games-s01e06-480p.html>
+None
+2019-04-14 09:25:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8216822/the-titan-games-s01e09-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7890047/titans-2018-s01e11-720p-webrip-esc%5Btgx%5D.html>
+None
+2019-04-14 09:25:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8098188/titans-%282018%29-season-1-s01-%281080p-nf-web-dl-x265-hevc-10bit-eac3-5-1-rzerox%29.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7892545/titans-2018-s01e11-480p-zmnt%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7958280/titans-2018-s01e01-titans-nf-web-dl-ddp5-1-ntg%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8062562/the-titan-games-s01e05-480p.html>
+None
+2019-04-14 09:25:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8216822/the-titan-games-s01e09-480p.html>
+None
+2019-04-14 09:25:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8098188/titans-%282018%29-season-1-s01-%281080p-nf-web-dl-x265-hevc-10bit-eac3-5-1-rzerox%29.html>
+None
+2019-04-14 09:25:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7892545/titans-2018-s01e11-480p-zmnt%5Beztv%5D.html>
+None
+2019-04-14 09:25:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7958280/titans-2018-s01e01-titans-nf-web-dl-ddp5-1-ntg%5Beztv%5D.html>
+None
+2019-04-14 09:25:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8216700/the-titan-games-s01e09-720p-web-h264-tbs%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8216700/the-titan-games-s01e09-720p-web-h264-tbs%5Beztv%5D.html>
+None
+2019-04-14 09:25:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7974210/the-titan-games-s01e03-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8062183/the-titan-games-s01e05-web-tbs%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7974210/the-titan-games-s01e03-480p.html>
+None
+2019-04-14 09:25:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8062183/the-titan-games-s01e05-web-tbs%5Beztv%5D.html>
+None
+2019-04-14 09:25:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8038280/titans-temporada-completa-%5B-1080p%5D%5B-5-1-castellano-5-1-ingles%2Bsubs%5D%5Bes-en%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7890146/titans-2018-s01e11-1080p-webrip-esc%5Bettv%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8154324/the-titan-games-s01e07-720p-web.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7992692/the-titan-games-s01e04-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8038280/titans-temporada-completa-%5B-1080p%5D%5B-5-1-castellano-5-1-ingles%2Bsubs%5D%5Bes-en%5D.html>
+None
+2019-04-14 09:25:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7890644/%5Btorrentcouch-net%5D-titans-2018-s01e11-720p-web-%5B302mb%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7890146/titans-2018-s01e11-1080p-webrip-esc%5Bettv%5D.html>
+None
+2019-04-14 09:25:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8154324/the-titan-games-s01e07-720p-web.html>
+None
+2019-04-14 09:25:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7992692/the-titan-games-s01e04-480p.html>
+None
+2019-04-14 09:25:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7890644/%5Btorrentcouch-net%5D-titans-2018-s01e11-720p-web-%5B302mb%5D.html>
+None
+2019-04-14 09:25:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7956045/the-titan-games-s01e02-720p-web.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7956045/the-titan-games-s01e02-720p-web.html>
+None
+2019-04-14 09:25:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7952886/titans-s01e06-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7952885/titans-s01e04-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7952886/titans-s01e06-480p.html>
+None
+2019-04-14 09:25:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7952885/titans-s01e04-480p.html>
+None
+2019-04-14 09:25:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7952882/titans-s01e03-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8038580/titanes-1x8-%5B720p%5D%5Bcastellano%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7952882/titans-s01e03-480p.html>
+None
+2019-04-14 09:25:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7952209/titans-s01e02-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7952837/titans-s01e07-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8038580/titanes-1x8-%5B720p%5D%5Bcastellano%5D.html>
+None
+2019-04-14 09:25:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7891354/titans-season-1-s01-complete-1080p-dcu-web-dl-x265.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7952209/titans-s01e02-480p.html>
+None
+2019-04-14 09:25:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7952837/titans-s01e07-480p.html>
+None
+2019-04-14 09:25:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7891354/titans-season-1-s01-complete-1080p-dcu-web-dl-x265.html>
+None
+2019-04-14 09:25:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8449831/teen-titans-go-s05e27-webrip.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8038391/titanes-1x9-%5B720p%5D%5Bcastellano%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8449831/teen-titans-go-s05e27-webrip.html>
+None
+2019-04-14 09:25:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8038391/titanes-1x9-%5B720p%5D%5Bcastellano%5D.html>
+None
+2019-04-14 09:25:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8182110/the-titan-games-s01e08-720p-web-tbs%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8182110/the-titan-games-s01e08-720p-web-tbs%5Beztv%5D.html>
+None
+2019-04-14 09:25:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7952891/titans-s01e08-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7952903/titans-s01e05-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8042038/titanes-1x3-%5B720p%5D%5Bcastellano%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7974371/the-titan-games-s01e03-web.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8466127/teen-titans-go-s05e27-720p-webrip.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:25:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7952891/titans-s01e08-480p.html>
+None
+2019-04-14 09:25:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7952903/titans-s01e05-480p.html>
+None
+2019-04-14 09:25:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8042038/titanes-1x3-%5B720p%5D%5Bcastellano%5D.html>
+None
+2019-04-14 09:26:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7974371/the-titan-games-s01e03-web.html>
+None
+2019-04-14 09:26:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8466127/teen-titans-go-s05e27-720p-webrip.html>
+None
+2019-04-14 09:26:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7893595/%5Banimerg%5D-shingeki-no-kyojin-s3-%2801-12%29-%28season-3%29-%28attack-on-titan-38-49%29-%5B-dubbed%5D-%5B1080p-mp4%5D-%5Bjr.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7952943/titans-s01e09-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7893595/%5Banimerg%5D-shingeki-no-kyojin-s3-%2801-12%29-%28season-3%29-%28attack-on-titan-38-49%29-%5B-dubbed%5D-%5B1080p-mp4%5D-%5Bjr.html>
+None
+2019-04-14 09:26:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7952943/titans-s01e09-480p.html>
+None
+2019-04-14 09:26:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7952942/titans-s01e10-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8038759/titanes-1x6-%5B720p%5D%5Bcastellano%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7956041/the-titan-games-s01e02-web.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8039965/titanes-1x11-%5B720p%5D%5Bcastellano%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7952942/titans-s01e10-480p.html>
+None
+2019-04-14 09:26:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8038759/titanes-1x6-%5B720p%5D%5Bcastellano%5D.html>
+None
+2019-04-14 09:26:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7956041/the-titan-games-s01e02-web.html>
+None
+2019-04-14 09:26:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8039965/titanes-1x11-%5B720p%5D%5Bcastellano%5D.html>
+None
+2019-04-14 09:26:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7896989/titans-2018-s01e11-final-fastsub-vostfr-webrip.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7933484/the-titan-games-s01e01-480p.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7896989/titans-2018-s01e11-final-fastsub-vostfr-webrip.html>
+None
+2019-04-14 09:26:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7933484/the-titan-games-s01e01-480p.html>
+None
+2019-04-14 09:26:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/5720023/attack-on-titan-wings-of-freedom-pc-game.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8038180/titanes-1x5-%5B720p%5D%5Bcastellano%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/5720023/attack-on-titan-wings-of-freedom-pc-game.html>
+None
+2019-04-14 09:26:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8038180/titanes-1x5-%5B720p%5D%5Bcastellano%5D.html>
+None
+2019-04-14 09:26:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7890124/titans-2018-s01e11-720p-webrip-x265.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8038676/titanes-1x2-%5B720p%5D%5Bcastellano%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7890124/titans-2018-s01e11-720p-webrip-x265.html>
+None
+2019-04-14 09:26:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7892595/titans-2018-s01e11-zmnt%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8038676/titanes-1x2-%5B720p%5D%5Bcastellano%5D.html>
+None
+2019-04-14 09:26:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8038307/titanes-1x4-%5B720p%5D%5Bcastellano%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7891355/titans-season-1-s01-complete-720p-dcu-web-dl-x265.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7892595/titans-2018-s01e11-zmnt%5Beztv%5D.html>
+None
+2019-04-14 09:26:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8046455/titans-2019-1%C2%AA-temporada-completa-%28720p%29-acesse-o-original.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8038307/titanes-1x4-%5B720p%5D%5Bcastellano%5D.html>
+None
+2019-04-14 09:26:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7891355/titans-season-1-s01-complete-720p-dcu-web-dl-x265.html>
+None
+2019-04-14 09:26:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8046455/titans-2019-1%C2%AA-temporada-completa-%28720p%29-acesse-o-original.html>
+None
+2019-04-14 09:26:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7890060/titans-2018-s01e11-720p-webrip-esc%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8290289/titan-quest-anniversary-edition-ragnarok-by-xatab.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7890060/titans-2018-s01e11-720p-webrip-esc%5Beztv%5D.html>
+None
+2019-04-14 09:26:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8290289/titan-quest-anniversary-edition-ragnarok-by-xatab.html>
+None
+2019-04-14 09:26:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8038686/titans-temporada-1-%5B%5D%5Bcap-106_109%5D%5B-5-1-castellano%5D.html> (referer: https://www.torlock.com/all/torrents/titanic.html?sort=seeds)
+2019-04-14 09:26:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8038686/titans-temporada-1-%5B%5D%5Bcap-106_109%5D%5B-5-1-castellano%5D.html>
+None
+2019-04-14 09:26:03 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-14 09:26:03 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30911,
+ 'downloader/request_count': 76,
+ 'downloader/request_method_count/GET': 76,
+ 'downloader/response_bytes': 636829,
+ 'downloader/response_count': 76,
+ 'downloader/response_status_count/200': 76,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 14, 1, 26, 3, 391144),
+ 'item_scraped_count': 75,
+ 'log_count/DEBUG': 151,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 76,
+ 'scheduler/dequeued': 76,
+ 'scheduler/dequeued/memory': 76,
+ 'scheduler/enqueued': 76,
+ 'scheduler/enqueued/memory': 76,
+ 'start_time': datetime.datetime(2019, 4, 14, 1, 25, 49, 390560)}
+2019-04-14 09:26:03 [scrapy.core.engine] INFO: Spider closed (finished)

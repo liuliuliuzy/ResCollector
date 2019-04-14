@@ -1,0 +1,235 @@
+2019-04-14 09:24:34 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-14 09:24:34 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-14 09:24:34 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\1337x\\0e1d2d0c5e5411e98542a0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-14 09:24:34 [scrapy.extensions.telnet] INFO: Telnet Password: 592d52d14d248ad5
+2019-04-14 09:24:34 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-14 09:24:34 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-14 09:24:34 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-14 09:24:34 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-14 09:24:34 [scrapy.core.engine] INFO: Spider opened
+2019-04-14 09:24:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-14 09:24:34 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-14 09:24:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/search/jason/1/> (referer: None)
+2019-04-14 09:24:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/search/jason/3/> (referer: None)
+2019-04-14 09:24:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/search/jason/2/> (referer: None)
+2019-04-14 09:24:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3391681/Titans-2018-S01E06-Jason-Todd-720p-DCU-WEB-DL-AAC2-0-H264-NTb-eztv/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2917078/Left-of-Bang-by-Patrick-Van-Horne-Jason-A-Riley-EPUB/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2906029/Ghosts-of-Mars-2001-Jason-Statam-1080p-H264-AC-3-DTS-5-1-Remastered-nickarad/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3391681/Titans-2018-S01E06-Jason-Todd-720p-DCU-WEB-DL-AAC2-0-H264-NTb-eztv/>
+None
+2019-04-14 09:24:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2917078/Left-of-Bang-by-Patrick-Van-Horne-Jason-A-Riley-EPUB/>
+None
+2019-04-14 09:24:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2906029/Ghosts-of-Mars-2001-Jason-Statam-1080p-H264-AC-3-DTS-5-1-Remastered-nickarad/>
+None
+2019-04-14 09:24:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/776757/REWORK-Change-The-Way-You-Work-Forever-By-Jason-Fried-Epub-Mobi-Gooner/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1686393/Jason-Derulo-Platinum-Hits-2016-MP3-320Kbps-Hunter-FRG/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3010904/The-Bitter-Taste-of-Dying-by-Jason-Smith-AZW/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3013992/Stephen-Colbert-2018-05-23-Jason-Bateman-WEB-x264-TBS-ettv/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/776757/REWORK-Change-The-Way-You-Work-Forever-By-Jason-Fried-Epub-Mobi-Gooner/>
+None
+2019-04-14 09:24:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1686393/Jason-Derulo-Platinum-Hits-2016-MP3-320Kbps-Hunter-FRG/>
+None
+2019-04-14 09:24:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3010904/The-Bitter-Taste-of-Dying-by-Jason-Smith-AZW/>
+None
+2019-04-14 09:24:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1758245/Jason-Bourne-2016-HC-HDRip-XViD-AC3-ETRG/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1123325/Jason-Derulo-Get-Ugly-2015-MP3-320-KBPS-VBUc/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3502298/Jason-Derulo-Essentials-2019-Mp3-320kbps-Songs-PMEDIA/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3013992/Stephen-Colbert-2018-05-23-Jason-Bateman-WEB-x264-TBS-ettv/>
+None
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2850558/Jason-Derulo-Colors-Single-2018-Mp3-320kbps-Hunter/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1758245/Jason-Bourne-2016-HC-HDRip-XViD-AC3-ETRG/>
+None
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1123325/Jason-Derulo-Get-Ugly-2015-MP3-320-KBPS-VBUc/>
+None
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3502298/Jason-Derulo-Essentials-2019-Mp3-320kbps-Songs-PMEDIA/>
+None
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2850558/Jason-Derulo-Colors-Single-2018-Mp3-320kbps-Hunter/>
+None
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3160451/Jimmy-Kimmel-2018-08-06-Jason-Bateman-WEB-x264-TBS-eztv/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3237164/The-Deep-State-by-Jason-Chaffetz-epub/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3241320/The-Deep-State-2018-Jason-Chaffetz/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3160451/Jimmy-Kimmel-2018-08-06-Jason-Bateman-WEB-x264-TBS-eztv/>
+None
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3237164/The-Deep-State-by-Jason-Chaffetz-epub/>
+None
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3241320/The-Deep-State-2018-Jason-Chaffetz/>
+None
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2922152/Jason-Derulo-and-Maluma-Colors-2018-Single/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2524020/The-Complete-Guide-to-Fasting-Dr-Jason-Fung/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/891997/Jason-Mraz-Yes-2014-Album/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2922152/Jason-Derulo-and-Maluma-Colors-2018-Single/>
+None
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2524020/The-Complete-Guide-to-Fasting-Dr-Jason-Fung/>
+None
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/891997/Jason-Mraz-Yes-2014-Album/>
+None
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3093813/Jason-Bourne-2016-1080p-BluRay-x265-HEVC-10bit-AAC-7-1-Tigole-QxR/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1918725/The-BOURNE-Series-1988-2016-Identity-TV-Miniseries-and-2002-Film-Supremacy-Ultimatum-Legacy-Jason-720p-BluRay-x264/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3345382/Jason-Bourne-2016-720p-BluRay-Telugu-Tamil-Hindi-Eng-1-3GB-ESub/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3406327/Israel-s-Edge-by-Jason-Gewirtz-EPUB/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3093813/Jason-Bourne-2016-1080p-BluRay-x265-HEVC-10bit-AAC-7-1-Tigole-QxR/>
+None
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3394490/Beirut-2018-1080p-H-264-ENG-ITA-audio-multisubs-incl-mideastern-and-euro-moviesbyrizzo/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1918725/The-BOURNE-Series-1988-2016-Identity-TV-Miniseries-and-2002-Film-Supremacy-Ultimatum-Legacy-Jason-720p-BluRay-x264/>
+None
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3345382/Jason-Bourne-2016-720p-BluRay-Telugu-Tamil-Hindi-Eng-1-3GB-ESub/>
+None
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3406327/Israel-s-Edge-by-Jason-Gewirtz-EPUB/>
+None
+2019-04-14 09:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3394490/Beirut-2018-1080p-H-264-ENG-ITA-audio-multisubs-incl-mideastern-and-euro-moviesbyrizzo/>
+None
+2019-04-14 09:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2917510/The-One-2001-Jason-Statam-1080p-H264-AC-3-DTS-5-1-Remastered-nickarad/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3014148/Stephen-Colbert-2018-05-23-Jason-Bateman-720p-WEB-x264-TBS-eztv/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3407132/Delayed-Response-The-Art-of-Waiting-by-Jason-Farman-EPUB/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2917510/The-One-2001-Jason-Statam-1080p-H264-AC-3-DTS-5-1-Remastered-nickarad/>
+None
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3014148/Stephen-Colbert-2018-05-23-Jason-Bateman-720p-WEB-x264-TBS-eztv/>
+None
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3392200/Titans-2018-S01E06-Jason-Todd-1080p-DCU-WEB-DL-x264-Rapta/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3120892/Jason-and-the-Argonauts-1963-REMASTERED-720p-BluRay-x264-x0r/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3213311/Jason-Aldean-Greatest-Songs-2018-Mp3-320kbps-Hunter/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3407132/Delayed-Response-The-Art-of-Waiting-by-Jason-Farman-EPUB/>
+None
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3120201/Jimmy-Kimmel-2018-07-16-Jason-Sudeikis-WEB-x264-TBS-eztv/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3392200/Titans-2018-S01E06-Jason-Todd-1080p-DCU-WEB-DL-x264-Rapta/>
+None
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3120892/Jason-and-the-Argonauts-1963-REMASTERED-720p-BluRay-x264-x0r/>
+None
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3213311/Jason-Aldean-Greatest-Songs-2018-Mp3-320kbps-Hunter/>
+None
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2244524/Jason-Isbell-and-the-400-Unit-The-Nashville-Sound-2017-Mp3-320kbps-Hunter/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3120201/Jimmy-Kimmel-2018-07-16-Jason-Sudeikis-WEB-x264-TBS-eztv/>
+None
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/519256/Freddy-vs-Jason-2003-1080p-BrRip-x264-YIFY/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2244524/Jason-Isbell-and-the-400-Unit-The-Nashville-Sound-2017-Mp3-320kbps-Hunter/>
+None
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/519256/Freddy-vs-Jason-2003-1080p-BrRip-x264-YIFY/>
+None
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3391638/Titans-2018-S01E06-Jason-Todd-1080p-DCU-WEB-DL-AAC2-0-H264-NTb-TGx/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3695562/Jason-Derulo-555-2019-Mp3-320kbps-Quality-Album-PMEDIA/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2927855/The-Devil-s-Financial-Dictionary-by-Jason-Zweig-EPUB/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3356927/The-Invention-of-Religion-in-Japan-by-Jason-Ananda-Josephson-epub/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1901216/Jason-Bourne-2016-1080p-BluRay-x264-DTS-JYK/> (referer: https://1337x.to/search/jason/2/)
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3391638/Titans-2018-S01E06-Jason-Todd-1080p-DCU-WEB-DL-AAC2-0-H264-NTb-TGx/>
+None
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3695562/Jason-Derulo-555-2019-Mp3-320kbps-Quality-Album-PMEDIA/>
+None
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2927855/The-Devil-s-Financial-Dictionary-by-Jason-Zweig-EPUB/>
+None
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1902797/Jason-Bourne-2016-H264-Italian-English-Ac3-5-1-sub-Ita-Eng-iCV-MIRCrew/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3356927/The-Invention-of-Religion-in-Japan-by-Jason-Ananda-Josephson-epub/>
+None
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2742282/The-Obesity-Code_-Secrets-of-Weight-Loss-by-Jason-Fung-EPUB/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1901216/Jason-Bourne-2016-1080p-BluRay-x264-DTS-JYK/>
+None
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1902797/Jason-Bourne-2016-H264-Italian-English-Ac3-5-1-sub-Ita-Eng-iCV-MIRCrew/>
+None
+2019-04-14 09:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3189256/Jason-Derulo-David-Guetta-Goodbye-feat-Nicki-Minaj-Willy-William-CDQ-320-Kbps-pradyutvam-2018-EDM-RG/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2742282/The-Obesity-Code_-Secrets-of-Weight-Loss-by-Jason-Fung-EPUB/>
+None
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3189256/Jason-Derulo-David-Guetta-Goodbye-feat-Nicki-Minaj-Willy-William-CDQ-320-Kbps-pradyutvam-2018-EDM-RG/>
+None
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3416164/Revolver-2005-Jason-Statham-1080p-H264-AC-3-DolbyDigital-5-1-nickarad/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1866202/Jason-Bourne-2016-HDRip-XViD-AC3-ETRG/> (referer: https://1337x.to/search/jason/3/)
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3394570/How-to-Fight-by-Thich-Nhat-Hanh-Jason-DeAntonis-epub/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3446793/Saturday-Night-Live-S44E08-Jason-Momoa-1080p-WEB-x264-TBS/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3416164/Revolver-2005-Jason-Statham-1080p-H264-AC-3-DolbyDigital-5-1-nickarad/>
+None
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1866202/Jason-Bourne-2016-HDRip-XViD-AC3-ETRG/>
+None
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3394570/How-to-Fight-by-Thich-Nhat-Hanh-Jason-DeAntonis-epub/>
+None
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1694182/Jason-Bourne-2016-HD-TS-x264-CPG/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3446793/Saturday-Night-Live-S44E08-Jason-Momoa-1080p-WEB-x264-TBS/>
+None
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3378527/Jason-Derulo-Sex-Symphony-2018-Mp3-Album-320kbps-Quality-PMEDIA/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1757341/Jason-Bourne-2016-HC-720p-HDRiP-1GB-ShAaNiG/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1694182/Jason-Bourne-2016-HD-TS-x264-CPG/>
+None
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2582857/Jason-Derulo-Tip-Toe-feat-French-Montana-Single-2017-Mp3-320kbps-Hunter/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3378527/Jason-Derulo-Sex-Symphony-2018-Mp3-Album-320kbps-Quality-PMEDIA/>
+None
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1757341/Jason-Bourne-2016-HC-720p-HDRiP-1GB-ShAaNiG/>
+None
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2582857/Jason-Derulo-Tip-Toe-feat-French-Montana-Single-2017-Mp3-320kbps-Hunter/>
+None
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1093019/Jason-Derulo-Want-to-Want-Me-Single-MP3-2015/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3148047/Anxiety-A-Very-Short-Introduction-by-Daniel-Freeman-Jason-Freeman-EPUB/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3399807/The-Red-Sparrow-Trilogy-by-Jason-Matthews-epub-1-3/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1093019/Jason-Derulo-Want-to-Want-Me-Single-MP3-2015/>
+None
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2925358/Safe-2012-Jason-Statham-XviD-italian-english-Ac3-5-1-sub-ita-MIRCrew/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3014030/Stephen-Colbert-2018-05-23-Jason-Bateman-WEB-x264-TBS-eztv/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3148047/Anxiety-A-Very-Short-Introduction-by-Daniel-Freeman-Jason-Freeman-EPUB/>
+None
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1757246/Jason-Bourne-2016-HC-HDRip-XviD-AC3-EVO/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3399807/The-Red-Sparrow-Trilogy-by-Jason-Matthews-epub-1-3/>
+None
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2925358/Safe-2012-Jason-Statham-XviD-italian-english-Ac3-5-1-sub-ita-MIRCrew/>
+None
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3014030/Stephen-Colbert-2018-05-23-Jason-Bateman-WEB-x264-TBS-eztv/>
+None
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3391631/Titans-2018-S01E06-Jason-Todd-720p-DCU-WEBRip-AAC2-0-H264-NTb/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2921025/Jason-Aldean-Rearview-Town-2018-Mp3-320-kbps-Hunter/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1757246/Jason-Bourne-2016-HC-HDRip-XviD-AC3-EVO/>
+None
+2019-04-14 09:24:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3391631/Titans-2018-S01E06-Jason-Todd-720p-DCU-WEBRip-AAC2-0-H264-NTb/>
+None
+2019-04-14 09:24:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2921025/Jason-Aldean-Rearview-Town-2018-Mp3-320-kbps-Hunter/>
+None
+2019-04-14 09:24:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3391630/Titans-2018-S01E06-Jason-Todd-1080p-DCU-WEBRip-AAC2-0-H264-NTb/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1896570/Jason-Bourne-2016-1080p-Pinkihacks/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1896417/Jason-Bourne-2016-720p-Pinkihacks/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3391630/Titans-2018-S01E06-Jason-Todd-1080p-DCU-WEBRip-AAC2-0-H264-NTb/>
+None
+2019-04-14 09:24:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1896570/Jason-Bourne-2016-1080p-Pinkihacks/>
+None
+2019-04-14 09:24:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3163955/Jason-Mraz-Know-2018-Mp3-320kbps-Hunter/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1896417/Jason-Bourne-2016-720p-Pinkihacks/>
+None
+2019-04-14 09:24:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1867910/Jason-Bourne-2016-720p-WEBRip-x264-AAC-ETRG/> (referer: https://1337x.to/search/jason/1/)
+2019-04-14 09:24:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3163955/Jason-Mraz-Know-2018-Mp3-320kbps-Hunter/>
+None
+2019-04-14 09:24:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1867910/Jason-Bourne-2016-720p-WEBRip-x264-AAC-ETRG/>
+None
+2019-04-14 09:24:40 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-14 09:24:40 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 23721,
+ 'downloader/request_count': 63,
+ 'downloader/request_method_count/GET': 63,
+ 'downloader/response_bytes': 413772,
+ 'downloader/response_count': 63,
+ 'downloader/response_status_count/200': 63,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 14, 1, 24, 40, 422875),
+ 'item_scraped_count': 60,
+ 'log_count/DEBUG': 123,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 63,
+ 'scheduler/dequeued': 63,
+ 'scheduler/dequeued/memory': 63,
+ 'scheduler/enqueued': 63,
+ 'scheduler/enqueued/memory': 63,
+ 'start_time': datetime.datetime(2019, 4, 14, 1, 24, 34, 823864)}
+2019-04-14 09:24:40 [scrapy.core.engine] INFO: Spider closed (finished)

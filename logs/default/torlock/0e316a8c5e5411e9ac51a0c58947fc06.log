@@ -1,0 +1,197 @@
+2019-04-14 09:24:59 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-14 09:24:59 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-14 09:24:59 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\torlock\\0e316a8c5e5411e9ac51a0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-14 09:24:59 [scrapy.extensions.telnet] INFO: Telnet Password: 74d1a0f7b267e142
+2019-04-14 09:25:00 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-14 09:25:00 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-14 09:25:00 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-14 09:25:00 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-14 09:25:00 [scrapy.core.engine] INFO: Spider opened
+2019-04-14 09:25:00 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-14 09:25:00 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-14 09:25:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/all/torrents/jason.html?sort=seeds> (referer: None)
+2019-04-14 09:25:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8435019/jason-derulo-555-%282019%29-mp3-320kbps-quality-album-%5Bpmedia%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8435019/jason-derulo-555-%282019%29-mp3-320kbps-quality-album-%5Bpmedia%5D.html>
+None
+2019-04-14 09:25:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8445374/sofia-reyes-1%2C-2%2C-3-ft-jason-derulo-%26-de-la-ghetto-%5B2018-single%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8445014/sofia-reyes-1%2C-2%2C-3-ft-jason-derulo-%26-de-la-ghetto-%5B2018-single%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8445374/sofia-reyes-1%2C-2%2C-3-ft-jason-derulo-%26-de-la-ghetto-%5B2018-single%5D.html>
+None
+2019-04-14 09:25:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8445014/sofia-reyes-1%2C-2%2C-3-ft-jason-derulo-%26-de-la-ghetto-%5B2018-single%5D.html>
+None
+2019-04-14 09:25:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8438495/jason-bermas-at-bilderberg-with-chris-cantwell.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8006345/israel%27s-edge-by-jason-gewirtz-epub.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8444220/showerbait-19-01-18-jason-wolf-and-nicholas-ryder-peeping-shower-buddy-xxx-1080p-manlove%5Bn1c%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8438495/jason-bermas-at-bilderberg-with-chris-cantwell.html>
+None
+2019-04-14 09:25:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8444035/escape-ray-wenck-jason-nugent-%5Ben-epub%5D-%5Bebook%5D-%5Bps%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/5929709/jason-bourne-1080p.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8435672/how-the-elite-use-sports-to-rule-the-masses-jason-christoff-720p.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430612/ghost-bait-2019-s01e02-jason-and-nina-webrip-caffeine%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8006345/israel%27s-edge-by-jason-gewirtz-epub.html>
+None
+2019-04-14 09:25:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8444220/showerbait-19-01-18-jason-wolf-and-nicholas-ryder-peeping-shower-buddy-xxx-1080p-manlove%5Bn1c%5D.html>
+None
+2019-04-14 09:25:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430593/ghost-bait-2019-s01e02-jason-and-nina-webrip-caffeine%5Btgx%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8444035/escape-ray-wenck-jason-nugent-%5Ben-epub%5D-%5Bebook%5D-%5Bps%5D.html>
+None
+2019-04-14 09:25:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/5929709/jason-bourne-1080p.html>
+None
+2019-04-14 09:25:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8435672/how-the-elite-use-sports-to-rule-the-masses-jason-christoff-720p.html>
+None
+2019-04-14 09:25:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430612/ghost-bait-2019-s01e02-jason-and-nina-webrip-caffeine%5Beztv%5D.html>
+None
+2019-04-14 09:25:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430593/ghost-bait-2019-s01e02-jason-and-nina-webrip-caffeine%5Btgx%5D.html>
+None
+2019-04-14 09:25:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8426557/the-suicide-cartel-jason-kasper-%5Ben-epub%5D-%5Bebook%5D-%5Bps%5D-tar-gz.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8426557/the-suicide-cartel-jason-kasper-%5Ben-epub%5D-%5Bebook%5D-%5Bps%5D-tar-gz.html>
+None
+2019-04-14 09:25:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8389429/killer-couples-s11e10-melissa-bredow-and-jason-belanger-720p-web-kompost%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8389413/killer-couples-s11e10-melissa-bredow-and-jason-belanger-web-kompost%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8389429/killer-couples-s11e10-melissa-bredow-and-jason-belanger-720p-web-kompost%5Beztv%5D.html>
+None
+2019-04-14 09:25:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8389413/killer-couples-s11e10-melissa-bredow-and-jason-belanger-web-kompost%5Beztv%5D.html>
+None
+2019-04-14 09:25:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8422193/ryanconner-ryan-conner-a-dp-with-isiah-and-jason.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/5951768/jason-bourne-1080p-dts.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8422193/ryanconner-ryan-conner-a-dp-with-isiah-and-jason.html>
+None
+2019-04-14 09:25:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/5951768/jason-bourne-1080p-dts.html>
+None
+2019-04-14 09:25:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7997950/mip-5590-claire-jason.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7943297/jason-bourne-ita-1080p-x265-paso77.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7997950/mip-5590-claire-jason.html>
+None
+2019-04-14 09:25:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8419389/the-mechanic-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7943297/jason-bourne-ita-1080p-x265-paso77.html>
+None
+2019-04-14 09:25:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8419389/the-mechanic-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html>
+None
+2019-04-14 09:25:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8411623/the-one-%282001%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8411623/the-one-%282001%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html>
+None
+2019-04-14 09:25:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8403321/parker-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8391925/killer-couples-s11e10-melissa-bredow-and-jason-belanger-web-kompost%5Btgx%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8403321/parker-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html>
+None
+2019-04-14 09:25:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8391925/killer-couples-s11e10-melissa-bredow-and-jason-belanger-web-kompost%5Btgx%5D.html>
+None
+2019-04-14 09:25:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8267662/mystic-dragon-by-jason-denzel-epub.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8382883/killer-elite-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8379110/war-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8267662/mystic-dragon-by-jason-denzel-epub.html>
+None
+2019-04-14 09:25:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8382883/killer-elite-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html>
+None
+2019-04-14 09:25:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8379110/war-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html>
+None
+2019-04-14 09:25:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8386054/safe-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8386054/safe-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html>
+None
+2019-04-14 09:25:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8116493/titans-2018-s01e06-jason-todd-1080p-dcu-web-dl-aac2-0-h265-hevc-frank.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8117656/jason-capital-conversation-god-%5Bredpillbay%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8116493/titans-2018-s01e06-jason-todd-1080p-dcu-web-dl-aac2-0-h265-hevc-frank.html>
+None
+2019-04-14 09:25:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8117656/jason-capital-conversation-god-%5Bredpillbay%5D.html>
+None
+2019-04-14 09:25:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8104815/mechanic-resurrection-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8026305/khloe-kapri%2C-jason-luv-a-deal-to-remember-%28blacked%29.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8104815/mechanic-resurrection-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html>
+None
+2019-04-14 09:25:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8026305/khloe-kapri%2C-jason-luv-a-deal-to-remember-%28blacked%29.html>
+None
+2019-04-14 09:25:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8025109/black-autumn_-a-post-apocalyptic-saga-by-jeff-kirkham%2C-jason-ross-epub.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8024863/otherearth-%28otherworld%2C-book-2%29-by-jason-segel%2C-kirsten-miller-epub.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8025109/black-autumn_-a-post-apocalyptic-saga-by-jeff-kirkham%2C-jason-ross-epub.html>
+None
+2019-04-14 09:25:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8024863/otherearth-%28otherworld%2C-book-2%29-by-jason-segel%2C-kirsten-miller-epub.html>
+None
+2019-04-14 09:25:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8021953/prisoner-by-jason-rezaian-epub.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8014580/crank-high-voltage-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8021953/prisoner-by-jason-rezaian-epub.html>
+None
+2019-04-14 09:25:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8003976/otherworld-%28otherworld%2C-book-1%29-by-jason-segel%2C-kirsten-miller-epub.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8014580/crank-high-voltage-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html>
+None
+2019-04-14 09:25:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8105006/jason-mraz-studio-discography-%28all-320%29.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8003976/otherworld-%28otherworld%2C-book-1%29-by-jason-segel%2C-kirsten-miller-epub.html>
+None
+2019-04-14 09:25:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8378824/jason-derulo-platinum-hits-%5Bexplicit%5D-%28%29-%5Bflac%5D-%5Bvtwin88cube%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8105006/jason-mraz-studio-discography-%28all-320%29.html>
+None
+2019-04-14 09:25:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8378824/jason-derulo-platinum-hits-%5Bexplicit%5D-%28%29-%5Bflac%5D-%5Bvtwin88cube%5D.html>
+None
+2019-04-14 09:25:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7913675/jason-bourne-multi-2160p-uhd-x265-hdr-dts-hdma-7-1-%5Ben%2Bhi%2B%5D-dtone.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7913675/jason-bourne-multi-2160p-uhd-x265-hdr-dts-hdma-7-1-%5Ben%2Bhi%2B%5D-dtone.html>
+None
+2019-04-14 09:25:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7995095/charlottesville-unite-the-right-jason-kessler.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8427481/carson-daly-2019-04-02-jason-isaacs-web.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/5895139/jason-bourne-720p-web-dl-h264-evo%5Bethd%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7995095/charlottesville-unite-the-right-jason-kessler.html>
+None
+2019-04-14 09:25:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/6378211/jason-bourne-%28%29-%5Bdvd9-multilang-5-1-multisubs%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/7936460/jason-derulo-essentials-%282019%29-mp3-320kbps-songs-%5Bpmedia%5D.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8427481/carson-daly-2019-04-02-jason-isaacs-web.html>
+None
+2019-04-14 09:25:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/5895139/jason-bourne-720p-web-dl-h264-evo%5Bethd%5D.html>
+None
+2019-04-14 09:25:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/6378211/jason-bourne-%28%29-%5Bdvd9-multilang-5-1-multisubs%5D.html>
+None
+2019-04-14 09:25:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/7936460/jason-derulo-essentials-%282019%29-mp3-320kbps-songs-%5Bpmedia%5D.html>
+None
+2019-04-14 09:25:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8402610/%5Bijtm-mashup%5D-sybil-a-and-jason-luv-it-just-takes-money-12-conjugal-visit.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8402610/%5Bijtm-mashup%5D-sybil-a-and-jason-luv-it-just-takes-money-12-conjugal-visit.html>
+None
+2019-04-14 09:25:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8388257/wild-card-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8388257/wild-card-%28%29-jason-statam-1080p-h264-ac-3-%28dolbydigital-5-1%29-%26-nickarad.html>
+None
+2019-04-14 09:25:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8379130/darkx-team-work-joseline-kelly-jason-brown.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8379130/darkx-team-work-joseline-kelly-jason-brown.html>
+None
+2019-04-14 09:25:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8060551/mip-5590-claire-adams-and-jason-miller.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8060551/mip-5590-claire-adams-and-jason-miller.html>
+None
+2019-04-14 09:25:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8019166/organize-your-team-today-by-jason-selk%2C-tom-bartow-epub.html> (referer: https://www.torlock.com/all/torrents/jason.html?sort=seeds)
+2019-04-14 09:25:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8019166/organize-your-team-today-by-jason-selk%2C-tom-bartow-epub.html>
+None
+2019-04-14 09:25:09 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-14 09:25:09 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 20770,
+ 'downloader/request_count': 49,
+ 'downloader/request_method_count/GET': 49,
+ 'downloader/response_bytes': 422732,
+ 'downloader/response_count': 49,
+ 'downloader/response_status_count/200': 49,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 14, 1, 25, 9, 765460),
+ 'item_scraped_count': 48,
+ 'log_count/DEBUG': 97,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 49,
+ 'scheduler/dequeued': 49,
+ 'scheduler/dequeued/memory': 49,
+ 'scheduler/enqueued': 49,
+ 'scheduler/enqueued/memory': 49,
+ 'start_time': datetime.datetime(2019, 4, 14, 1, 25, 0, 101286)}
+2019-04-14 09:25:09 [scrapy.core.engine] INFO: Spider closed (finished)

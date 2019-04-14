@@ -1,0 +1,203 @@
+2019-04-14 09:26:34 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-14 09:26:34 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-14 09:26:34 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\limetorrents\\50a3ee6e5e5411e98dcda0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-14 09:26:34 [scrapy.extensions.telnet] INFO: Telnet Password: 82f9723851dcd7c9
+2019-04-14 09:26:34 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-14 09:26:34 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-14 09:26:34 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-14 09:26:34 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-14 09:26:34 [scrapy.core.engine] INFO: Spider opened
+2019-04-14 09:26:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-14 09:26:34 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2019-04-14 09:26:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/search/all/dead/seeds/1/> (referer: None)
+2019-04-14 09:26:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Evil-Dead-2013-Hi-DefRip-osjdA-torrent-2578110.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Evil-Dead-2013-Hi-DefRip-osjdA-torrent-2578110.html>
+None
+2019-04-14 09:26:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Evil-Dead-ENG-2013-DVDRip-XviD-LPD-torrent-2564474.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Evil-Dead-ENG-2013-DVDRip-XviD-LPD-torrent-2375176.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Walking-Dead-S05E06-HDTV-x264-KILLERS[ettv]-torrent-5323626.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Walking-Dead-S05E07-HDTV-x264-KILLERS[ettv]-torrent-5357750.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Evil-Dead-2013-BD-Rip-XviD-Merge-torrent-2539809.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Evil-Dead-2013-DVDRip-LEGiON-torrent-2379326.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Evil-Dead-ENG-2013-DVDRip-XviD-LPD-torrent-2564474.html>
+None
+2019-04-14 09:26:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Evil-Dead-ENG-2013-DVDRip-XviD-LPD-torrent-2375176.html>
+None
+2019-04-14 09:26:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Evil-Dead-ENG-2013-DVDRip-XviD-LPD-torrent-2342268.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Walking-Dead-S05E06-HDTV-x264-KILLERS[ettv]-torrent-5323626.html>
+None
+2019-04-14 09:26:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Walking-Dead-S05E07-HDTV-x264-KILLERS[ettv]-torrent-5357750.html>
+None
+2019-04-14 09:26:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Evil-Dead-2013-BD-Rip-XviD-Merge-torrent-2539809.html>
+None
+2019-04-14 09:26:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Evil-Dead-2013-DVDRip-LEGiON-torrent-2379326.html>
+None
+2019-04-14 09:26:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Evil-Dead-ENG-2013-DVDRip-XviD-LPD-torrent-2342268.html>
+None
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Grimm-S03E01-The-Ungrateful-Dead-HDTV-XviD-P0W4-VTV-torrent-3441055.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Grimm-Season-3-Episode-01-The-Ungrateful-Dead-2013-HDTV-x264-LNC-[ettv]-mp4-torrent-3441744.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Talking-Dead-Season-3-Episode-06-Season-3-Episode-6-1080p-WEB-DL-DD5-1-H-264-ECI-torrent-3690228.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Grimm-S03E01-The-Ungrateful-Dead-HDTV-XviD-P0W4-VTV-torrent-3441055.html>
+None
+2019-04-14 09:26:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Grimm-Season-3-Episode-01-The-Ungrateful-Dead-2013-HDTV-x264-LNC-[ettv]-mp4-torrent-3441744.html>
+None
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Drop-Dead-Diva-Season-5-Episode-11-One-Shot-2013-HDTV-x264-ABC-ettv-torrent-3441063.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Dead-Man-Down-Eng-TELESYNC-DivX-LTT-torrent-3857620.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Talking-Dead-Season-3-Episode-06-Season-3-Episode-6-1080p-WEB-DL-DD5-1-H-264-ECI-torrent-3690228.html>
+None
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Dead-Man-Down-XviD-AC3-ADTRG-torrent-3734951.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Drop-Dead-Diva-Season-5-Episode-11-One-Shot-2013-HDTV-x264-ABC-ettv-torrent-3441063.html>
+None
+2019-04-14 09:26:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Dead-Man-Down-Eng-TELESYNC-DivX-LTT-torrent-3857620.html>
+None
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Nikita-Season-4-Episode-02-Dead-or-Alive-HDTV-XviD-2HD-ettv-torrent-3735172.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Vampire-Diaries-S05E08-Dead-Man-on-Campus-HDTV-XviD-FQM-torrent-3724870.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Dead-Man-Down-XviD-AC3-ADTRG-torrent-3992523.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Dead-Man-Down-XviD-AC3-ADTRG-torrent-3734951.html>
+None
+2019-04-14 09:26:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Nikita-Season-4-Episode-02-Dead-or-Alive-HDTV-XviD-2HD-ettv-torrent-3735172.html>
+None
+2019-04-14 09:26:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Vampire-Diaries-S05E08-Dead-Man-on-Campus-HDTV-XviD-FQM-torrent-3724870.html>
+None
+2019-04-14 09:26:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Dead-Man-Down-XviD-AC3-ADTRG-torrent-3992523.html>
+None
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Dead-Man-Down-DVDRip-avi-torrent-2113436.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Dead-Man-Down-720p-Bluray-x264-TDM-torrent-3619696.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Dead-Man-Down-DVD-RIP-Jaybob-torrent-3734950.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Dead-Man-Down-DVDRip-avi-torrent-2113436.html>
+None
+2019-04-14 09:26:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Dead-Man-Down-720p-Bluray-x264-TDM-torrent-3619696.html>
+None
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Walking-Dead-S04E08-Too-Far-Gone-HDTV-XViD-DOT[ettv]-torrent-3757625.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Dead-Man-Down-DVD-RIP-Jaybob-torrent-3734950.html>
+None
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Vampire-Diaries-S05E08-Dead-Man-on-Campus-HDTV-x264-EVOLVE-torrent-3725140.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Walking-Dead-S04E08-Too-Far-Gone-HDTV-XViD-DOT[ettv]-torrent-3757625.html>
+None
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Nikita-S04E02-Dead-or-Alive-HDTV-XviD-FQM[FR-SUB]-torrent-3757330.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Haunting-Hour-S04E08-Dead-Bodies-HDTV-XviD-LOL-VTV-torrent-3725742.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Vampire-Diaries-S05E08-Dead-Man-on-Campus-HDTV-x264-EVOLVE-torrent-3725140.html>
+None
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Walking-Dead-S06E05-INTERNAL-HDTV-x264-KILLERS[ettv]-torrent-6990414.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Walking-Dead-S04E08-Too-Far-Gone-XviD-MGD[ettv]-torrent-3705504.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Dead-Man-Down-XviD-ECSTASY-torrent-3827492.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Evil-Dead-FULL-ViDEO-ENG-AUDiO-CAMRip-0HKAY-torrent-3725524.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Nikita-S04E02-Dead-or-Alive-HDTV-XviD-FQM[FR-SUB]-torrent-3757330.html>
+None
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Haunting-Hour-S04E08-Dead-Bodies-HDTV-XviD-LOL-VTV-torrent-3725742.html>
+None
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Walking-Dead-S06E05-INTERNAL-HDTV-x264-KILLERS[ettv]-torrent-6990414.html>
+None
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Walking-Dead-S04E08-Too-Far-Gone-XviD-MGD[ettv]-torrent-3705504.html>
+None
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Nikita-S04E02-Dead-or-Alive-HDTV-XviD-P0W4-[VTV]-torrent-3757331.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Dead-Man-Down-XviD-ECSTASY-torrent-3827492.html>
+None
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Walking-Dead-S04E07-Dead-Weight-480p-WEBRip-x264-BTN-torrent-3703820.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Nikita-Season-4-Episode-02-Dead-or-Alive-HDTV-XviD-LOL-[VTV]-torrent-3772230.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Evil-Dead-FULL-ViDEO-ENG-AUDiO-CAMRip-0HKAY-torrent-3725524.html>
+None
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Walking-Dead-Season-4-Episode-02-Infected-2013-HDTV-XviD-LOL[ettv]-mp4-torrent-3452086.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Nikita-S04E02-Dead-or-Alive-HDTV-XviD-P0W4-[VTV]-torrent-3757331.html>
+None
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Evil-Dead-DVDRiP-XviD-Movie-Torrentz-[Movie-Torrentz]-torrent-3619675.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Walking-Dead-S04E07-Dead-Weight-480p-WEBRip-x264-BTN-torrent-3703820.html>
+None
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Nikita-Season-4-Episode-02-Dead-or-Alive-HDTV-XviD-LOL-[VTV]-torrent-3772230.html>
+None
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Nikita-Season-4-Episode-02-Dead-or-Alive-HDTV-x264-ASAP-ettv-torrent-3701194.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Haunting-Hour-Season-4-Episode-08-Dead-Bodies-HDTV-x264-BALLISTIC-torrent-3725417.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Walking-Dead-Season-4-Episode-02-Infected-2013-HDTV-XviD-LOL[ettv]-mp4-torrent-3452086.html>
+None
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Evil-Dead-DVDRiP-XviD-Movie-Torrentz-[Movie-Torrentz]-torrent-3619675.html>
+None
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Nikita-Season-4-Episode-02-Dead-or-Alive-HDTV-x264-ASAP-ettv-torrent-3701194.html>
+None
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Vampire-Diaries-Season-5-Episode-08-Dead-Man-on-Campus-XviD-SYS-2013-torrent-3725097.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Nikita-S04E02-Dead-or-Alive-HDTV-XviD-FQM-NO-RAR-torrent-3728615.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Haunting-Hour-Season-4-Episode-08-Dead-Bodies-HDTV-x264-BALLISTIC-torrent-3725417.html>
+None
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Walking-Dead-Season-4-Episode-08-Too-Far-Gone-HDTV-XviD-ASAP-torrent-3765876.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Walking-Dead-S04E08-Too-Far-Gone-HDTV-x264-LOL-ettv-torrent-3705710.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Vampire-Diaries-Season-5-Episode-08-Dead-Man-on-Campus-XviD-SYS-2013-torrent-3725097.html>
+None
+2019-04-14 09:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Nikita-S04E02-Dead-or-Alive-HDTV-XviD-FQM-NO-RAR-torrent-3728615.html>
+None
+2019-04-14 09:26:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Vampire-Diaries-Season-5-Episode-08-Dead-Man-on-Campus-HDTV-XviD-LOL-ettv-torrent-3725063.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Dead-Man-Down-XviD-ECSTASY-torrent-3817294.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Walking-Dead-Season-4-Episode-08-Too-Far-Gone-HDTV-XviD-ASAP-torrent-3765876.html>
+None
+2019-04-14 09:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Walking-Dead-S04E08-Too-Far-Gone-HDTV-x264-LOL-ettv-torrent-3705710.html>
+None
+2019-04-14 09:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Vampire-Diaries-Season-5-Episode-08-Dead-Man-on-Campus-HDTV-XviD-LOL-ettv-torrent-3725063.html>
+None
+2019-04-14 09:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Dead-Man-Down-XviD-ECSTASY-torrent-3817294.html>
+None
+2019-04-14 09:26:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Evil-Dead-2013-DVDSCR-READNFO-XviD-AQ0S-torrent-2502287.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Nikita-S04E02-Dead-or-Alive-HDTV-x264-ASAP-torrent-3788664.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Haunting-Hour-S04E08-Dead-Bodies-1080p-WEB-DL-DD5-1-H-264-ECI-torrent-3696977.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Evil-Dead-2013-DVDSCR-READNFO-XviD-AQ0S-torrent-2502287.html>
+None
+2019-04-14 09:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Nikita-S04E02-Dead-or-Alive-HDTV-x264-ASAP-torrent-3788664.html>
+None
+2019-04-14 09:26:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Dead-Man-Down-DVDRIP-XviD-ZEKTORM-torrent-3847500.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Haunting-Hour-S04E08-Dead-Bodies-1080p-WEB-DL-DD5-1-H-264-ECI-torrent-3696977.html>
+None
+2019-04-14 09:26:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Haunting-Hour-S04E08-Dead-Bodies-HDTV-XviD-ASAP-ettv-FR-torrent-3730632.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Dead-Man-Down-DVDRIP-XviD-ZEKTORM-torrent-3847500.html>
+None
+2019-04-14 09:26:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Walking-Dead-S04E08-Too-Far-Gone-HDTV-XviD-ASAP-FR-torrent-3705695.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Haunting-Hour-S04E08-Dead-Bodies-HDTV-XviD-ASAP-ettv-FR-torrent-3730632.html>
+None
+2019-04-14 09:26:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Walking-Dead-S06E05-HDTV-x264-FLEET[rartv]-torrent-6990187.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Evil-Dead-2013-Hi-DefRip-osjdA-torrent-2570439.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Walking-Dead-S04E08-Too-Far-Gone-HDTV-XviD-ASAP-FR-torrent-3705695.html>
+None
+2019-04-14 09:26:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Walking-Dead-S03E04-HDTV-x264-2HD-[AGENT]-torrent-1618905.html> (referer: https://www.limetorrents.info/search/all/dead/seeds/1/)
+2019-04-14 09:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Walking-Dead-S06E05-HDTV-x264-FLEET[rartv]-torrent-6990187.html>
+None
+2019-04-14 09:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Evil-Dead-2013-Hi-DefRip-osjdA-torrent-2570439.html>
+None
+2019-04-14 09:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Walking-Dead-S03E04-HDTV-x264-2HD-[AGENT]-torrent-1618905.html>
+None
+2019-04-14 09:26:39 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-14 09:26:39 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 22970,
+ 'downloader/request_count': 51,
+ 'downloader/request_method_count/GET': 51,
+ 'downloader/response_bytes': 459297,
+ 'downloader/response_count': 51,
+ 'downloader/response_status_count/200': 51,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 14, 1, 26, 39, 803829),
+ 'item_scraped_count': 50,
+ 'log_count/DEBUG': 101,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 51,
+ 'scheduler/dequeued': 51,
+ 'scheduler/dequeued/memory': 51,
+ 'scheduler/enqueued': 51,
+ 'scheduler/enqueued/memory': 51,
+ 'start_time': datetime.datetime(2019, 4, 14, 1, 26, 34, 901932)}
+2019-04-14 09:26:39 [scrapy.core.engine] INFO: Spider closed (finished)

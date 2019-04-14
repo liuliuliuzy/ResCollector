@@ -26,13 +26,14 @@ def index(request):
 
 def search(request, search, cat):
 	global last_query
-	current_result = BtCollector.objects.filter(search = search, cat = cat)
-	if not current_result and last_query != request.path:
-		for spider in support_category[cat]:
-			task = scrapyd.schedule('default', spider, search = search, cat = cat)
-		sleep(8)
-	last_query = request.path
-
+	if last_query != request.path:
+		last_query = request.path
+		results = BtCollector.objects.filter(search = search, cat = cat)
+		if not results:
+			for spider in support_category[cat]:
+				task = scrapyd.schedule('default', spider, search = search, cat = cat)
+			sleep(8)
+	
 	results = BtCollector.objects.filter(search = search, cat = cat).order_by('-seeder', '-leecher')
 	context = {'results': results, 'search': search, 'cat': cat}
 	return render(request, 'BtCollector/bt_result.html', context)
