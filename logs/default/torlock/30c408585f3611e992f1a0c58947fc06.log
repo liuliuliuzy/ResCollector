@@ -1,0 +1,74 @@
+2019-04-15 12:23:46 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-15 12:23:46 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 12:23:46 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\torlock\\30c408585f3611e992f1a0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-15 12:23:46 [scrapy.extensions.telnet] INFO: Telnet Password: f446d2f960d6e15b
+2019-04-15 12:23:46 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 12:23:46 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 12:23:46 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 12:23:46 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-15 12:23:46 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 12:23:46 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 12:23:46 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 12:23:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/movie/torrents/marvel.html?sort=seeds> (referer: None)
+2019-04-15 12:23:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8479004/captain-marvel-2019-new-hd-ts.html> (referer: https://www.torlock.com/movie/torrents/marvel.html?sort=seeds)
+2019-04-15 12:23:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8479004/captain-marvel-2019-new-hd-ts.html>
+None
+2019-04-15 12:23:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8418613/captain-marvel-2019-720p-hdts-%5Bmw%5D.html> (referer: https://www.torlock.com/movie/torrents/marvel.html?sort=seeds)
+2019-04-15 12:23:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8429175/captain-marvel-2019-cam-v2-dublado.html> (referer: https://www.torlock.com/movie/torrents/marvel.html?sort=seeds)
+2019-04-15 12:23:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8426975/captain-marvel-%282019%29%5Bhdts-hq-line-audios-%5Btamil-%2B-telugu%5D-mp3-700mb%5D.html> (referer: https://www.torlock.com/movie/torrents/marvel.html?sort=seeds)
+2019-04-15 12:23:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8434251/captain-marvel-2019-hdts-avid%5Btgx%5D.html> (referer: https://www.torlock.com/movie/torrents/marvel.html?sort=seeds)
+2019-04-15 12:23:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8427125/captain-marvel-2019-hdts-blongo.html> (referer: https://www.torlock.com/movie/torrents/marvel.html?sort=seeds)
+2019-04-15 12:23:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8418613/captain-marvel-2019-720p-hdts-%5Bmw%5D.html>
+None
+2019-04-15 12:23:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8429175/captain-marvel-2019-cam-v2-dublado.html>
+None
+2019-04-15 12:23:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8426975/captain-marvel-%282019%29%5Bhdts-hq-line-audios-%5Btamil-%2B-telugu%5D-mp3-700mb%5D.html>
+None
+2019-04-15 12:23:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8434251/captain-marvel-2019-hdts-avid%5Btgx%5D.html>
+None
+2019-04-15 12:23:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8427125/captain-marvel-2019-hdts-blongo.html>
+None
+2019-04-15 12:23:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8457950/marvel-cinematic-universe-%28-2018%29-phase-i-ii-iii-%7E-tombdoc.html> (referer: https://www.torlock.com/movie/torrents/marvel.html?sort=seeds)
+2019-04-15 12:23:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8457950/marvel-cinematic-universe-%28-2018%29-phase-i-ii-iii-%7E-tombdoc.html>
+None
+2019-04-15 12:23:50 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 12:23:50 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3151,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 68503,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 8,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 4, 23, 50, 491835),
+ 'item_scraped_count': 7,
+ 'log_count/DEBUG': 15,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 8,
+ 'scheduler/dequeued': 8,
+ 'scheduler/dequeued/memory': 8,
+ 'scheduler/enqueued': 8,
+ 'scheduler/enqueued/memory': 8,
+ 'start_time': datetime.datetime(2019, 4, 15, 4, 23, 46, 274831)}
+2019-04-15 12:23:50 [scrapy.core.engine] INFO: Spider closed (finished)

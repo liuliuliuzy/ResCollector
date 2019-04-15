@@ -1,0 +1,278 @@
+2019-04-15 12:40:35 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-15 12:40:35 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 12:40:35 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\torlock\\8acdb21c5f3811e98846a0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-15 12:40:35 [scrapy.extensions.telnet] INFO: Telnet Password: abb7e24045342bd8
+2019-04-15 12:40:35 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 12:40:35 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 12:40:35 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 12:40:35 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-15 12:40:35 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 12:40:35 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 12:40:35 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/all/torrents/marvel.html?sort=seeds> (referer: None)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430535/marvels-cloak-and-dagger-s02e02-white-lines-crimson%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8429175/captain-marvel-2019-cam-v2-dublado.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430535/marvels-cloak-and-dagger-s02e02-white-lines-crimson%5Beztv%5D.html>
+None
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8442644/marvels-cloak-and-dagger-s02e03-web-tbs%5Bettv%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8418613/captain-marvel-2019-720p-hdts-%5Bmw%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8434251/captain-marvel-2019-hdts-avid%5Btgx%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8427125/captain-marvel-2019-hdts-blongo.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8446164/marvels-cloak-and-dagger-s02e03-french-webrip.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8442652/marvels-cloak-and-dagger-s02e03-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8440823/marvel-week%2B-%2804-10-2019%29.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8440780/2019-04-10-marvel-week%2B.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8472266/marvels-cloak-and-dagger-s02e02-720p-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8429175/captain-marvel-2019-cam-v2-dublado.html>
+None
+2019-04-15 12:40:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8442644/marvels-cloak-and-dagger-s02e03-web-tbs%5Bettv%5D.html>
+None
+2019-04-15 12:40:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8418613/captain-marvel-2019-720p-hdts-%5Bmw%5D.html>
+None
+2019-04-15 12:40:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8434251/captain-marvel-2019-hdts-avid%5Btgx%5D.html>
+None
+2019-04-15 12:40:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8427125/captain-marvel-2019-hdts-blongo.html>
+None
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8432776/marvels-cloak-and-dagger-s02e02-vostfr-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8426975/captain-marvel-%282019%29%5Bhdts-hq-line-audios-%5Btamil-%2B-telugu%5D-mp3-700mb%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8431369/marvels-cloak-and-dagger-s02e02-white-lines-720p-amzn-web-dl-ddp5-1-h-264-tvsmash%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8432767/marvels-cloak-and-dagger-s02e01-vostfr-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8442670/marvels-cloak-and-dagger-s02e03-720p-web-x265-minx%5Btgx%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8446164/marvels-cloak-and-dagger-s02e03-french-webrip.html>
+None
+2019-04-15 12:40:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8442652/marvels-cloak-and-dagger-s02e03-web.html>
+None
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8473241/marvels-cloak-and-dagger-s02e03-shadow-selves-1080p-amzn-webrip-ddp5-1-d0ct0rlew%5Bsev%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8465207/marvels-cloak-and-dagger-s02e01-webrip-ion10.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8440823/marvel-week%2B-%2804-10-2019%29.html>
+None
+2019-04-15 12:40:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8440780/2019-04-10-marvel-week%2B.html>
+None
+2019-04-15 12:40:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8472266/marvels-cloak-and-dagger-s02e02-720p-web.html>
+None
+2019-04-15 12:40:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8432776/marvels-cloak-and-dagger-s02e02-vostfr-web.html>
+None
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8469302/marvels-cloak-and-dagger-s02e02-webrip-ion10.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8454494/%5Btorrentcouch-net%5D-marvels-cloak-and-dagger-s02e02-720p-web-%5B422mb%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430319/marvels-cloak-and-dagger-s02e01-720p-web-x265-minx%5Btgx%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8426975/captain-marvel-%282019%29%5Bhdts-hq-line-audios-%5Btamil-%2B-telugu%5D-mp3-700mb%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8431369/marvels-cloak-and-dagger-s02e02-white-lines-720p-amzn-web-dl-ddp5-1-h-264-tvsmash%5Beztv%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8432767/marvels-cloak-and-dagger-s02e01-vostfr-web.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8442670/marvels-cloak-and-dagger-s02e03-720p-web-x265-minx%5Btgx%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8464478/marvels-cloak-and-dagger-s02e01-restless-energy-720p-crimson%5Brarbg%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430656/marvels-cloak-and-dagger-s02e02-720p-web-x265-minx%5Btgx%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8465160/the-adventures-of-captain-marvel-s01-1080p-yellowbird%5Brartv%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8471118/marvels-avengers-assemble-s05e22-webrip-ion10.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8473241/marvels-cloak-and-dagger-s02e03-shadow-selves-1080p-amzn-webrip-ddp5-1-d0ct0rlew%5Bsev%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8465207/marvels-cloak-and-dagger-s02e01-webrip-ion10.html>
+None
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8442635/marvels-cloak-and-dagger-s02e03-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8469302/marvels-cloak-and-dagger-s02e02-webrip-ion10.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8454494/%5Btorrentcouch-net%5D-marvels-cloak-and-dagger-s02e02-720p-web-%5B422mb%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430319/marvels-cloak-and-dagger-s02e01-720p-web-x265-minx%5Btgx%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/6435093/marvel-vs-capcom-infinite-%5Bqoob-repack%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8466197/marvels-cloak-and-dagger-s02e02-white-lines-crimson%5Brarbg%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8464628/the-adventures-of-captain-marvel-s01-720p-yellowbird%5Brartv%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430052/marvels-cloak-and-dagger-s02e01-afg%5Btgx%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430767/marvels-cloak-and-dagger-s02e01-1080p-web-h264.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8433549/marvels-cloak-and-dagger-s02e02-white-lines-1080p-amzn-webrip-ddp5-1-d0ct0rlew%5Bsev%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8464478/marvels-cloak-and-dagger-s02e01-restless-energy-720p-crimson%5Brarbg%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430656/marvels-cloak-and-dagger-s02e02-720p-web-x265-minx%5Btgx%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8465160/the-adventures-of-captain-marvel-s01-1080p-yellowbird%5Brartv%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8471118/marvels-avengers-assemble-s05e22-webrip-ion10.html>
+None
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8457950/marvel-cinematic-universe-%28-2018%29-phase-i-ii-iii-%7E-tombdoc.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8433477/marvels-cloak-and-dagger-s02e01-restless-energy-1080p-amzn-webrip-ddp5-1-d0ct0rlew%5Bsev%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8442635/marvels-cloak-and-dagger-s02e03-web.html>
+None
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8467264/marvels-cloak-and-dagger-s02e02-1080p-web-h264.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430701/marvels-cloak-and-dagger-s02e02-1080p-web-h264.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8465923/marvels-cloak-and-dagger-s02e01-1080p-web-h264.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/6435093/marvel-vs-capcom-infinite-%5Bqoob-repack%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8466197/marvels-cloak-and-dagger-s02e02-white-lines-crimson%5Brarbg%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8464628/the-adventures-of-captain-marvel-s01-720p-yellowbird%5Brartv%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430052/marvels-cloak-and-dagger-s02e01-afg%5Btgx%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8442646/marvels-cloak-and-dagger-s02e03-720p-web-tbs%5Bettv%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8472809/the-marvelous-mrs-maisel.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8472460/marvels-cloak-and-dagger-s02e01-restless-energy-720p-amzn-webrip-ddp5-1-tvsmash%5Brarbg%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430767/marvels-cloak-and-dagger-s02e01-1080p-web-h264.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8433549/marvels-cloak-and-dagger-s02e02-white-lines-1080p-amzn-webrip-ddp5-1-d0ct0rlew%5Bsev%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430068/marvels-cloak-and-dagger-s02e02-afg%5Btgx%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8442641/marvels-cloak-and-dagger-s02e03-afg%5Btgx%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8457950/marvel-cinematic-universe-%28-2018%29-phase-i-ii-iii-%7E-tombdoc.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8433477/marvels-cloak-and-dagger-s02e01-restless-energy-1080p-amzn-webrip-ddp5-1-d0ct0rlew%5Bsev%5D.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8467264/marvels-cloak-and-dagger-s02e02-1080p-web-h264.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430701/marvels-cloak-and-dagger-s02e02-1080p-web-h264.html>
+None
+2019-04-15 12:40:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8465923/marvels-cloak-and-dagger-s02e01-1080p-web-h264.html>
+None
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430054/marvels-cloak-and-dagger-s02e01-web-tbs%5Bettv%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8427970/2019-04-03-marvel-week%2B.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430613/marvels-cloak-and-dagger-s02e02-white-lines-720p-crimson%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8445798/black-widow-and-the-marvel-girls-%28%29-%28digital%29-%28zone-empire%29.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430482/marvels-cloak-and-dagger-s02e01-restless-energy-720p-crimson%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430058/marvels-cloak-and-dagger-s02e01-720p-web-tbs%5Bettv%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8442646/marvels-cloak-and-dagger-s02e03-720p-web-tbs%5Bettv%5D.html>
+None
+2019-04-15 12:40:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8472809/the-marvelous-mrs-maisel.html>
+None
+2019-04-15 12:40:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8472460/marvels-cloak-and-dagger-s02e01-restless-energy-720p-amzn-webrip-ddp5-1-tvsmash%5Brarbg%5D.html>
+None
+2019-04-15 12:40:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430068/marvels-cloak-and-dagger-s02e02-afg%5Btgx%5D.html>
+None
+2019-04-15 12:40:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430064/marvels-cloak-and-dagger-s02e02-720p-web-tbs%5Bettv%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8443146/marvels-cloak-and-dagger-s02e03-1080p-web-h264.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8442641/marvels-cloak-and-dagger-s02e03-afg%5Btgx%5D.html>
+None
+2019-04-15 12:40:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430054/marvels-cloak-and-dagger-s02e01-web-tbs%5Bettv%5D.html>
+None
+2019-04-15 12:40:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8440657/marvels-cloak-and-dagger-s02e01-720p-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8467872/marvels-cloak-and-dagger-s02e01-restless-energy-1080p-amzn-webrip-ddp5-1-tvsmash%5Brarbg%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8453213/barry-lyga-marvels-avengers-infinity-war-thanos.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8440653/marvels-cloak-and-dagger-s02e02-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8440654/marvels-cloak-and-dagger-s02e01-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430246/marvels-cloak-and-dagger-s02e02-720p-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8427970/2019-04-03-marvel-week%2B.html>
+None
+2019-04-15 12:40:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430613/marvels-cloak-and-dagger-s02e02-white-lines-720p-crimson%5Beztv%5D.html>
+None
+2019-04-15 12:40:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8445798/black-widow-and-the-marvel-girls-%28%29-%28digital%29-%28zone-empire%29.html>
+None
+2019-04-15 12:40:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430482/marvels-cloak-and-dagger-s02e01-restless-energy-720p-crimson%5Beztv%5D.html>
+None
+2019-04-15 12:40:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430058/marvels-cloak-and-dagger-s02e01-720p-web-tbs%5Bettv%5D.html>
+None
+2019-04-15 12:40:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8467578/marvels-cloak-and-dagger-s02e03-1080p-web-h264.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430338/marvels-cloak-and-dagger-s02e01-720p-web-x265.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430064/marvels-cloak-and-dagger-s02e02-720p-web-tbs%5Bettv%5D.html>
+None
+2019-04-15 12:40:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8443146/marvels-cloak-and-dagger-s02e03-1080p-web-h264.html>
+None
+2019-04-15 12:40:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8440657/marvels-cloak-and-dagger-s02e01-720p-web.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8467872/marvels-cloak-and-dagger-s02e01-restless-energy-1080p-amzn-webrip-ddp5-1-tvsmash%5Brarbg%5D.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8453213/barry-lyga-marvels-avengers-infinity-war-thanos.html>
+None
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430097/marvels-cloak-and-dagger-s02e01-720p-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430686/marvels-cloak-and-dagger-s02e02-720p-web-x265.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8431306/marvels-cloak-and-dagger-s02e01-restless-energy-720p-amzn-web-dl-ddp5-1-h-264-tvsmash%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8475189/lego-marvel-super-heroes-2-%5Bfitgirl-repack%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8427745/marvel-week%2B-%2804-03-2019%29.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8432779/marvels-cloak-and-dagger-s02e01-french-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8440653/marvels-cloak-and-dagger-s02e02-web.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8440654/marvels-cloak-and-dagger-s02e01-web.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430246/marvels-cloak-and-dagger-s02e02-720p-web.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8467578/marvels-cloak-and-dagger-s02e03-1080p-web-h264.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430338/marvels-cloak-and-dagger-s02e01-720p-web-x265.html>
+None
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8470761/marvels-cloak-and-dagger-s02e03-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8432768/marvels-cloak-and-dagger-s02e02-french-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8471310/marvels-cloak-and-dagger-s02e03-720p-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430483/marvels-cloak-and-dagger-s02e01-restless-energy-crimson%5Beztv%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8446157/marvels-cloak-and-dagger-s02e03-vostfr-webrip.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8444737/marvels-cloak-and-dagger-s02e03-shadow-selves-720p-amzn-web-dl-ddp5-1-h-264.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430060/marvels-cloak-and-dagger-s02e02-web-tbs%5Bettv%5D.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430080/marvels-cloak-and-dagger-s02e02-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430097/marvels-cloak-and-dagger-s02e01-720p-web.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430686/marvels-cloak-and-dagger-s02e02-720p-web-x265.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8431306/marvels-cloak-and-dagger-s02e01-restless-energy-720p-amzn-web-dl-ddp5-1-h-264-tvsmash%5Beztv%5D.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8475189/lego-marvel-super-heroes-2-%5Bfitgirl-repack%5D.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8427745/marvel-week%2B-%2804-03-2019%29.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8432779/marvels-cloak-and-dagger-s02e01-french-web.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8470761/marvels-cloak-and-dagger-s02e03-web.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8432768/marvels-cloak-and-dagger-s02e02-french-web.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8471310/marvels-cloak-and-dagger-s02e03-720p-web.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430483/marvels-cloak-and-dagger-s02e01-restless-energy-crimson%5Beztv%5D.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8446157/marvels-cloak-and-dagger-s02e03-vostfr-webrip.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8444737/marvels-cloak-and-dagger-s02e03-shadow-selves-720p-amzn-web-dl-ddp5-1-h-264.html>
+None
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8442640/marvels-cloak-and-dagger-s02e03-720p-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8442674/marvels-cloak-and-dagger-s02e03-720p-web-x265.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8430106/marvels-cloak-and-dagger-s02e01-web.html> (referer: https://www.torlock.com/all/torrents/marvel.html?sort=seeds)
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430080/marvels-cloak-and-dagger-s02e02-web.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430060/marvels-cloak-and-dagger-s02e02-web-tbs%5Bettv%5D.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8442640/marvels-cloak-and-dagger-s02e03-720p-web.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8442674/marvels-cloak-and-dagger-s02e03-720p-web-x265.html>
+None
+2019-04-15 12:40:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8430106/marvels-cloak-and-dagger-s02e01-web.html>
+None
+2019-04-15 12:40:40 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 12:40:40 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 31617,
+ 'downloader/request_count': 76,
+ 'downloader/request_method_count/GET': 76,
+ 'downloader/response_bytes': 679378,
+ 'downloader/response_count': 76,
+ 'downloader/response_status_count/200': 76,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 4, 40, 40, 895448),
+ 'item_scraped_count': 75,
+ 'log_count/DEBUG': 151,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 76,
+ 'scheduler/dequeued': 76,
+ 'scheduler/dequeued/memory': 76,
+ 'scheduler/enqueued': 76,
+ 'scheduler/enqueued/memory': 76,
+ 'start_time': datetime.datetime(2019, 4, 15, 4, 40, 35, 504706)}
+2019-04-15 12:40:40 [scrapy.core.engine] INFO: Spider closed (finished)
