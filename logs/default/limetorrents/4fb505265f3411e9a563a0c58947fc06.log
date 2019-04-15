@@ -1,0 +1,201 @@
+2019-04-15 12:09:58 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-15 12:09:58 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 12:09:58 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\limetorrents\\4fb505265f3411e9a563a0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-15 12:09:58 [scrapy.extensions.telnet] INFO: Telnet Password: a11be50fcd34637b
+2019-04-15 12:09:58 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 12:09:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 12:09:58 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 12:09:58 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-15 12:09:58 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 12:09:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 12:09:58 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2019-04-15 12:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/search/all/change/seeds/1/> (referer: None)
+2019-04-15 12:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Change-Up-2011-English-DVDRip-PADDO-torrent-1650923.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Keep-The-Change-(2017)-[BluRay]-[1080p]-[YTS-AM]-torrent-11174199.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Change-Up-2011-English-DVDRip-PADDO-torrent-1650923.html>
+None
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Keep-The-Change-(2017)-[BluRay]-[1080p]-[YTS-AM]-torrent-11174199.html>
+None
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Macworld-All-Change-Apple-Launches-BoBot-torrent-3612689.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Macworld-All-Change-Apple-Launches-New-Airs-OS-X-Mavericks-MAC-Pro-and-More-Adoredida-torrent-3512651.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Change-Up-2011-[Italian]-DVD-Dual-Audio--ETRG-torrent-1643322.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Keep-The-Change-(2017)-[BluRay]-[720p]-[YTS-AM]-torrent-11173767.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Change-Up-2011-English-PDVD-AC3-HOPE-torrent-1646481.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Trust-Me-US-S01E13-The-More-Things-Change-HDTV-XviD-FQM-[eztv]-torrent-328263.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Macworld-All-Change-Apple-Launches-BoBot-torrent-3612689.html>
+None
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Macworld-All-Change-Apple-Launches-New-Airs-OS-X-Mavericks-MAC-Pro-and-More-Adoredida-torrent-3512651.html>
+None
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Change-Up-2011-[Italian]-DVD-Dual-Audio--ETRG-torrent-1643322.html>
+None
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Keep-The-Change-(2017)-[BluRay]-[720p]-[YTS-AM]-torrent-11173767.html>
+None
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Change-Up-2011-English-PDVD-AC3-HOPE-torrent-1646481.html>
+None
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Trust-Me-US-S01E13-The-More-Things-Change-HDTV-XviD-FQM-[eztv]-torrent-328263.html>
+None
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Stzblaster-Change-System-info-language-zone-CpuID-Aq3-torrent-4033924.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Balto-III%20-Wings-of-Change-(2004)-720p-BrRip-x264--YIFY-torrent-2267157.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Stzblaster-Change-System-info-language-zone-CpuID-Aq3-torrent-4033924.html>
+None
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Change-Up-UNRATED-FRENCH-DVDRip-XviD-AYMO-torrent-883415.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Balto-III%20-Wings-of-Change-(2004)-720p-BrRip-x264--YIFY-torrent-2267157.html>
+None
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Change-Up-UNRATED-FRENCH-DVDRip-XviD-AYMO-torrent-883415.html>
+None
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/ExxxtraSmall--Aubree-Ice--Change-Clothes-And-Hoe-torrent-12358746.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Learning-to-Love-Math%20-Teaching-Strategies-That-Change-Student-Attitudes-and-Get-Results-2010-Mantesh-torrent-902076.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/[TMRD-556]-Zubo%20tsu-at-all%20-It-is-not-Hain%20-in-this-sudden-%20s-an---impossible%20-Special-Miyase-Rico-Saionji-Leo-thank-you-sought-to-change-torrent-3012740.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Dragon-Ball-Super--022--Change%20-An-Unexpected-Revival--His-Name-is-Ginyu%20%20-[DragonTeam][39F1DADE]-mkv-torrent-7114628.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/VA-DJ-2Mello--Best-Damn-R%20B-Period-(Change-Clothes)-2009-MIXFIEND-torrent-220960.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/3-Things-Successful-People-Do--The-Road-Map-That-Will-Change-Yo-torrent-12042537.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/My-Little-Pony-Friendship-is-Magic-S07E17-To-Change-a-Changeling-1080p-WEB-DL-DD5-1-H264-iT00NZ[rarbg]-torrent-9657269.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/ExxxtraSmall--Aubree-Ice--Change-Clothes-And-Hoe-torrent-12358746.html>
+None
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Learning-to-Love-Math%20-Teaching-Strategies-That-Change-Student-Attitudes-and-Get-Results-2010-Mantesh-torrent-902076.html>
+None
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/[TMRD-556]-Zubo%20tsu-at-all%20-It-is-not-Hain%20-in-this-sudden-%20s-an---impossible%20-Special-Miyase-Rico-Saionji-Leo-thank-you-sought-to-change-torrent-3012740.html>
+None
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Dragon-Ball-Super--022--Change%20-An-Unexpected-Revival--His-Name-is-Ginyu%20%20-[DragonTeam][39F1DADE]-mkv-torrent-7114628.html>
+None
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/VA-DJ-2Mello--Best-Damn-R%20B-Period-(Change-Clothes)-2009-MIXFIEND-torrent-220960.html>
+None
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/3-Things-Successful-People-Do--The-Road-Map-That-Will-Change-Yo-torrent-12042537.html>
+None
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/My-Little-Pony-Friendship-is-Magic-S07E17-To-Change-a-Changeling-1080p-WEB-DL-DD5-1-H264-iT00NZ[rarbg]-torrent-9657269.html>
+None
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Terriers-S01E03-Change-Partners-PROPER-HDTV-XviD-FQM-avi-[eztv]-torrent-638824.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Imamachio-Continuous-40-times-Active-professional-golfer-%20s-married-cumshot-during-sex-Kendama-%20-erotic-change-song-%20I%20m-getting-rigid-Otinchin-like-a-golf-club-putter%20%20-Personal-shooting-with-ZIP-torrent-11241533.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Street-Outlaws-S10E08-Rules-Change-720p-WEB-x264-DHD[ettv]-torrent-10367708.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Change-Up-2011-PPVRip-XviD-SceneLovers-torrent-863669.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Change-v01-03s-zip-torrent-11953182.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/BBC-Metamorphosis-The-Science-of-Change-1080p-x265-AAC-HDTV-MVGr-torrent-8281444.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Terriers-S01E03-Change-Partners-PROPER-HDTV-XviD-FQM-avi-[eztv]-torrent-638824.html>
+None
+2019-04-15 12:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Imamachio-Continuous-40-times-Active-professional-golfer-%20s-married-cumshot-during-sex-Kendama-%20-erotic-change-song-%20I%20m-getting-rigid-Otinchin-like-a-golf-club-putter%20%20-Personal-shooting-with-ZIP-torrent-11241533.html>
+None
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/AssholeFever--Change-Of-Pace--Linda-Ray-mp4-torrent-4709340.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Isaac-Asimov--The-Winds-of-Change--Unb-torrent-48635.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Street-Outlaws-S10E08-Rules-Change-720p-WEB-x264-DHD[ettv]-torrent-10367708.html>
+None
+2019-04-15 12:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Change-v01-03s-zip-torrent-11953182.html>
+None
+2019-04-15 12:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/BBC-Metamorphosis-The-Science-of-Change-1080p-x265-AAC-HDTV-MVGr-torrent-8281444.html>
+None
+2019-04-15 12:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/AssholeFever--Change-Of-Pace--Linda-Ray-mp4-torrent-4709340.html>
+None
+2019-04-15 12:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Isaac-Asimov--The-Winds-of-Change--Unb-torrent-48635.html>
+None
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Pitbull--Climate-Change-(2017)-[Mp3%20320Kbps]-torrent-8707721.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/%C3%A2%CB%9C%E2%80%A6%C3%A5%C2%8D%C6%92%C3%A5%C2%A4%C2%8F%C3%A5%C2%AD%E2%80%94%C3%A5%C2%B9%E2%80%A2%C3%A7%C2%B5%E2%80%9E%C3%A2%CB%9C%E2%80%A6%C3%A3%E2%82%AC%C2%90%C3%A8%C2%90%C5%92%C3%A5%C2%B9%C2%BB%C3%A8%C2%AE%C5%A0%C3%A8%C2%BA%C2%AB%C3%A3%E2%82%AC%E2%80%98[Moe-Can-Change][%C3%A7%C2%AC%C2%ACOVA%C3%A8%C2%A9%C2%B1][DVDRIP-480P][x264-Hi10P-MP4][%C3%A7%C2%B0%C2%A1%C3%A7%C2%B9%C2%81%C3%A5%C2%A4%E2%80%93%C3%A6%C5%BD%E2%80%BA]-torrent-1144713.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/A-Sudden-Change--New-Teacher-Tits-torrent-3910600.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Pitbull--Climate-Change-(2017)-[Mp3%20320Kbps]-torrent-8707721.html>
+None
+2019-04-15 12:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/%C3%A2%CB%9C%E2%80%A6%C3%A5%C2%8D%C6%92%C3%A5%C2%A4%C2%8F%C3%A5%C2%AD%E2%80%94%C3%A5%C2%B9%E2%80%A2%C3%A7%C2%B5%E2%80%9E%C3%A2%CB%9C%E2%80%A6%C3%A3%E2%82%AC%C2%90%C3%A8%C2%90%C5%92%C3%A5%C2%B9%C2%BB%C3%A8%C2%AE%C5%A0%C3%A8%C2%BA%C2%AB%C3%A3%E2%82%AC%E2%80%98[Moe-Can-Change][%C3%A7%C2%AC%C2%ACOVA%C3%A8%C2%A9%C2%B1][DVDRIP-480P][x264-Hi10P-MP4][%C3%A7%C2%B0%C2%A1%C3%A7%C2%B9%C2%81%C3%A5%C2%A4%E2%80%93%C3%A6%C5%BD%E2%80%BA]-torrent-1144713.html>
+None
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Rita-Rocks-S02E01-A-Change-Is-Gonna-Come-HDTV-XviD-FQM-[eztv]-torrent-430986.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Ten-Ways-to-Change-the-World-in-Your-Twenties-Mantesh-torrent-860860.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/s1332-change-of-plan-sd-wmv-torrent-2576694.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/A-Sudden-Change--New-Teacher-Tits-torrent-3910600.html>
+None
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Change-Your-Mind-And-Keep-the-Change-%20-[TSG]-torrent-66239.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Rita-Rocks-S02E01-A-Change-Is-Gonna-Come-HDTV-XviD-FQM-[eztv]-torrent-430986.html>
+None
+2019-04-15 12:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Ten-Ways-to-Change-the-World-in-Your-Twenties-Mantesh-torrent-860860.html>
+None
+2019-04-15 12:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Things-Change-(1988)-[WEBRip]-[1080p]-[YTS-AM]-torrent-11304687.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/s1332-change-of-plan-sd-wmv-torrent-2576694.html>
+None
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Dirty-Heads--Sound-of-Change(Explicit)-[Mp3-320kbps-2014]-torrent-5568153.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Steven-Universe-S05E28-Change-Your-Mind-1080p-WEB-DL-AAC2-0-H264-iT00NZ[rarbg]-torrent-12157050.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Make-Millions-and-Make-Change%20%20-Secrets-to-Business-and-Personal-Success-MANTESH-torrent-639246.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/TrenchCoatX--Khloe-Kapri--Did-You-Change-torrent-11959995.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Change-Your-Mind-And-Keep-the-Change-%20-[TSG]-torrent-66239.html>
+None
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Things-Change-(1988)-[WEBRip]-[1080p]-[YTS-AM]-torrent-11304687.html>
+None
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Dirty-Heads--Sound-of-Change(Explicit)-[Mp3-320kbps-2014]-torrent-5568153.html>
+None
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Steven-Universe-S05E28-Change-Your-Mind-1080p-WEB-DL-AAC2-0-H264-iT00NZ[rarbg]-torrent-12157050.html>
+None
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Make-Millions-and-Make-Change%20%20-Secrets-to-Business-and-Personal-Success-MANTESH-torrent-639246.html>
+None
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/TrenchCoatX--Khloe-Kapri--Did-You-Change-torrent-11959995.html>
+None
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/100-Ways-To-Motivate-Yourself%20-Change-Your-Life-Forever-torrent-86539.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Words-That-Change-Minds%20-Mastering-the-Language-of-Influence-MANTESH-torrent-635363.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/W-Change%20%20-Vol-1--6-torrent-1903229.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/100-Ways-To-Motivate-Yourself%20-Change-Your-Life-Forever-torrent-86539.html>
+None
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/[Nipponsei]-THE-iDOLM%20STER-OP2-Single--CHANGE%20%20%20%20-[765PRO-ALLSTARS]-zip-torrent-906513.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Change-In-The-Air-(2018)-[WEBRip]-[720p]-[YTS-AM]-torrent-11919740.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Words-That-Change-Minds%20-Mastering-the-Language-of-Influence-MANTESH-torrent-635363.html>
+None
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Pitbull--Climate-Change-(2017)-torrent-8707634.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/W-Change%20%20-Vol-1--6-torrent-1903229.html>
+None
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/[Nipponsei]-THE-iDOLM%20STER-OP2-Single--CHANGE%20%20%20%20-[765PRO-ALLSTARS]-zip-torrent-906513.html>
+None
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Change-In-The-Air-(2018)-[WEBRip]-[720p]-[YTS-AM]-torrent-11919740.html>
+None
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Game-Change-2012-TRUEFRENCH-DVDRiP-XViD-5iV3-torrent-1688197.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Pitbull--Climate-Change-(2017)-torrent-8707634.html>
+None
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Change-Your-Handwriting%20-Change-Your-Life-Workbook-Mantesh-torrent-694576.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Change-Up-2011-TS-XViD-KiN3-torrent-813472.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Change-Vision-Astah-Professional-v8-0-0-x86-Incl-KeyMaker-and-Patch-DVT-[FTUApps]-torrent-12096711.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Game-Change-2012-TRUEFRENCH-DVDRiP-XViD-5iV3-torrent-1688197.html>
+None
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Change-Your-Handwriting%20-Change-Your-Life-Workbook-Mantesh-torrent-694576.html>
+None
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Change-Up-%202011%20-DVDRIP-Jaybob-torrent-1544736.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Change-Up-2011-TS-XViD-KiN3-torrent-813472.html>
+None
+2019-04-15 12:10:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Le-Noel-ou-tout-a-change-2014-FRENCH-WEBRip-XviD-FIRETOWN-torrent-5411931.html> (referer: https://www.limetorrents.info/search/all/change/seeds/1/)
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Change-Vision-Astah-Professional-v8-0-0-x86-Incl-KeyMaker-and-Patch-DVT-[FTUApps]-torrent-12096711.html>
+None
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Change-Up-%202011%20-DVDRIP-Jaybob-torrent-1544736.html>
+None
+2019-04-15 12:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Le-Noel-ou-tout-a-change-2014-FRENCH-WEBRip-XviD-FIRETOWN-torrent-5411931.html>
+None
+2019-04-15 12:10:02 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 12:10:02 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 23987,
+ 'downloader/request_count': 51,
+ 'downloader/request_method_count/GET': 51,
+ 'downloader/response_bytes': 494594,
+ 'downloader/response_count': 51,
+ 'downloader/response_status_count/200': 51,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 4, 10, 2, 952555),
+ 'item_scraped_count': 49,
+ 'log_count/DEBUG': 100,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 51,
+ 'scheduler/dequeued': 51,
+ 'scheduler/dequeued/memory': 51,
+ 'scheduler/enqueued': 51,
+ 'scheduler/enqueued/memory': 51,
+ 'start_time': datetime.datetime(2019, 4, 15, 4, 9, 58, 233862)}
+2019-04-15 12:10:02 [scrapy.core.engine] INFO: Spider closed (finished)

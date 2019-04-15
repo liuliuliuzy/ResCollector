@@ -1,0 +1,235 @@
+2019-04-15 12:09:52 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-15 12:09:52 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 12:09:52 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\1337x\\4fb26ec85f3411e9b071a0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-15 12:09:52 [scrapy.extensions.telnet] INFO: Telnet Password: b1e84540a9987663
+2019-04-15 12:09:52 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 12:09:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 12:09:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 12:09:52 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-15 12:09:52 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 12:09:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 12:09:52 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 12:09:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/search/change/1/> (referer: None)
+2019-04-15 12:09:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/search/change/3/> (referer: None)
+2019-04-15 12:09:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3008306/Time-Changer-2002-WEBRip-720p-YTS-YIFY/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3008306/Time-Changer-2002-WEBRip-720p-YTS-YIFY/>
+None
+2019-04-15 12:09:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3534771/On-that-day-the-university-s-drinking-party-changed-into-a-vaginal-cumshot-Aki-Kuraki/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3612308/The-Changeover-2017-WEBRip-720p-YTS-YIFY/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3213833/Masami-Ichikawa-Low-speed-shift-down-from-high-speed-Gradual-speed-change-gear-change-blowjob-repeating/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3534771/On-that-day-the-university-s-drinking-party-changed-into-a-vaginal-cumshot-Aki-Kuraki/>
+None
+2019-04-15 12:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3612308/The-Changeover-2017-WEBRip-720p-YTS-YIFY/>
+None
+2019-04-15 12:09:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3266435/Game-Changers-2018-WEBRip-1080p-YTS-YIFY/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3213833/Masami-Ichikawa-Low-speed-shift-down-from-high-speed-Gradual-speed-change-gear-change-blowjob-repeating/>
+None
+2019-04-15 12:09:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3266435/Game-Changers-2018-WEBRip-1080p-YTS-YIFY/>
+None
+2019-04-15 12:09:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3558651/PublicPickUps-Kayla-Paris-Sparing-Some-Change/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3676356/FC2-PPV-1056908-individual-shooting-Angel-advent-Advisory-Slope-based-beauty-College-student-Woman-leopard-to-his-change-of-condition-is-the-game-about-JD-that-the-baby-mouth-no-hand-Blowjob/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3137562/Keep-the-Change-2017-BluRay-1080p-YTS-YIFY/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/search/change/2/> (referer: None)
+2019-04-15 12:09:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3558651/PublicPickUps-Kayla-Paris-Sparing-Some-Change/>
+None
+2019-04-15 12:09:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3655015/DNW-025-she-change-into-uniform-for-them-5/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3676356/FC2-PPV-1056908-individual-shooting-Angel-advent-Advisory-Slope-based-beauty-College-student-Woman-leopard-to-his-change-of-condition-is-the-game-about-JD-that-the-baby-mouth-no-hand-Blowjob/>
+None
+2019-04-15 12:09:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3137562/Keep-the-Change-2017-BluRay-1080p-YTS-YIFY/>
+None
+2019-04-15 12:09:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3655015/DNW-025-she-change-into-uniform-for-them-5/>
+None
+2019-04-15 12:09:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3343841/Changeover-2016-WEBRip-1080p-YTS-YIFY/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3343841/Changeover-2016-WEBRip-1080p-YTS-YIFY/>
+None
+2019-04-15 12:09:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3137370/Keep-the-Change-2017-BluRay-720p-YTS-YIFY/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3702807/HD-do-so-171-drunk-and-who-JIport-even-sucking-your-Blowjob-magic-on-sudden-change-Nagoya-is-famous-for-a-young-lady-grew-up-and-boxed-his-wife/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3628091/DOCP-133-sexy-best-ass-in-the-longitudinal-shaking-to-toe-work-dance-in-Cowgirl-Friends-of-my-semen-off-as-this-has-changed/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3124505/Older-brother-punch-hard-from-behind-Super-serious-younger-sister-caught-shakihoko-warped-deeply-into-deathly-change-My-parents-remarried-and-my-sister-in-law-who-was-a-serious-glasses-daughter-made-it-Even-if-you-do-anything-it-is-discreet-and-pe/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3538626/God-wait-waited-in-dating-system-Busty-daughter-enclosing-Nao-chan-G-cup-and-dressing-change-Extreme-cosplay-cum-shot-cum-shot-crowded-daily-for-seven-days-Nampa-Japan-EXPRESS-Vol-90/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3137370/Keep-the-Change-2017-BluRay-720p-YTS-YIFY/>
+None
+2019-04-15 12:09:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3702807/HD-do-so-171-drunk-and-who-JIport-even-sucking-your-Blowjob-magic-on-sudden-change-Nagoya-is-famous-for-a-young-lady-grew-up-and-boxed-his-wife/>
+None
+2019-04-15 12:09:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3628091/DOCP-133-sexy-best-ass-in-the-longitudinal-shaking-to-toe-work-dance-in-Cowgirl-Friends-of-my-semen-off-as-this-has-changed/>
+None
+2019-04-15 12:09:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3124505/Older-brother-punch-hard-from-behind-Super-serious-younger-sister-caught-shakihoko-warped-deeply-into-deathly-change-My-parents-remarried-and-my-sister-in-law-who-was-a-serious-glasses-daughter-made-it-Even-if-you-do-anything-it-is-discreet-and-pe/>
+None
+2019-04-15 12:09:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3538626/God-wait-waited-in-dating-system-Busty-daughter-enclosing-Nao-chan-G-cup-and-dressing-change-Extreme-cosplay-cum-shot-cum-shot-crowded-daily-for-seven-days-Nampa-Japan-EXPRESS-Vol-90/>
+None
+2019-04-15 12:09:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3343761/Changeover-2016-WEBRip-720p-YTS-YIFY/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3689146/HD-JUY-816-my-mother-change-from-a-beautiful-and-I-appeared-Xiang-Tian-Chisato/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3077392/I-will-taste-the-pleasures-of-one-year-in-five-minutes-Deep-Eye-chest-sex-Hana-Yori-Tsubasa-who-changed-my-brother-s-daughter-s-life/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3343761/Changeover-2016-WEBRip-720p-YTS-YIFY/>
+None
+2019-04-15 12:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3689146/HD-JUY-816-my-mother-change-from-a-beautiful-and-I-appeared-Xiang-Tian-Chisato/>
+None
+2019-04-15 12:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3077392/I-will-taste-the-pleasures-of-one-year-in-five-minutes-Deep-Eye-chest-sex-Hana-Yori-Tsubasa-who-changed-my-brother-s-daughter-s-life/>
+None
+2019-04-15 12:09:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3552521/Yankee-daughter-changed-into-a-bathing-suit-and-participated-in-the-war-Nulnur-foam-bowl-soap-experience/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3552521/Yankee-daughter-changed-into-a-bathing-suit-and-participated-in-the-war-Nulnur-foam-bowl-soap-experience/>
+None
+2019-04-15 12:09:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3569841/HUNTA-552-frustration-hair-sister-in-law-is-a-pantyhose-crab-massage-forced-cum-shot-Suddenly-you-sister-in-law-is-just-a-year-away-ARASA-OL-You-can-work-on-a-super-Busty-beauty-But-also-super-friendly-Fever-sleep-not-to-work-return-to-change-clothes-w/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3580281/The-Change-Up-2011-UnRated-Dual-Audio-Hindi-DD5-1-720p-BluRay-ESubs-ExtraMovies/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3198237/Taste-a-pleasant-feeling-for-one-year-in-five-minutes-Deep-Eye-chest-sex-with-her-brother-s-life-changed-Morisawa-Kana/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3569841/HUNTA-552-frustration-hair-sister-in-law-is-a-pantyhose-crab-massage-forced-cum-shot-Suddenly-you-sister-in-law-is-just-a-year-away-ARASA-OL-You-can-work-on-a-super-Busty-beauty-But-also-super-friendly-Fever-sleep-not-to-work-return-to-change-clothes-w/>
+None
+2019-04-15 12:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3580281/The-Change-Up-2011-UnRated-Dual-Audio-Hindi-DD5-1-720p-BluRay-ESubs-ExtraMovies/>
+None
+2019-04-15 12:09:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2964366/Gender-swapping-replacement-Company-with-change-of-body-change-personnel-change-company/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3427329/Change-in-the-Air-2018-WEBRip-720p-YTS-YIFY/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3198237/Taste-a-pleasant-feeling-for-one-year-in-five-minutes-Deep-Eye-chest-sex-with-her-brother-s-life-changed-Morisawa-Kana/>
+None
+2019-04-15 12:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2964366/Gender-swapping-replacement-Company-with-change-of-body-change-personnel-change-company/>
+None
+2019-04-15 12:09:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3319289/DASD-474-Incurred-My-Immediate-Family-Innocence-A-Big-Dick-Without-Morals-Who-Changed-Her-Daughter-Shiori-Miyazaki/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3427329/Change-in-the-Air-2018-WEBRip-720p-YTS-YIFY/>
+None
+2019-04-15 12:09:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3319289/DASD-474-Incurred-My-Immediate-Family-Innocence-A-Big-Dick-Without-Morals-Who-Changed-Her-Daughter-Shiori-Miyazaki/>
+None
+2019-04-15 12:09:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3496766/My-sister-Tomo-who-I-thought-was-pretty-from-the-beginning-has-skillfully-toilated-my-sensitive-nipple-of-Chiknist-in-helping-her-boyfriend-cheat-Shift-change-to-eating-virginity-when-I-know-pear-Teen-slut-of-erection-keeping-on-nipple-teardrops-O/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3496766/My-sister-Tomo-who-I-thought-was-pretty-from-the-beginning-has-skillfully-toilated-my-sensitive-nipple-of-Chiknist-in-helping-her-boyfriend-cheat-Shift-change-to-eating-virginity-when-I-know-pear-Teen-slut-of-erection-keeping-on-nipple-teardrops-O/>
+None
+2019-04-15 12:09:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3579371/HD-SDMM-007-magic-mirror-issue-is-the-type-of-girl-to-not-get-off-of-the-Guard-hard-Amateur-daughter-is-super-powerful-aphrodisiac-in-the-body-wriggle-his-change-of-career-or-to-the-incontinence-up-2-girl-was-not-the-whole-story-even-for-you-Hen/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3656564/HD-VENU-856-a-years-worth-of-pleasure-fifth-taste-brother-of-the-bride-changed-the-life-of-the-deep-live-cum-sex-yumesaki-one-only/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3679393/HD-336KNB-045-National-married-woman-I-book-a-married-woman-in-Japantravel-gonzonet-public-Mai28-years-Yamato-City-Kanagawa-Prefecture-a-Garden-City-resident-the-lovely-atmosphere-of-the-face-sex-that-change-suddenly-Wildly-and-feel-I-M-a-married-woma/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3579371/HD-SDMM-007-magic-mirror-issue-is-the-type-of-girl-to-not-get-off-of-the-Guard-hard-Amateur-daughter-is-super-powerful-aphrodisiac-in-the-body-wriggle-his-change-of-career-or-to-the-incontinence-up-2-girl-was-not-the-whole-story-even-for-you-Hen/>
+None
+2019-04-15 12:09:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3656564/HD-VENU-856-a-years-worth-of-pleasure-fifth-taste-brother-of-the-bride-changed-the-life-of-the-deep-live-cum-sex-yumesaki-one-only/>
+None
+2019-04-15 12:09:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3678914/CLUB-535-luxury-rental-outside-the-beautiful-woman-in-Nampa-Pallid-my-voice-even-absolute-NG-model-beauty-to-her-voice-once-rejected-from-and-near-the-stop-for-the-luxury-rental-outside-to-get-into-the-sight-and-attitude-change-suddenly-Fishing-woman-to/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3679393/HD-336KNB-045-National-married-woman-I-book-a-married-woman-in-Japantravel-gonzonet-public-Mai28-years-Yamato-City-Kanagawa-Prefecture-a-Garden-City-resident-the-lovely-atmosphere-of-the-face-sex-that-change-suddenly-Wildly-and-feel-I-M-a-married-woma/>
+None
+2019-04-15 12:09:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3678914/CLUB-535-luxury-rental-outside-the-beautiful-woman-in-Nampa-Pallid-my-voice-even-absolute-NG-model-beauty-to-her-voice-once-rejected-from-and-near-the-stop-for-the-luxury-rental-outside-to-get-into-the-sight-and-attitude-change-suddenly-Fishing-woman-to/>
+None
+2019-04-15 12:09:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3667999/OKS-060-wet-didnt-touch-the-adhesion-between-the-God-class-water-Mochizuki-the-girl-from-the-married-woman-or-cute-womens-school-swimsuit-and-enjoy-Change-clothes-voyeur-begins-with-small-Tits-from-big-Tits-to-shaved-hair-a-world-of-fetish-close-up-an/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2927608/MilfHunter-Sydney-Hail-Oil-Change/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3624907/HD-DOCP-133-sexy-best-ass-in-the-longitudinal-shaking-to-toe-work-dance-in-Cowgirl-Friends-of-my-semen-off-as-this-has-changed/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3637579/Urban-foot-bath-experience-big-health-fullness-and-feminine-temperament-female-technicians-change-two-sets-of-sexy-stuffy-soft-tongues-all-over-the-body-poisonous-dragon-tongue-tip-chrysanthemum-first-class-stimulation-Mouth-explosion/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3419438/JUFD-998-Drastic-Change-After-Carefully-Pampering-A-Perverted-Abusive-Mommy-Who-Commits-Me-In-Words-Reiko-Kobayakawa/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3667999/OKS-060-wet-didnt-touch-the-adhesion-between-the-God-class-water-Mochizuki-the-girl-from-the-married-woman-or-cute-womens-school-swimsuit-and-enjoy-Change-clothes-voyeur-begins-with-small-Tits-from-big-Tits-to-shaved-hair-a-world-of-fetish-close-up-an/>
+None
+2019-04-15 12:09:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2927608/MilfHunter-Sydney-Hail-Oil-Change/>
+None
+2019-04-15 12:09:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3329363/JUFD-983-Drastic-Change-After-Carefully-Pampering-Hentai-Fucking-Mommy-Commanding-Me-In-Words-Mom-Honda/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3624907/HD-DOCP-133-sexy-best-ass-in-the-longitudinal-shaking-to-toe-work-dance-in-Cowgirl-Friends-of-my-semen-off-as-this-has-changed/>
+None
+2019-04-15 12:09:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3637579/Urban-foot-bath-experience-big-health-fullness-and-feminine-temperament-female-technicians-change-two-sets-of-sexy-stuffy-soft-tongues-all-over-the-body-poisonous-dragon-tongue-tip-chrysanthemum-first-class-stimulation-Mouth-explosion/>
+None
+2019-04-15 12:09:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3419438/JUFD-998-Drastic-Change-After-Carefully-Pampering-A-Perverted-Abusive-Mommy-Who-Commits-Me-In-Words-Reiko-Kobayakawa/>
+None
+2019-04-15 12:09:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3329363/JUFD-983-Drastic-Change-After-Carefully-Pampering-Hentai-Fucking-Mommy-Commanding-Me-In-Words-Mom-Honda/>
+None
+2019-04-15 12:09:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3409965/SDNM-169-Mom-Is-Firmly-Supporting-Healthy-Wheat-Skin-Dazzling-Family-Matsumoto-Reiko-35-Years-Old-Chapter-2-Husband-Never-Can-Not-Taste-Life-Changes-So-Much-Iki-Cum/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3266137/Game-Changers-2018-WEBRip-720p-YTS-YIFY/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3537268/After-she-changed-her-uniform-3/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3409965/SDNM-169-Mom-Is-Firmly-Supporting-Healthy-Wheat-Skin-Dazzling-Family-Matsumoto-Reiko-35-Years-Old-Chapter-2-Husband-Never-Can-Not-Taste-Life-Changes-So-Much-Iki-Cum/>
+None
+2019-04-15 12:09:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2914789/JUFD-895-After-drunk-carefully-and-suddenly-changed-Hentai-fucking-mommy-who-fucks-me-in-words-Mom-Kaori/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3540880/My-husband-s-son-in-law-changed-from-that-day-on-her-business-trip-Forced-Cum-Inside-Incest-Income-x-Sexual-Processing-Sex-Trained-mother-in-law-Yuzu-Sunflower/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3266137/Game-Changers-2018-WEBRip-720p-YTS-YIFY/>
+None
+2019-04-15 12:09:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3537268/After-she-changed-her-uniform-3/>
+None
+2019-04-15 12:09:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3597749/NPS-371-touch-Nampa-Tokyo-Machida-city-change-College-student-big-cock-immediately-saddle-The-question-to-answer-it-without-nonstop-poke-her-3P-there-Facial-cum-shot-there-Creampie-you-A-total-of-159-skills/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2914789/JUFD-895-After-drunk-carefully-and-suddenly-changed-Hentai-fucking-mommy-who-fucks-me-in-words-Mom-Kaori/>
+None
+2019-04-15 12:09:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3540880/My-husband-s-son-in-law-changed-from-that-day-on-her-business-trip-Forced-Cum-Inside-Incest-Income-x-Sexual-Processing-Sex-Trained-mother-in-law-Yuzu-Sunflower/>
+None
+2019-04-15 12:09:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3597749/NPS-371-touch-Nampa-Tokyo-Machida-city-change-College-student-big-cock-immediately-saddle-The-question-to-answer-it-without-nonstop-poke-her-3P-there-Facial-cum-shot-there-Creampie-you-A-total-of-159-skills/>
+None
+2019-04-15 12:09:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2937394/Sakurako-nukake-iron-plate-there-is-a-temptation-situation-otakos-6-change/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2965181/3-Things-Successful-People-Do-The-Road-Map-That-Will-Change-Your-Life/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2937394/Sakurako-nukake-iron-plate-there-is-a-temptation-situation-otakos-6-change/>
+None
+2019-04-15 12:09:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3478465/On-that-day-the-university-s-drinking-party-changed-into-a-vaginal-cumshot-Shinjinji-Nao/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3408580/Shake-your-saliva-by-entangling-your-saliva-Full-face-trip-rolling-overnight-trip-A-man-whose-uncle-changed-me-Arisaka-Miyuki/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2965181/3-Things-Successful-People-Do-The-Road-Map-That-Will-Change-Your-Life/>
+None
+2019-04-15 12:09:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3633449/DOCP-103-voyeur-big-breasts-change-clothes-sticks-temptation-to-steal-addiction-into-guns-friends-Chinese-subtitles/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3478465/On-that-day-the-university-s-drinking-party-changed-into-a-vaginal-cumshot-Shinjinji-Nao/>
+None
+2019-04-15 12:09:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3544179/HD-version-Uncensored-45-minutes-Bus-Guide-Housewife-Hazuki-36-Change-into-a-sailor-suit-w-Football-Tenpo-Paco-Paco-brainstorm-Troll-Instinct-bare-face-woman-punishment-gangangan-piercing-convulsive-acme-___-___-0-Violent-cum-shot-w/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3408580/Shake-your-saliva-by-entangling-your-saliva-Full-face-trip-rolling-overnight-trip-A-man-whose-uncle-changed-me-Arisaka-Miyuki/>
+None
+2019-04-15 12:09:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3633449/DOCP-103-voyeur-big-breasts-change-clothes-sticks-temptation-to-steal-addiction-into-guns-friends-Chinese-subtitles/>
+None
+2019-04-15 12:09:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3544179/HD-version-Uncensored-45-minutes-Bus-Guide-Housewife-Hazuki-36-Change-into-a-sailor-suit-w-Football-Tenpo-Paco-Paco-brainstorm-Troll-Instinct-bare-face-woman-punishment-gangangan-piercing-convulsive-acme-___-___-0-Violent-cum-shot-w/>
+None
+2019-04-15 12:09:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3549840/Artificial-Intelligence-How-it-Changes-the-Future/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3008551/Time-Changer-2002-WEBRip-1080p-YTS-YIFY/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3549840/Artificial-Intelligence-How-it-Changes-the-Future/>
+None
+2019-04-15 12:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3008551/Time-Changer-2002-WEBRip-1080p-YTS-YIFY/>
+None
+2019-04-15 12:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3246591/DOCP-087-A-Girl-Friend-Rushed-In-Wet-State-With-Sudden-Heavy-Rain-What-I-Can-Not-Endure-My-Breasts-That-I-m-Going-To-Give-Away-From-Clothes-That-I-Changed-Clothes-While-I-Was-Drying-My-Clothes/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3401047/HND-598-On-That-Day-The-University-s-Drinking-Party-Changed-Into-A-Vaginal-Cumshot-Shosato-Miya/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3612439/The-Changeover-2017-WEBRip-1080p-YTS-YIFY/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3246591/DOCP-087-A-Girl-Friend-Rushed-In-Wet-State-With-Sudden-Heavy-Rain-What-I-Can-Not-Endure-My-Breasts-That-I-m-Going-To-Give-Away-From-Clothes-That-I-Changed-Clothes-While-I-Was-Drying-My-Clothes/>
+None
+2019-04-15 12:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3401047/HND-598-On-That-Day-The-University-s-Drinking-Party-Changed-Into-A-Vaginal-Cumshot-Shosato-Miya/>
+None
+2019-04-15 12:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3570625/MIAA-012-Ultra-Short-Full-Body-Change-with-his-muscles-consulting-consultant-skin-sister-Valley-anime-only-1-2cm-challenge-high-definition-Chinese-subtitles/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3612439/The-Changeover-2017-WEBRip-1080p-YTS-YIFY/>
+None
+2019-04-15 12:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3579378/HD-STARS-033-absolutely-is-not-the-situation-has-changed-from-what-Ichikawa-will-only/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3570625/MIAA-012-Ultra-Short-Full-Body-Change-with-his-muscles-consulting-consultant-skin-sister-Valley-anime-only-1-2cm-challenge-high-definition-Chinese-subtitles/>
+None
+2019-04-15 12:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3214167/StepSiblingsCaught-18-09-06-Ashly-Anderson-And-Zoe-Bloom-Game-Changer-480p-MP4-XXX/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3579378/HD-STARS-033-absolutely-is-not-the-situation-has-changed-from-what-Ichikawa-will-only/>
+None
+2019-04-15 12:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3026284/Mihiro-changer-of-a-cosmetic-company-23-Brown-black-pant-straight-ahead-It-is-a-neat-atmosphere-but-w-sensitive-nylon-Sesame-omelet-Massive-female-ejaculation-splash-Cream-Pies/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3214167/StepSiblingsCaught-18-09-06-Ashly-Anderson-And-Zoe-Bloom-Game-Changer-480p-MP4-XXX/>
+None
+2019-04-15 12:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3607365/HD-HND-632-Day-University-of-drinking-vaginal-cum-shot-Gangbang-circle-changed-Arisaka-Miyuki/> (referer: https://1337x.to/search/change/1/)
+2019-04-15 12:09:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3319288/DASD-473-My-Girlfriend-Is-Taken-Down-By-My-Neighbor-A-Neighbor-Change-Of-Friends-Who-Were-Good-Friends-Hatano-Tsubasa/> (referer: https://1337x.to/search/change/3/)
+2019-04-15 12:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3026284/Mihiro-changer-of-a-cosmetic-company-23-Brown-black-pant-straight-ahead-It-is-a-neat-atmosphere-but-w-sensitive-nylon-Sesame-omelet-Massive-female-ejaculation-splash-Cream-Pies/>
+None
+2019-04-15 12:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3607365/HD-HND-632-Day-University-of-drinking-vaginal-cum-shot-Gangbang-circle-changed-Arisaka-Miyuki/>
+None
+2019-04-15 12:09:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3319288/DASD-473-My-Girlfriend-Is-Taken-Down-By-My-Neighbor-A-Neighbor-Change-Of-Friends-Who-Were-Good-Friends-Hatano-Tsubasa/>
+None
+2019-04-15 12:10:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2962775/I-fell-down-from-the-elite-When-I-changed-jobs-to-the-latin-system-I-was-going-to-work-closely-with-the-deckins-from-the-neighbor-s-beautiful-young-men-who-had-not-been-looked-at-before/> (referer: https://1337x.to/search/change/2/)
+2019-04-15 12:10:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2962775/I-fell-down-from-the-elite-When-I-changed-jobs-to-the-latin-system-I-was-going-to-work-closely-with-the-deckins-from-the-neighbor-s-beautiful-young-men-who-had-not-been-looked-at-before/>
+None
+2019-04-15 12:10:00 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 12:10:00 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 27615,
+ 'downloader/request_count': 63,
+ 'downloader/request_method_count/GET': 63,
+ 'downloader/response_bytes': 395886,
+ 'downloader/response_count': 63,
+ 'downloader/response_status_count/200': 63,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 4, 10, 0, 217200),
+ 'item_scraped_count': 60,
+ 'log_count/DEBUG': 123,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 63,
+ 'scheduler/dequeued': 63,
+ 'scheduler/dequeued/memory': 63,
+ 'scheduler/enqueued': 63,
+ 'scheduler/enqueued/memory': 63,
+ 'start_time': datetime.datetime(2019, 4, 15, 4, 9, 52, 559914)}
+2019-04-15 12:10:00 [scrapy.core.engine] INFO: Spider closed (finished)

@@ -1,0 +1,110 @@
+2019-04-15 12:03:59 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-15 12:03:59 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 12:03:59 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\limetorrents\\7863be805f3311e9bd11a0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-15 12:03:59 [scrapy.extensions.telnet] INFO: Telnet Password: 28c263e5c7d59f2e
+2019-04-15 12:03:59 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 12:03:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 12:03:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 12:03:59 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-15 12:03:59 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 12:03:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 12:03:59 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 12:04:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/> (referer: None)
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Jonathan-H-Ward--Rocket-Ranch%20-The-Nuts-and-Bolts-of-the-Apollo-Moon-Program-at-Kennedy-Space-Center-(pdf)-(%20%20%20World-Science-Day%20%20%20)-torrent-6962057.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Jonathan-H-Ward--Rocket-Ranch%20-The-Nuts-and-Bolts-of-the-Apollo-Moon-Program-at-Kennedy-Space-Center-(pdf)-(%20%20%20World-Science-Day%20%20%20)-torrent-6962057.html>
+None
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/[18%20]-The-Center-of-the-World-2001-DVDRip-SD-English-x264-250MB-torrent-10328533.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Official-Album-of-Disneyland%20-Walt-Disney-World-and-EPCOT-Center-(1987)--FLAC-Edition-torrent-9782370.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Cutter-Charges-in-the-North-Tower-of-the-World-Trade-Center-torrent-10868348.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/New-York--8-The-Center-of-the-World-torrent-414992.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/PBS-Jerusalem-Center-of-the-World-(2009)-WS-PDTV-XviD-Ekolb-torrent-392369.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Empires-of-the-Sea%20-The-Siege-of-Malta%20-the-Battle-of-Lepanto%20-and-the-Contest-for-the-Center-of-the-World--R-torrent-6212612.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/PBS-Jerusalem-Center-of-the-World-720p-HDTV-x264-AAC-MVGroup-torrent-10267650.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/[18%20]-The-Center-of-the-World-2001-DVDRip-SD-English-x264-250MB-torrent-10328533.html>
+None
+2019-04-15 12:04:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Official-Album-of-Disneyland%20-Walt-Disney-World-and-EPCOT-Center-(1987)--FLAC-Edition-torrent-9782370.html>
+None
+2019-04-15 12:04:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Cutter-Charges-in-the-North-Tower-of-the-World-Trade-Center-torrent-10868348.html>
+None
+2019-04-15 12:04:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/New-York--8-The-Center-of-the-World-torrent-414992.html>
+None
+2019-04-15 12:04:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/PBS-Jerusalem-Center-of-the-World-(2009)-WS-PDTV-XviD-Ekolb-torrent-392369.html>
+None
+2019-04-15 12:04:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Empires-of-the-Sea%20-The-Siege-of-Malta%20-the-Battle-of-Lepanto%20-and-the-Contest-for-the-Center-of-the-World--R-torrent-6212612.html>
+None
+2019-04-15 12:04:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/PBS-Jerusalem-Center-of-the-World-720p-HDTV-x264-AAC-MVGroup-torrent-10267650.html>
+None
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Michael-Scott--Delphi-A-History-of-the-Center-of-the-Ancient-World-[2014][A]-torrent-4609788.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Center-of-the-World--2001-ITA-ENG-Multisub-torrent-4785083.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/[ADV]-[CARYO]-%C3%A3%C2%81%C2%A1%C3%A3%C2%81%C2%8D%C3%A3%E2%80%9A%E2%80%A6%C3%A3%C2%81%E2%80%A0%C3%A3%C2%81%C2%AE%C3%A3%C2%81%C2%B8%C3%A3%C2%81%C2%9D--The-Center-of-the-World-torrent-6873989.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Michael-Scott--Delphi-A-History-of-the-Center-of-the-Ancient-World-[2014][A]-torrent-4609788.html>
+None
+2019-04-15 12:04:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Center-of-the-World--2001-ITA-ENG-Multisub-torrent-4785083.html>
+None
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Music-of-Disneyland%20-Walt-Disney-World-and-Epcot-Center-torrent-372162.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Empires-of-the-Sea%20-The-Contest-for-the-Center-of-the-World-torrent-8399207.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-River-at-the-Center-of-the-World%20-A-Journey-up-the-Yangtze%20-and-Back-in-Chinese-Time--Simon-Winchester-[epub]-torrent-6200145.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Last-Crusaders%20-East%20-West-and-the-Battle-for-the-Center-of-the-World--Barnaby-Rogerson-epub-torrent-6401968.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/The-Music-of-Disneyland%20-Walt-Disney-World-and-Epcot-Center-torrent-372162.html>
+None
+2019-04-15 12:04:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/(Trance)-Rene-Ablaze-and-Skyvol--Center-Of-The-World-[BLS185]-WEB-(2015)-MP3%20-320Kbps-JUSTiFY-[EDM-RG]-torrent-6193363.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Delphi%20-A-History-of-the-Center-of-the-Ancient-World-torrent-11369734.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Center-of-the-World-2001-720p-AMZN-WEBRip-DDP5-1-x264-NTb-torrent-12664990.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/(Trance)-Rene-Ablaze-and-Skyvol--Center-Of-The-World--BLS185--mp3--320kbps--2015-torrent-6191827.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/The-Island-at-the-Center-of-the-World%20-The-Epic-Story-of-Dutch-Manhattan-and-the-Forgotten-Colony-That-Shaped-America--Russell-Shorto-[Reseed]-torrent-6023082.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/At-Balthazar-The-New-York-Brasserie-at-the-Center-of-the-World-torrent-8874269.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Socrates-In-Love--Cry-Out-Love-in-The-Center-of-The-World--Kyoichi-Katayama-torrent-4849610.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-Trade-Center--Anatomy-Of-The-Collapse-torrent-4957753.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Thermite-Fireballs-of-the-World-Trade-Center-9-12-2001--9-21-2001-torrent-1486918.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-Trade-Center--Anatomy-Of-The-Collapse--Full-DVD-torrent-1421459.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/BBC--Horizon--The-Fall-of-the-World-Trade-Center-(2002)-avi-torrent-172051.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Crying-out-love-in-the-center-of-the-world-avi-torrent-96281.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Twin-Towers--The-Life-of-New-York-City%20s-World-Trade-Center-(Malestrom)-torrent-52082.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Scientific-Analysis-of-the-World-Trade-Center-Destruction-torrent-214345.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/18%20-The-Center-of-the-World-2001-480p-x264-DVDRip-ESub-torrent-9908569.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/[-Newytstorrent-com]-[18%20]-The-Center-of-the-World-2001-480p-x264-DVDRip-ESub-torrent-9962949.html> (referer: https://www.limetorrents.info/search/movies/center-of-the-world/seeds/1/)
+2019-04-15 12:04:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/18%20-The-Center-of-the-World-2001-480p-x264-DVDRip-ESub-torrent-9908569.html>
+None
+2019-04-15 12:04:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/[-Newytstorrent-com]-[18%20]-The-Center-of-the-World-2001-480p-x264-DVDRip-ESub-torrent-9962949.html>
+None
+2019-04-15 12:04:03 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 12:04:03 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 15778,
+ 'downloader/request_count': 32,
+ 'downloader/request_method_count/GET': 32,
+ 'downloader/response_bytes': 314068,
+ 'downloader/response_count': 32,
+ 'downloader/response_status_count/200': 32,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 4, 4, 3, 215578),
+ 'item_scraped_count': 13,
+ 'log_count/DEBUG': 45,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 32,
+ 'scheduler/dequeued': 32,
+ 'scheduler/dequeued/memory': 32,
+ 'scheduler/enqueued': 32,
+ 'scheduler/enqueued/memory': 32,
+ 'start_time': datetime.datetime(2019, 4, 15, 4, 3, 59, 439670)}
+2019-04-15 12:04:03 [scrapy.core.engine] INFO: Spider closed (finished)
