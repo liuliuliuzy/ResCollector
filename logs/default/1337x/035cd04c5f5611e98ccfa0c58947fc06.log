@@ -1,0 +1,235 @@
+2019-04-15 16:11:07 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-15 16:11:07 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 16:11:07 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\1337x\\035cd04c5f5611e98ccfa0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-15 16:11:07 [scrapy.extensions.telnet] INFO: Telnet Password: abe2d7e9a785a5ff
+2019-04-15 16:11:07 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 16:11:07 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 16:11:07 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 16:11:07 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-15 16:11:07 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 16:11:07 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 16:11:07 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 16:11:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/search/name/2/> (referer: None)
+2019-04-15 16:11:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/search/name/1/> (referer: None)
+2019-04-15 16:11:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/search/name/3/> (referer: None)
+2019-04-15 16:11:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2017031/Your-Name-2016-HDRip-720p-HC-EngSub-x264-HmRG/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2688339/Call-Me-By-Your-Name-2017-DVDScr-XVID-AC3-HQ-Hive-CM8-EtMovies/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2017031/Your-Name-2016-HDRip-720p-HC-EngSub-x264-HmRG/>
+None
+2019-04-15 16:11:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2688339/Call-Me-By-Your-Name-2017-DVDScr-XVID-AC3-HQ-Hive-CM8-EtMovies/>
+None
+2019-04-15 16:11:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2340224/Your-Name-2016-1080p-BluRay-x264-HAiKU-EtHD/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2340224/Your-Name-2016-1080p-BluRay-x264-HAiKU-EtHD/>
+None
+2019-04-15 16:11:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3031032/The-finest-busty-lingerie-named-Okuda-Saki/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3451031/SSNI-370-After-Being-Molested-I-ve-Been-Screaming-With-That-Guy-Who-Does-Not-Even-Know-His-Name-Nana-Matsumoto/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3646664/HD-FONE-048-American-L-A-back-streets-tour-of-the-finest-white-daughter-3-name-played/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3247022/Kidding-S01E03-Every-Pain-Needs-A-Name-720p-AMZN-WEB-DL-DDP5-1-H-264-NTb-eztv/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3648148/FONE-048-American-L-A-back-streets-tour-of-the-finest-white-daughter-3-name-played/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3402958/Ultra-slender-vibrating-big-tits-OL-Norikawa-Natsukawa-s-name-Nominee-27-years-old-suffering-from-shoulder-stiffness-the-first-oil-massage-experience-through-strong-recommendation-by-female-staff-Puzzled-by-male-surgeon-s-guyguy-attacking-techniq/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2954587/YoungBoy-Never-Broke-Again-Until-Death-Call-My-Name-2018-Mp3-320kbps-Hunter/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3031032/The-finest-busty-lingerie-named-Okuda-Saki/>
+None
+2019-04-15 16:11:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3451031/SSNI-370-After-Being-Molested-I-ve-Been-Screaming-With-That-Guy-Who-Does-Not-Even-Know-His-Name-Nana-Matsumoto/>
+None
+2019-04-15 16:11:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3646664/HD-FONE-048-American-L-A-back-streets-tour-of-the-finest-white-daughter-3-name-played/>
+None
+2019-04-15 16:11:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3247022/Kidding-S01E03-Every-Pain-Needs-A-Name-720p-AMZN-WEB-DL-DDP5-1-H-264-NTb-eztv/>
+None
+2019-04-15 16:11:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3648148/FONE-048-American-L-A-back-streets-tour-of-the-finest-white-daughter-3-name-played/>
+None
+2019-04-15 16:11:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3402958/Ultra-slender-vibrating-big-tits-OL-Norikawa-Natsukawa-s-name-Nominee-27-years-old-suffering-from-shoulder-stiffness-the-first-oil-massage-experience-through-strong-recommendation-by-female-staff-Puzzled-by-male-surgeon-s-guyguy-attacking-techniq/>
+None
+2019-04-15 16:11:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2954587/YoungBoy-Never-Broke-Again-Until-Death-Call-My-Name-2018-Mp3-320kbps-Hunter/>
+None
+2019-04-15 16:11:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2805562/Your-Name-2016-720p-YTS-YIFY/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3401031/HND-591-A-Newcomer-self-name-Active-Debut-AV-Girls-Who-Likes-Japan-s-Best-Kisses-Hina-Matsushita/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2805562/Your-Name-2016-720p-YTS-YIFY/>
+None
+2019-04-15 16:11:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3401031/HND-591-A-Newcomer-self-name-Active-Debut-AV-Girls-Who-Likes-Japan-s-Best-Kisses-Hina-Matsushita/>
+None
+2019-04-15 16:11:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3664659/HD-DASD-521-my-husbands-boss-was-fascinated-by-the-married-woman-The-piston-to-thank-for-the-penis-Married-woman-black-ntr-Woods-to-name-a-few/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3648142/Work-in-concert-to-continue-to-provide-Pharmaceuticals-of-the-highest-044-lesbianpsycho-drive-some-of-the-biggest-names-in-Hollywood-for-she-is-in-slavery-with-her-children/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2675654/Call-Me-By-Your-Name-2017-DVDSCR-X264-CataVentos-EtMovies/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3677167/HD-FSKT-048-named-Amateur-girl-our-vision-of-the-debut-of-SEX-Collection-4-hours/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3664659/HD-DASD-521-my-husbands-boss-was-fascinated-by-the-married-woman-The-piston-to-thank-for-the-penis-Married-woman-black-ntr-Woods-to-name-a-few/>
+None
+2019-04-15 16:11:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3648142/Work-in-concert-to-continue-to-provide-Pharmaceuticals-of-the-highest-044-lesbianpsycho-drive-some-of-the-biggest-names-in-Hollywood-for-she-is-in-slavery-with-her-children/>
+None
+2019-04-15 16:11:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2675654/Call-Me-By-Your-Name-2017-DVDSCR-X264-CataVentos-EtMovies/>
+None
+2019-04-15 16:11:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3698043/HD-AVSA-084-mistake-in-the-shop-of-HPNN-sand-icon-with-all-the-guests-of-the-smell-squid-sperm-to-break-off-one-to-many-and-poured-my-cum-full-wife-forest-to-name-a-few/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2991924/Chiamami-Col-Tuo-Nome-Call-Me-by-Your-Name-2018-HD-720p-H264-Ita-Eng-Ac3-5-1-sub-ita-eng-BaMax71-MIRCrew/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3677167/HD-FSKT-048-named-Amateur-girl-our-vision-of-the-debut-of-SEX-Collection-4-hours/>
+None
+2019-04-15 16:11:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3698043/HD-AVSA-084-mistake-in-the-shop-of-HPNN-sand-icon-with-all-the-guests-of-the-smell-squid-sperm-to-break-off-one-to-many-and-poured-my-cum-full-wife-forest-to-name-a-few/>
+None
+2019-04-15 16:11:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3609936/TOMN-170-twisting-overwhelming-to-conquer-the-feeling-to-sleep-Back-2-70-Name/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3658721/ANGR-009-targeted-Eavesdropping-Stalker-fucked-by-big-Tits-wife-forest-to-name-a-few/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2991924/Chiamami-Col-Tuo-Nome-Call-Me-by-Your-Name-2018-HD-720p-H264-Ita-Eng-Ac3-5-1-sub-ita-eng-BaMax71-MIRCrew/>
+None
+2019-04-15 16:11:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3609936/TOMN-170-twisting-overwhelming-to-conquer-the-feeling-to-sleep-Back-2-70-Name/>
+None
+2019-04-15 16:11:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3658721/ANGR-009-targeted-Eavesdropping-Stalker-fucked-by-big-Tits-wife-forest-to-name-a-few/>
+None
+2019-04-15 16:11:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3404966/Newcomer-self-name-active-debuts-female-student-likes-kissing-Japan-best-AV-debut-Matsushita-Hina/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2833340/Call-Me-by-Your-Name-2017-1080p-BRRip-6CH-2-4GB-MkvCage/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3577386/Code-Name-Dynastud-2018-WEBRip-720p-YTS-YIFY/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3404966/Newcomer-self-name-active-debuts-female-student-likes-kissing-Japan-best-AV-debut-Matsushita-Hina/>
+None
+2019-04-15 16:11:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2833340/Call-Me-by-Your-Name-2017-1080p-BRRip-6CH-2-4GB-MkvCage/>
+None
+2019-04-15 16:11:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3577386/Code-Name-Dynastud-2018-WEBRip-720p-YTS-YIFY/>
+None
+2019-04-15 16:11:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3679431/The-Name-of-the-Rose-S01E04-720p-WEB-x264-HWD-eztv/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2919073/Complete-Fall-Metal-Housewife-OL-Hinako-Name-33-Year-Old-Shinsaibashi-History-Most-pleasantly-greedy-married-woman-If-you-piston-with-raw-poems-Aha-face-blown-twinkling-Completion-with-a-creampie-of-the-uterus-direct-sunrise-Ascension/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3313938/TUS-065-120-Real-Gaguchi-Fistful-Legend-Vol-65-Abalone-Name-Big-Breast-Daughter-Overworked-Cum-Inside-And-4-Successful/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3679431/The-Name-of-the-Rose-S01E04-720p-WEB-x264-HWD-eztv/>
+None
+2019-04-15 16:11:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3588645/DVAJ-379-lewd-words-and-blame-the-skill-in-a-man-to-be-watered-dirty-slut-8-name/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2805690/Call-Me-By-Your-Name-2017-1080p-WEB-DL-H264-AC3-EVO-EtHD/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2919073/Complete-Fall-Metal-Housewife-OL-Hinako-Name-33-Year-Old-Shinsaibashi-History-Most-pleasantly-greedy-married-woman-If-you-piston-with-raw-poems-Aha-face-blown-twinkling-Completion-with-a-creampie-of-the-uterus-direct-sunrise-Ascension/>
+None
+2019-04-15 16:11:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3313938/TUS-065-120-Real-Gaguchi-Fistful-Legend-Vol-65-Abalone-Name-Big-Breast-Daughter-Overworked-Cum-Inside-And-4-Successful/>
+None
+2019-04-15 16:11:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3588645/DVAJ-379-lewd-words-and-blame-the-skill-in-a-man-to-be-watered-dirty-slut-8-name/>
+None
+2019-04-15 16:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3664990/DASD-521-my-husbands-boss-was-fascinated-by-the-married-woman-The-piston-to-thank-for-the-penis-Married-woman-black-ntr-Woods-to-name-a-few/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3614035/NNPJ-327-on-the-Internet-site-Their-propensity-to-deliver-in-the-roots-from-the-lewd-Amateur-daughter-3-names-SEX-genius/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2805690/Call-Me-By-Your-Name-2017-1080p-WEB-DL-H264-AC3-EVO-EtHD/>
+None
+2019-04-15 16:11:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3664990/DASD-521-my-husbands-boss-was-fascinated-by-the-married-woman-The-piston-to-thank-for-the-penis-Married-woman-black-ntr-Woods-to-name-a-few/>
+None
+2019-04-15 16:11:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3614035/NNPJ-327-on-the-Internet-site-Their-propensity-to-deliver-in-the-roots-from-the-lewd-Amateur-daughter-3-names-SEX-genius/>
+None
+2019-04-15 16:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3606136/TOMN-169-120-name-of-the-project-to-such-ecstatic-expression-of-cunnilingus-acute-ascension-BEST-OF-the-BEST/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2899428/Real-name-real-18-years-old-who-was-JK-until-a-couple-of-days-before-Hong-graduation-AV-lifting-Price-only-now/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3336184/Paco-Paco-Mama-103018-_-367-Married-Wife-Conflict-Play-Rotar-Vibe-Electric-Armor-s-Total-Attack-Agony-Name-Asuka-Ichinose/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3543517/A-Streetcar-Named-Desire-1951-BluRay-1080p-YTS-YIFY/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3606136/TOMN-169-120-name-of-the-project-to-such-ecstatic-expression-of-cunnilingus-acute-ascension-BEST-OF-the-BEST/>
+None
+2019-04-15 16:11:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2899428/Real-name-real-18-years-old-who-was-JK-until-a-couple-of-days-before-Hong-graduation-AV-lifting-Price-only-now/>
+None
+2019-04-15 16:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1744458/Young-Thug-No-My-Name-is-JEFFERY-2016-M4a-iTunes-Hunter-FRG/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2283658/Your-Name-Kimi-No-Na-wa-2016-Japanese-HDRip-HC-720p/> (referer: https://1337x.to/search/name/3/)
+2019-04-15 16:11:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3336184/Paco-Paco-Mama-103018-_-367-Married-Wife-Conflict-Play-Rotar-Vibe-Electric-Armor-s-Total-Attack-Agony-Name-Asuka-Ichinose/>
+None
+2019-04-15 16:11:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3543517/A-Streetcar-Named-Desire-1951-BluRay-1080p-YTS-YIFY/>
+None
+2019-04-15 16:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3642009/HD-TRE-098-endless-sex-BEST-8-time-01-pretty-8-name-VS-actor-404-name-limit-continuity-with-480min/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2835222/Call-Me-by-Your-Name-2017-BluRay-1080p-YTS-YIFY/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1744458/Young-Thug-No-My-Name-is-JEFFERY-2016-M4a-iTunes-Hunter-FRG/>
+None
+2019-04-15 16:11:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2283658/Your-Name-Kimi-No-Na-wa-2016-Japanese-HDRip-HC-720p/>
+None
+2019-04-15 16:11:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3642009/HD-TRE-098-endless-sex-BEST-8-time-01-pretty-8-name-VS-actor-404-name-limit-continuity-with-480min/>
+None
+2019-04-15 16:11:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2835222/Call-Me-by-Your-Name-2017-BluRay-1080p-YTS-YIFY/>
+None
+2019-04-15 16:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3704839/HD-FONE-055-April-last-graduates-The-graduation-ceremony-immediately-flying-debut-for-girls-3-name/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2805996/Call-Me-by-Your-Name-2017-720p-YTS-YIFY/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3598195/Second-half-round-of-battle-with-half-baked-breasts-who-were-active-graduates-when-thinking-as-an-amateur-layer-SEX-Gradul-name-release/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3704839/HD-FONE-055-April-last-graduates-The-graduation-ceremony-immediately-flying-debut-for-girls-3-name/>
+None
+2019-04-15 16:11:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2805996/Call-Me-by-Your-Name-2017-720p-YTS-YIFY/>
+None
+2019-04-15 16:11:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3598195/Second-half-round-of-battle-with-half-baked-breasts-who-were-active-graduates-when-thinking-as-an-amateur-layer-SEX-Gradul-name-release/>
+None
+2019-04-15 16:11:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3600483/Trinity-Is-Still-My-Name-1971-BluRay-720p-YTS-YIFY/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2806153/Call-Me-by-Your-Name-2017-1080p-YTS-YIFY/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2829546/Call-Me-by-Your-Name-2017-1080p-BluRay-H264-AAC-RARBG/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3600483/Trinity-Is-Still-My-Name-1971-BluRay-720p-YTS-YIFY/>
+None
+2019-04-15 16:11:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3638979/SDAB-082-most-important-names-in-the-Rookie-of-the-opener-play-ball-Murata-any-SOD-exclusive-AV-debut/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2806153/Call-Me-by-Your-Name-2017-1080p-YTS-YIFY/>
+None
+2019-04-15 16:11:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2829546/Call-Me-by-Your-Name-2017-1080p-BluRay-H264-AAC-RARBG/>
+None
+2019-04-15 16:11:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3682388/HD-HMGL-174-embarrassing-product-training-Price-Lowest-First-Price-Highest-First-Product-Name-A-to-daughter-the-woods-the-most/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3638979/SDAB-082-most-important-names-in-the-Rookie-of-the-opener-play-ball-Murata-any-SOD-exclusive-AV-debut/>
+None
+2019-04-15 16:11:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3345123/HD-LOL-173-Loli-Specialty-Oma-Please-Do-Not-Break-Sensitive-Shy-Name-Kirari-Sensitive/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3682388/HD-HMGL-174-embarrassing-product-training-Price-Lowest-First-Price-Highest-First-Product-Name-A-to-daughter-the-woods-the-most/>
+None
+2019-04-15 16:11:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3345123/HD-LOL-173-Loli-Specialty-Oma-Please-Do-Not-Break-Sensitive-Shy-Name-Kirari-Sensitive/>
+None
+2019-04-15 16:11:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2805785/Your-Name-2016-1080p-YTS-YIFY/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3429870/Ray-Donovan-S06E06-A-Girl-Named-Maria-720p-AMZN-WEB-DL-DDP5-1-H-264-NTb-eztv/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3437870/Say-Her-Name-The-Life-and-Death-of-Sandra-Bland-2018-WEBRip-1080p-YTS-YIFY/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3505008/Afs-041-married-woman-Nampa-home-Creampie-xprestige-premium-frustration-married-woman-3-name-22-mp4-JAV/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2805785/Your-Name-2016-1080p-YTS-YIFY/>
+None
+2019-04-15 16:11:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3429870/Ray-Donovan-S06E06-A-Girl-Named-Maria-720p-AMZN-WEB-DL-DDP5-1-H-264-NTb-eztv/>
+None
+2019-04-15 16:11:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3674571/FC2-PPV-1054354-uncensored-x-Limited-bewitching-concern-2-name-and-cock-2-name-of-location-swap-4Pthe-two-ChiPo-is-the-concern-of-committinghot-air-andthe-juice-of-smellin-confusion-to-shock-swapbenefits-of-the-ZIP-and-review-the-first-100-people-benefit/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3437870/Say-Her-Name-The-Life-and-Death-of-Sandra-Bland-2018-WEBRip-1080p-YTS-YIFY/>
+None
+2019-04-15 16:11:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3663533/HD-CADV-706-low-height-womens-bones-not-thick-SEX28-name-8-hours/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3505008/Afs-041-married-woman-Nampa-home-Creampie-xprestige-premium-frustration-married-woman-3-name-22-mp4-JAV/>
+None
+2019-04-15 16:11:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3674571/FC2-PPV-1054354-uncensored-x-Limited-bewitching-concern-2-name-and-cock-2-name-of-location-swap-4Pthe-two-ChiPo-is-the-concern-of-committinghot-air-andthe-juice-of-smellin-confusion-to-shock-swapbenefits-of-the-ZIP-and-review-the-first-100-people-benefit/>
+None
+2019-04-15 16:11:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3437760/Say-Her-Name-The-Life-and-Death-of-Sandra-Bland-2018-WEBRip-720p-YTS-YIFY/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3663533/HD-CADV-706-low-height-womens-bones-not-thick-SEX28-name-8-hours/>
+None
+2019-04-15 16:11:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2835071/Call-Me-by-Your-Name-2017-BluRay-720p-YTS-YIFY/> (referer: https://1337x.to/search/name/1/)
+2019-04-15 16:11:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3437760/Say-Her-Name-The-Life-and-Death-of-Sandra-Bland-2018-WEBRip-720p-YTS-YIFY/>
+None
+2019-04-15 16:11:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2835071/Call-Me-by-Your-Name-2017-BluRay-720p-YTS-YIFY/>
+None
+2019-04-15 16:11:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3336447/One-way-road-103018_-762-Tokimeki-Her-name-is-Sakurai-Ryo-Hana/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3442653/Personal-photo-shoot-face-appearance-famous-private-school-1-yr-old-active-POTELE-model-and-individual-photography-party-with-face-out-cum-shot-image-real-name-exposure-ultimate-swimwear-inside-cream/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2058867/Kimi-no-Na-wa-Your-Name-HDrip-720p-aac-x264-English-hardsubs/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2958926/Young-Sheldon-S01E20-A-Dog-a-Squirrel-and-a-Fish-Named-Fish-720p-AMZN-WEB-DL-DDP5-1-H-264-NTb-eztv/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3336447/One-way-road-103018_-762-Tokimeki-Her-name-is-Sakurai-Ryo-Hana/>
+None
+2019-04-15 16:11:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3623242/MDBK-002-Complete-Edition-Premier-popular-actress-25-name-Best-Website-25SEX240-minutes/> (referer: https://1337x.to/search/name/2/)
+2019-04-15 16:11:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3442653/Personal-photo-shoot-face-appearance-famous-private-school-1-yr-old-active-POTELE-model-and-individual-photography-party-with-face-out-cum-shot-image-real-name-exposure-ultimate-swimwear-inside-cream/>
+None
+2019-04-15 16:11:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2058867/Kimi-no-Na-wa-Your-Name-HDrip-720p-aac-x264-English-hardsubs/>
+None
+2019-04-15 16:11:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2958926/Young-Sheldon-S01E20-A-Dog-a-Squirrel-and-a-Fish-Named-Fish-720p-AMZN-WEB-DL-DDP5-1-H-264-NTb-eztv/>
+None
+2019-04-15 16:11:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3623242/MDBK-002-Complete-Edition-Premier-popular-actress-25-name-Best-Website-25SEX240-minutes/>
+None
+2019-04-15 16:11:14 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 16:11:14 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 25808,
+ 'downloader/request_count': 63,
+ 'downloader/request_method_count/GET': 63,
+ 'downloader/response_bytes': 404010,
+ 'downloader/response_count': 63,
+ 'downloader/response_status_count/200': 63,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 8, 11, 14, 377325),
+ 'item_scraped_count': 60,
+ 'log_count/DEBUG': 123,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 63,
+ 'scheduler/dequeued': 63,
+ 'scheduler/dequeued/memory': 63,
+ 'scheduler/enqueued': 63,
+ 'scheduler/enqueued/memory': 63,
+ 'start_time': datetime.datetime(2019, 4, 15, 8, 11, 7, 791923)}
+2019-04-15 16:11:14 [scrapy.core.engine] INFO: Spider closed (finished)

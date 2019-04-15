@@ -1,0 +1,297 @@
+2019-04-15 16:17:06 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-15 16:17:06 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 16:17:06 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\1337x\\d7f082dc5f5611e9996ea0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-15 16:17:07 [scrapy.extensions.telnet] INFO: Telnet Password: 34a66a698486df77
+2019-04-15 16:17:07 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 16:17:07 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 16:17:07 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 16:17:07 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-15 16:17:07 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 16:17:07 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 16:17:07 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 16:17:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/category-search/thrones/TV/2/> (referer: None)
+2019-04-15 16:17:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/category-search/thrones/TV/3/> (referer: None)
+2019-04-15 16:17:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/category-search/thrones/TV/1/> (referer: None)
+2019-04-15 16:17:08 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://1337x.to/torrent/2325021/Game-of-Thrones-S07E01-720p-HDTV-x264-AVS-eztv-theAmresh/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2019-04-15 16:17:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705416/Game-of-Thrones-S08E01-1080p-AMZN-WEB-DL-6CH-999MB-MkvCage/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705398/Game-of-Thrones-S08E01-720p-WEB-x265-MiNX-TGx/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2307215/Game-of-Thrones-S05-Season-5-Complete-720p-BluRay-x264-ShAaNiG/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705416/Game-of-Thrones-S08E01-1080p-AMZN-WEB-DL-6CH-999MB-MkvCage/>
+None
+2019-04-15 16:17:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705398/Game-of-Thrones-S08E01-720p-WEB-x265-MiNX-TGx/>
+None
+2019-04-15 16:17:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2307215/Game-of-Thrones-S05-Season-5-Complete-720p-BluRay-x264-ShAaNiG/>
+None
+2019-04-15 16:17:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705401/Game-of-Thrones-S08E01-1080p-WEB-H264-MEMENTO/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2403553/Game-of-Thrones-S07E07-The-Dragon-and-the-Wolf-AMZN-WEB-DL-DDP2-0-H-264-GoT-rarbg/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2331221/Game-of-Thrones-S07E02-WEB-h264-TBS-eztv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2345063/Game-of-Thrones-S07E03-720p-WEB-h264-TBS-eztv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2307213/Game-of-Thrones-S04-Season-4-Complete-720p-BluRay-x264-ShAaNiG/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2307207/Game-of-Thrones-S02-Season-2-Complete-720p-BluRay-x264-ShAaNiG/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1564409/Game-of-Thrones-Season-1-S01-720p-BluRay-x264-MrLss/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2359127/Game-of-Thrones-S07E04-720p-WEB-h264-TBS-eztv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705401/Game-of-Thrones-S08E01-1080p-WEB-H264-MEMENTO/>
+None
+2019-04-15 16:17:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2403553/Game-of-Thrones-S07E07-The-Dragon-and-the-Wolf-AMZN-WEB-DL-DDP2-0-H-264-GoT-rarbg/>
+None
+2019-04-15 16:17:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2331221/Game-of-Thrones-S07E02-WEB-h264-TBS-eztv/>
+None
+2019-04-15 16:17:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2345063/Game-of-Thrones-S07E03-720p-WEB-h264-TBS-eztv/>
+None
+2019-04-15 16:17:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2307213/Game-of-Thrones-S04-Season-4-Complete-720p-BluRay-x264-ShAaNiG/>
+None
+2019-04-15 16:17:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2307207/Game-of-Thrones-S02-Season-2-Complete-720p-BluRay-x264-ShAaNiG/>
+None
+2019-04-15 16:17:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1564409/Game-of-Thrones-Season-1-S01-720p-BluRay-x264-MrLss/>
+None
+2019-04-15 16:17:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2359127/Game-of-Thrones-S07E04-720p-WEB-h264-TBS-eztv/>
+None
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2404155/Game-of-Thrones-S07-Complete-Season-7-720p-x264-AC3-5-1-MP4/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2359117/Game-of-Thrones-S07E04-The-Spoils-of-War-1080p-AMZN-WEB-DL-DDP5-1-H-264-GoT-ettv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2403556/Game-of-Thrones-S07E07-The-Dragon-and-the-Wolf-1080p-AMZN-WEB-DL-DD-5-1-H-264-GoT/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2374850/Game-of-Thrones-S07E05-720p-WEB-h264-TBS-rarbg/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2345137/Game-of-Thrones-S07E03-HDTV-x264-SVA-eztv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2319708/Game-of-Thrones-S07E01-WEB-h264-TBS-ettv/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2374855/Game-of-Thrones-S07E05-720p-WEB-h264-TBS-eztv/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2389577/Game-of-Thrones-S07E06-PROPER-HDTV-x264-SVA-eztv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2404155/Game-of-Thrones-S07-Complete-Season-7-720p-x264-AC3-5-1-MP4/>
+None
+2019-04-15 16:17:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2359117/Game-of-Thrones-S07E04-The-Spoils-of-War-1080p-AMZN-WEB-DL-DDP5-1-H-264-GoT-ettv/>
+None
+2019-04-15 16:17:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2403556/Game-of-Thrones-S07E07-The-Dragon-and-the-Wolf-1080p-AMZN-WEB-DL-DD-5-1-H-264-GoT/>
+None
+2019-04-15 16:17:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2374850/Game-of-Thrones-S07E05-720p-WEB-h264-TBS-rarbg/>
+None
+2019-04-15 16:17:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2345137/Game-of-Thrones-S07E03-HDTV-x264-SVA-eztv/>
+None
+2019-04-15 16:17:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2319708/Game-of-Thrones-S07E01-WEB-h264-TBS-ettv/>
+None
+2019-04-15 16:17:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2374855/Game-of-Thrones-S07E05-720p-WEB-h264-TBS-eztv/>
+None
+2019-04-15 16:17:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2389577/Game-of-Thrones-S07E06-PROPER-HDTV-x264-SVA-eztv/>
+None
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705399/Game-of-Thrones-S08E01-480p-x264-mSD-eztv/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3702814/Game-Of-Thrones-The-Story-So-Far-2018-HDTV-x264-PLUTONiUM-TGx/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2379495/Game-of-Thrones-S07E06-1080p-HDTV-Good-Audio-Leaked-ECLiPSE/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705392/Game-of-Thrones-S08E01-720p-AMZN-WEB-DL-470MB-MkvCage/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705371/Game-of-Thrones-S08E01-Kings-Landing-720p-AMZN-WEBRip-DDP5-1-x264-GoT-eztv/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705340/Game-of-Thrones-S08E01-WEB-H264-MEMENTO/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705399/Game-of-Thrones-S08E01-480p-x264-mSD-eztv/>
+None
+2019-04-15 16:17:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3702814/Game-Of-Thrones-The-Story-So-Far-2018-HDTV-x264-PLUTONiUM-TGx/>
+None
+2019-04-15 16:17:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2379495/Game-of-Thrones-S07E06-1080p-HDTV-Good-Audio-Leaked-ECLiPSE/>
+None
+2019-04-15 16:17:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705370/Game-of-Thrones-S08E01-REPACK-720p-WEB-H264-MEMENTO/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705392/Game-of-Thrones-S08E01-720p-AMZN-WEB-DL-470MB-MkvCage/>
+None
+2019-04-15 16:17:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705371/Game-of-Thrones-S08E01-Kings-Landing-720p-AMZN-WEBRip-DDP5-1-x264-GoT-eztv/>
+None
+2019-04-15 16:17:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705340/Game-of-Thrones-S08E01-WEB-H264-MEMENTO/>
+None
+2019-04-15 16:17:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705367/Game-of-Thrones-S08E01-720p-WEB-H264-MEMENTO-eztv/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705370/Game-of-Thrones-S08E01-REPACK-720p-WEB-H264-MEMENTO/>
+None
+2019-04-15 16:17:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705367/Game-of-Thrones-S08E01-720p-WEB-H264-MEMENTO-eztv/>
+None
+2019-04-15 16:17:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705372/Game-of-Thrones-S08E01-REPACK-1080p-WEB-H264-MEMENTO/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705372/Game-of-Thrones-S08E01-REPACK-1080p-WEB-H264-MEMENTO/>
+None
+2019-04-15 16:17:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705395/Game-of-Thrones-S08E01-REPACK-WEB-H264-MEMENTO-eztv/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705337/Game-of-Thrones-S08E01-Kings-Landing-720p-AMZN-WEB-DL-DDP5-1-H-264-GoT/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705352/Game-of-Thrones-S08E01-Kings-Landing-1080p-AMZN-WEB-DL-DDP5-1-H-264-GoT/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705393/Game-of-Thrones-S08E01-REPACK-720p-WEB-H264-MEMENTO-eztv/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705345/Game-of-Thrones-S08E01-1080p-WEB-H264-MEMENTO/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705395/Game-of-Thrones-S08E01-REPACK-WEB-H264-MEMENTO-eztv/>
+None
+2019-04-15 16:17:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705337/Game-of-Thrones-S08E01-Kings-Landing-720p-AMZN-WEB-DL-DDP5-1-H-264-GoT/>
+None
+2019-04-15 16:17:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705344/Game-of-Thrones-S08E01-720p-WEB-H264-MEMENTO/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705350/Game-of-Thrones-S08E01-WEB-H264-MEMENTO-eztv/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705352/Game-of-Thrones-S08E01-Kings-Landing-1080p-AMZN-WEB-DL-DDP5-1-H-264-GoT/>
+None
+2019-04-15 16:17:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705393/Game-of-Thrones-S08E01-REPACK-720p-WEB-H264-MEMENTO-eztv/>
+None
+2019-04-15 16:17:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705345/Game-of-Thrones-S08E01-1080p-WEB-H264-MEMENTO/>
+None
+2019-04-15 16:17:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705344/Game-of-Thrones-S08E01-720p-WEB-H264-MEMENTO/>
+None
+2019-04-15 16:17:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705350/Game-of-Thrones-S08E01-WEB-H264-MEMENTO-eztv/>
+None
+2019-04-15 16:17:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705377/Game-of-Thrones-S08E01-REPACK-WEB-H264-MEMENTO/> (referer: https://1337x.to/category-search/thrones/TV/1/)
+2019-04-15 16:17:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705377/Game-of-Thrones-S08E01-REPACK-WEB-H264-MEMENTO/>
+None
+2019-04-15 16:17:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1593630/Game-of-Thrones-S06E05-HDTV-x264-KILLERS-ettv/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2331232/Game-of-Thrones-S07E02-1080p-WEB-h264-TBS/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1639411/Game-of-Thrones-S06E10-INTERNAL-HDTV-x264-KILLERS-ettv/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2404609/Game-of-Thrones-S07E07-HDTV-x264-UAV-eztv/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1593630/Game-of-Thrones-S06E05-HDTV-x264-KILLERS-ettv/>
+None
+2019-04-15 16:17:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2403570/Game-of-Thrones-S07E07-720p-WEB-H264-STRiFE-rarbg/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2359184/Game-of-Thrones-S07E04-720p-HDTV-x264-AVS-rarbg/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2345131/Game-of-Thrones-S07E03-720p-HDTV-x264-AVS-eztv/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2331232/Game-of-Thrones-S07E02-1080p-WEB-h264-TBS/>
+None
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1639411/Game-of-Thrones-S06E10-INTERNAL-HDTV-x264-KILLERS-ettv/>
+None
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2404609/Game-of-Thrones-S07E07-HDTV-x264-UAV-eztv/>
+None
+2019-04-15 16:17:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1602709/Game-of-Thrones-S06E06-HDTV-x264-KILLERS-ettv/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2403570/Game-of-Thrones-S07E07-720p-WEB-H264-STRiFE-rarbg/>
+None
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2359184/Game-of-Thrones-S07E04-720p-HDTV-x264-AVS-rarbg/>
+None
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2345131/Game-of-Thrones-S07E03-720p-HDTV-x264-AVS-eztv/>
+None
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1602709/Game-of-Thrones-S06E06-HDTV-x264-KILLERS-ettv/>
+None
+2019-04-15 16:17:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2379592/Game-of-Thrones-S07E06-1080p-HDTV-LEAKED-SiT/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705341/Game-of-Thrones-S08E01-WEB-H264-MEMENTO-TGx/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1611180/Game-of-Thrones-S06E07-HDTV-x264-KILLERS-ettv/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/560710/Game-Of-Thrones-S03-Season-3-COMPLETE-720p-HDTV-x264-PublicHD/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2379592/Game-of-Thrones-S07E06-1080p-HDTV-LEAKED-SiT/>
+None
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705341/Game-of-Thrones-S08E01-WEB-H264-MEMENTO-TGx/>
+None
+2019-04-15 16:17:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2374946/Game-of-Thrones-S07E05-HDTV-x264-SVA-ettv/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2321639/Game-of-Thrones-S07E01-720p-WEB-h264-TBS-eztv/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1611180/Game-of-Thrones-S06E07-HDTV-x264-KILLERS-ettv/>
+None
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/560710/Game-Of-Thrones-S03-Season-3-COMPLETE-720p-HDTV-x264-PublicHD/>
+None
+2019-04-15 16:17:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2379891/Game-of-Thrones-S07E06-Leaked-ECLiPSE-eztv/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705343/Game-of-Thrones-S08E01-720p-WEB-H264-MEMENTO-TGx/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2374946/Game-of-Thrones-S07E05-HDTV-x264-SVA-ettv/>
+None
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2321639/Game-of-Thrones-S07E01-720p-WEB-h264-TBS-eztv/>
+None
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2379891/Game-of-Thrones-S07E06-Leaked-ECLiPSE-eztv/>
+None
+2019-04-15 16:17:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705343/Game-of-Thrones-S08E01-720p-WEB-H264-MEMENTO-TGx/>
+None
+2019-04-15 16:17:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1619486/Game-of-Thrones-S06E08-HDTV-x264-KILLERS-ettv/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705388/Game-of-Thrones-S08E01-WEB-H264-MEMENTO/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2345060/Game-of-Thrones-S07E03-1080p-WEB-h264-TBS-rarbg/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2374944/Game-of-Thrones-S07E05-HDTV-x264-SVA-eztv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1629194/Game-of-Thrones-S06E09-HDTV-x264-KILLERS-ettv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1619486/Game-of-Thrones-S06E08-HDTV-x264-KILLERS-ettv/>
+None
+2019-04-15 16:17:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705388/Game-of-Thrones-S08E01-WEB-H264-MEMENTO/>
+None
+2019-04-15 16:17:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2320446/Game-of-Thrones-S07E01-HDTV-x264-SVA-eztv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2331270/Game-of-Thrones-S07E02-HDTV-x264-SVA-eztv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2345060/Game-of-Thrones-S07E03-1080p-WEB-h264-TBS-rarbg/>
+None
+2019-04-15 16:17:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2374944/Game-of-Thrones-S07E05-HDTV-x264-SVA-eztv/>
+None
+2019-04-15 16:17:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1629194/Game-of-Thrones-S06E09-HDTV-x264-KILLERS-ettv/>
+None
+2019-04-15 16:17:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2320446/Game-of-Thrones-S07E01-HDTV-x264-SVA-eztv/>
+None
+2019-04-15 16:17:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2331270/Game-of-Thrones-S07E02-HDTV-x264-SVA-eztv/>
+None
+2019-04-15 16:17:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705467/Game-of-Thrones-S08E01-Winterfell-1080p-AMZN-WEB-DL-AAC5-1-x264-Rapta/> (referer: https://1337x.to/category-search/thrones/TV/3/)
+2019-04-15 16:17:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705391/Game-of-Thrones-S08E01-Kings-Landing-1080p-AMZN-WEB-DL-DDP5-1-H-264-GoT-TGx/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705342/Game-of-Thrones-S08E01-Kings-Landing-720p-AMZN-WEBRip-DDP5-1-x264-GoT-TGx/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1642600/Game-of-Thrones-Season-6-S06-Complete-1080p-WEB-DL-x265-HEVC-SUJAIDR/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705467/Game-of-Thrones-S08E01-Winterfell-1080p-AMZN-WEB-DL-AAC5-1-x264-Rapta/>
+None
+2019-04-15 16:17:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2319705/Game-of-Thrones-S07E01-1080p-WEB-h264-TBS/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705391/Game-of-Thrones-S08E01-Kings-Landing-1080p-AMZN-WEB-DL-DDP5-1-H-264-GoT-TGx/>
+None
+2019-04-15 16:17:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705342/Game-of-Thrones-S08E01-Kings-Landing-720p-AMZN-WEBRip-DDP5-1-x264-GoT-TGx/>
+None
+2019-04-15 16:17:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1642600/Game-of-Thrones-Season-6-S06-Complete-1080p-WEB-DL-x265-HEVC-SUJAIDR/>
+None
+2019-04-15 16:17:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2319705/Game-of-Thrones-S07E01-1080p-WEB-h264-TBS/>
+None
+2019-04-15 16:17:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2331267/Game-of-Thrones-S07E02-720p-HDTV-x264-AVS-RarBG/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705354/Game-of-Thrones-S08E01-WEBRip-x264-ION10/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2331267/Game-of-Thrones-S07E02-720p-HDTV-x264-AVS-RarBG/>
+None
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705354/Game-of-Thrones-S08E01-WEBRip-x264-ION10/>
+None
+2019-04-15 16:17:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/562419/Game-of-thrones-the-complete-season-3-hdtv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2359199/Game-of-Thrones-S07E04-HDTV-x264-SVA-eztv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/562419/Game-of-thrones-the-complete-season-3-hdtv/>
+None
+2019-04-15 16:17:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2389423/Game-of-Thrones-S07E06-720p-WEB-h264-TBS-eztv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2354089/Game-of-Thrones-S07E04-SCR-x264-SHITHINDIQULITY-ettv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2325021/Game-of-Thrones-S07E01-720p-HDTV-x264-AVS-eztv-theAmresh/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2374860/Game-of-Thrones-S07E05-Eastwatch-1080p-AMZN-WEB-DL-DDP5-1-H-264-GoT-ettv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2359199/Game-of-Thrones-S07E04-HDTV-x264-SVA-eztv/>
+None
+2019-04-15 16:17:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2307205/Game-of-Thrones-S01-Season-1-Complete-720p-BluRay-x264-ShAaNiG/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2403558/Game-of-Thrones-S07E07-The-Dragon-and-the-Wolf-720p-AMZN-WEBRip-DDP5-1-x264-GoT-RARBG/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2389423/Game-of-Thrones-S07E06-720p-WEB-h264-TBS-eztv/>
+None
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2354089/Game-of-Thrones-S07E04-SCR-x264-SHITHINDIQULITY-ettv/>
+None
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2325021/Game-of-Thrones-S07E01-720p-HDTV-x264-AVS-eztv-theAmresh/>
+None
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2374860/Game-of-Thrones-S07E05-Eastwatch-1080p-AMZN-WEB-DL-DDP5-1-H-264-GoT-ettv/>
+None
+2019-04-15 16:17:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2359108/Game-of-Thrones-S07E04-1080p-WEB-h264-TBS-rarbg/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2307205/Game-of-Thrones-S01-Season-1-Complete-720p-BluRay-x264-ShAaNiG/>
+None
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2403558/Game-of-Thrones-S07E07-The-Dragon-and-the-Wolf-720p-AMZN-WEBRip-DDP5-1-x264-GoT-RARBG/>
+None
+2019-04-15 16:17:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2345049/Game-of-Thrones-S07E03-The-Queens-Justice-AMZN-WEB-DL-DDP2-0-H-264-GoT-ettv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2359108/Game-of-Thrones-S07E04-1080p-WEB-h264-TBS-rarbg/>
+None
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2345049/Game-of-Thrones-S07E03-The-Queens-Justice-AMZN-WEB-DL-DDP2-0-H-264-GoT-ettv/>
+None
+2019-04-15 16:17:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3705431/Game-of-Thrones-S08E01-Kings-Landing-720p-AMZN-WEB-DL-x264-562MB-MP4/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2331223/Game-of-Thrones-S07E02-WEB-h264-TBS-ettv/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2379705/Game-of-Thrones-S07E06-HDTV-x264-AC3-Manning/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3705431/Game-of-Thrones-S08E01-Kings-Landing-720p-AMZN-WEB-DL-x264-562MB-MP4/>
+None
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2331223/Game-of-Thrones-S07E02-WEB-h264-TBS-ettv/>
+None
+2019-04-15 16:17:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2379705/Game-of-Thrones-S07E06-HDTV-x264-AC3-Manning/>
+None
+2019-04-15 16:17:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2379245/Game-of-Thrones-S07E06-SD-Leaked-ECLiPSE/> (referer: https://1337x.to/category-search/thrones/TV/2/)
+2019-04-15 16:17:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2379245/Game-of-Thrones-S07E06-SD-Leaked-ECLiPSE/>
+None
+2019-04-15 16:17:15 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 16:17:15 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 32306,
+ 'downloader/request_count': 83,
+ 'downloader/request_method_count/GET': 83,
+ 'downloader/response_bytes': 547243,
+ 'downloader/response_count': 83,
+ 'downloader/response_status_count/200': 83,
+ 'dupefilter/filtered': 40,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 8, 17, 15, 97896),
+ 'item_scraped_count': 80,
+ 'log_count/DEBUG': 164,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 83,
+ 'scheduler/dequeued': 83,
+ 'scheduler/dequeued/memory': 83,
+ 'scheduler/enqueued': 83,
+ 'scheduler/enqueued/memory': 83,
+ 'start_time': datetime.datetime(2019, 4, 15, 8, 17, 7, 94767)}
+2019-04-15 16:17:15 [scrapy.core.engine] INFO: Spider closed (finished)

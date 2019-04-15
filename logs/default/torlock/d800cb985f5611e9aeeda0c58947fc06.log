@@ -1,0 +1,278 @@
+2019-04-15 16:17:37 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-15 16:17:37 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 16:17:37 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\torlock\\d800cb985f5611e9aeeda0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-15 16:17:37 [scrapy.extensions.telnet] INFO: Telnet Password: f9b96a5dfdb52d85
+2019-04-15 16:17:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 16:17:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 16:17:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 16:17:37 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-15 16:17:37 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 16:17:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 16:17:37 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 16:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/television/torrents/thrones.html?sort=seeds> (referer: None)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481461/game-of-thrones-s08e01-repack-web-h264-memento%5Beztv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481369/game-of-thrones-s08e01-1080p-web-h264-memento%5Bettv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481461/game-of-thrones-s08e01-repack-web-h264-memento%5Beztv%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481463/game-of-thrones-s08e01-repack-720p-web-h264-memento%5Beztv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481351/game-of-thrones-s08e01-web-h264-memento%5Beztv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481464/game-of-thrones-s08e01-kings-landing-720p-amzn-web-dl-mkvcage-ws.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481368/game-of-thrones-s08e01-720p-web-h264-memento%5Bettv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481399/game-of-thrones-s08e01-repack-web-h264-memento%5Brarbg%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481335/game-of-thrones-s08e01-720p-web-h264-memento%5Brarbg%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481370/game-of-thrones-s08e01-web-h264-memento%5Bettv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481350/game-of-thrones-s08e01-webrip-ion10.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481337/game-of-thrones-s08e01-kings-landing-1080p-amzn-webrip-ddp5-1-got%5Brarbg%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481369/game-of-thrones-s08e01-1080p-web-h264-memento%5Bettv%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481463/game-of-thrones-s08e01-repack-720p-web-h264-memento%5Beztv%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481351/game-of-thrones-s08e01-web-h264-memento%5Beztv%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481582/game-of-thrones-s08e01-kings-landing-1080p-amzn-web-dl-mkvcage-ws.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481464/game-of-thrones-s08e01-kings-landing-720p-amzn-web-dl-mkvcage-ws.html>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481368/game-of-thrones-s08e01-720p-web-h264-memento%5Bettv%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481399/game-of-thrones-s08e01-repack-web-h264-memento%5Brarbg%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481401/game-of-thrones-s08e01-kings-landing-720p-amzn-webrip-ddp5-1-got%5Beztv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481381/game-of-thrones-s08e01-720p-web-h264-memento%5Beztv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481396/game-of-thrones-s08e01-repack-720p-web-h264-memento%5Brarbg%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481331/game-of-thrones-s08e01-web-h264-memento%5Brarbg%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481335/game-of-thrones-s08e01-720p-web-h264-memento%5Brarbg%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481370/game-of-thrones-s08e01-web-h264-memento%5Bettv%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/6912237/game-of-thrones-s07-720p-demand%5Brartv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8440924/game-of-thrones-%28%29-season-1-7-s01-s07-steelbook-%281080p-x265-hevc-10bit-atmos-7-1%29-%5Butr%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481350/game-of-thrones-s08e01-webrip-ion10.html>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481337/game-of-thrones-s08e01-kings-landing-1080p-amzn-webrip-ddp5-1-got%5Brarbg%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481582/game-of-thrones-s08e01-kings-landing-1080p-amzn-web-dl-mkvcage-ws.html>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481401/game-of-thrones-s08e01-kings-landing-720p-amzn-webrip-ddp5-1-got%5Beztv%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481381/game-of-thrones-s08e01-720p-web-h264-memento%5Beztv%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8454512/game-of-thrones-s01-s07-720p-brrip.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481396/game-of-thrones-s08e01-repack-720p-web-h264-memento%5Brarbg%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481331/game-of-thrones-s08e01-web-h264-memento%5Brarbg%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/6912237/game-of-thrones-s07-720p-demand%5Brartv%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8440924/game-of-thrones-%28%29-season-1-7-s01-s07-steelbook-%281080p-x265-hevc-10bit-atmos-7-1%29-%5Butr%5D.html>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8454512/game-of-thrones-s01-s07-720p-brrip.html>
+None
+2019-04-15 16:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8432232/game-of-thrones-greatest-moments-2018-plutonium%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8432232/game-of-thrones-greatest-moments-2018-plutonium%5Btgx%5D.html>
+None
+2019-04-15 16:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8445954/the-real-war-of-thrones-series-2-the-wars-of-religion-2of6-in-the-name-of-god-1559-1561-720p-aac.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8445954/the-real-war-of-thrones-series-2-the-wars-of-religion-2of6-in-the-name-of-god-1559-1561-720p-aac.html>
+None
+2019-04-15 16:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/6272309/game-of-thrones-s01.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481908/game-of-thrones-s08e01-internal-720p-turbo%5Brarbg%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/6272309/game-of-thrones-s01.html>
+None
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481908/game-of-thrones-s08e01-internal-720p-turbo%5Brarbg%5D.html>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481388/game-of-thrones-s08e01-480p-msd%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481563/game-of-thrones-s08e01-720p-web-h264-memento.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8423246/game-of-thrones-s03-complete-720p-dual-audio-%5Bhindi-english-2-0%5D-esub-%5Bmw%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481388/game-of-thrones-s08e01-480p-msd%5Btgx%5D.html>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8454028/game-of-thrones-recap-before-season-8-%28in-3-minutes%29.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481563/game-of-thrones-s08e01-720p-web-h264-memento.html>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481420/games-of-thrones-s08-ep01-1080p-amzn-dl-avc-h264-ddp-5-1-640kbps-esubs-telly.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8423246/game-of-thrones-s03-complete-720p-dual-audio-%5Bhindi-english-2-0%5D-esub-%5Bmw%5D.html>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481878/game-of-thrones-s08e01-repack-720p-web-h264-im%40x.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8454028/game-of-thrones-recap-before-season-8-%28in-3-minutes%29.html>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8445944/the-real-war-of-thrones-series-2-the-wars-of-religion-1of6-game-of-queens-1542-1559-720p-aac.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481420/games-of-thrones-s08-ep01-1080p-amzn-dl-avc-h264-ddp-5-1-640kbps-esubs-telly.html>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8432231/game-of-thrones-greatest-moments-2018-720p-plutonium%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481878/game-of-thrones-s08e01-repack-720p-web-h264-im%40x.html>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/6274335/game-of-thrones-s06-1080p-web-dl-dd5-1-h-264-ntb%5Brartv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8445950/the-real-war-of-thrones-series-2-the-wars-of-religion-6of6-the-last-of-the-valois-1584-1594-720p-aac.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/6274334/game-of-thrones-s05-1080p-web-dl-dd5-1-h-264-ntb%5Brartv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8445944/the-real-war-of-thrones-series-2-the-wars-of-religion-1of6-game-of-queens-1542-1559-720p-aac.html>
+None
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8432231/game-of-thrones-greatest-moments-2018-720p-plutonium%5Btgx%5D.html>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/6274332/game-of-thrones-s03-1080p-web-dl-dd5-1-h-264-ntb%5Brartv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/6274335/game-of-thrones-s06-1080p-web-dl-dd5-1-h-264-ntb%5Brartv%5D.html>
+None
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8445950/the-real-war-of-thrones-series-2-the-wars-of-religion-6of6-the-last-of-the-valois-1584-1594-720p-aac.html>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/6274333/game-of-thrones-s04-1080p-web-dl-dd5-1-h-264-ntb%5Brartv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/6274334/game-of-thrones-s05-1080p-web-dl-dd5-1-h-264-ntb%5Brartv%5D.html>
+None
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/6274332/game-of-thrones-s03-1080p-web-dl-dd5-1-h-264-ntb%5Brartv%5D.html>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8445164/game-of-thrones-the-story-so-far-2018-1080p-plutonium%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/6274333/game-of-thrones-s04-1080p-web-dl-dd5-1-h-264-ntb%5Brartv%5D.html>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/6274331/game-of-thrones-s02-1080p-web-dl-dd5-1-h264-fx3%5Brartv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8445164/game-of-thrones-the-story-so-far-2018-1080p-plutonium%5Btgx%5D.html>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481667/game-of-thrones-%282019%29-s08e01-720p-550mb-mp3-esub-movcr.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8429101/game-of-thrones-s07-1080p-amzn-webrip-ddp5-1-h-264-got%5Brartv%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/6274331/game-of-thrones-s02-1080p-web-dl-dd5-1-h264-fx3%5Brartv%5D.html>
+None
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481667/game-of-thrones-%282019%29-s08e01-720p-550mb-mp3-esub-movcr.html>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481851/game-of-thrones-s08e01-720p-amzn-web-dl-x265.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8429101/game-of-thrones-s07-1080p-amzn-webrip-ddp5-1-h-264-got%5Brartv%5D.html>
+None
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481851/game-of-thrones-s08e01-720p-amzn-web-dl-x265.html>
+None
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8445955/the-real-war-of-thrones-series-2-the-wars-of-religion-4of6-blood-wedding-1567-1574-720phdtv-aac.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8445955/the-real-war-of-thrones-series-2-the-wars-of-religion-4of6-blood-wedding-1567-1574-720phdtv-aac.html>
+None
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8445951/the-real-war-of-thrones-series-2-the-wars-of-religion-5of6-feuding-brothers-1575-1584-720p-aac.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481467/game-of-thrones-s08e01-kings-landing-1080p-amzn-web-dl-ddp5-1-h-264-%5Bmovcr%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8445951/the-real-war-of-thrones-series-2-the-wars-of-religion-5of6-feuding-brothers-1575-1584-720p-aac.html>
+None
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481318/game-of-thrones-s08e01-kings-landing-720p-amzn-webrip-ddp5-1-got%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8445162/game-of-thrones-the-story-so-far-2018-720p-plutonium%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481467/game-of-thrones-s08e01-kings-landing-1080p-amzn-web-dl-ddp5-1-h-264-%5Bmovcr%5D.html>
+None
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481318/game-of-thrones-s08e01-kings-landing-720p-amzn-webrip-ddp5-1-got%5Btgx%5D.html>
+None
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8445162/game-of-thrones-the-story-so-far-2018-720p-plutonium%5Btgx%5D.html>
+None
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481431/game-of-thrones-s08e01-1080p-web-h264-memento-%5Bnbt%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8445953/the-real-war-of-thrones-series-2-the-wars-of-religion-3of6-europe-ignites-1561-1569-720p-aac.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481431/game-of-thrones-s08e01-1080p-web-h264-memento-%5Bnbt%5D.html>
+None
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8445953/the-real-war-of-thrones-series-2-the-wars-of-religion-3of6-europe-ignites-1561-1569-720p-aac.html>
+None
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481557/game-of-thrones-s08e01-1080p-web-h264-memento.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481428/game-of-thrones-s08e01-repack-web-h264-memento%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481557/game-of-thrones-s08e01-1080p-web-h264-memento.html>
+None
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481436/game-of-thrones-s08e01-kings-landing-1080p-amzn-web-dl-ddp5-1-h-264-got%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481328/game-of-thrones-s08e01-1080p-web-h264-memento%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481428/game-of-thrones-s08e01-repack-web-h264-memento%5Btgx%5D.html>
+None
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481436/game-of-thrones-s08e01-kings-landing-1080p-amzn-web-dl-ddp5-1-h-264-got%5Btgx%5D.html>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481328/game-of-thrones-s08e01-1080p-web-h264-memento%5Btgx%5D.html>
+None
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481317/game-of-thrones-s08e01-web-h264-memento%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481736/game-of-thrones-s08e01-winterfell.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481386/game-of-thrones-s08e01-repack-720p-web-h264-memento%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8441752/game-of-thrones-greatest-moments-2018-vostfr.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481317/game-of-thrones-s08e01-web-h264-memento%5Btgx%5D.html>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481736/game-of-thrones-s08e01-winterfell.html>
+None
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481430/game-of-thrones-s08e01-720p-h264-acab.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481391/game-of-thrones-s08e01-kings-landing-720p-amzn-webrip-ddp5-1-%5Bmovcr%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481386/game-of-thrones-s08e01-repack-720p-web-h264-memento%5Btgx%5D.html>
+None
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481752/game-of-thrones-s08e01-kings-landing-vostfr-1080p-amzn-web-dl-ddp5-1-h-264.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8441752/game-of-thrones-greatest-moments-2018-vostfr.html>
+None
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481490/game-of-thrones-s08e01-480p.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481430/game-of-thrones-s08e01-720p-h264-acab.html>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481391/game-of-thrones-s08e01-kings-landing-720p-amzn-webrip-ddp5-1-%5Bmovcr%5D.html>
+None
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481751/game-of-thrones-s08e01-kings-landing-vostfr-web.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481644/%5Btorrentcouch-net%5D-game-of-thrones-s08e01-kings-landing-720p-amzn-web-dl-%5B562mb%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481324/game-of-thrones-s08e01-720p-web-h264-memento%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481752/game-of-thrones-s08e01-kings-landing-vostfr-1080p-amzn-web-dl-ddp5-1-h-264.html>
+None
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481496/game-of-thrones-s08e01-720p-web-x265-minx%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481490/game-of-thrones-s08e01-480p.html>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481751/game-of-thrones-s08e01-kings-landing-vostfr-web.html>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481644/%5Btorrentcouch-net%5D-game-of-thrones-s08e01-kings-landing-720p-amzn-web-dl-%5B562mb%5D.html>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481324/game-of-thrones-s08e01-720p-web-h264-memento%5Btgx%5D.html>
+None
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481560/game-of-thrones-s08e01-french.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481494/game-of-thrones-s08e01-1080p-web-h264-memento.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481503/game-of-thrones-s08e01-french-720p.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481541/game-of-thrones-s08e01-720p-web-x265.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481496/game-of-thrones-s08e01-720p-web-x265-minx%5Btgx%5D.html>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481560/game-of-thrones-s08e01-french.html>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481494/game-of-thrones-s08e01-1080p-web-h264-memento.html>
+None
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481389/game-of-thrones-s08e01-afg%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481503/game-of-thrones-s08e01-french-720p.html>
+None
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481421/game-of-thrones-s08e01-web-h264-memento%5Brarbg%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481330/game-of-thrones-s08e01-kings-landing-720p-amzn-webrip-ddp5-1-got%5Brarbg%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8445163/game-of-thrones-the-story-so-far-2018-plutonium%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481397/game-of-thrones-s08e01-repack-1080p-web-h264-memento%5Brarbg%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481541/game-of-thrones-s08e01-720p-web-x265.html>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481389/game-of-thrones-s08e01-afg%5Btgx%5D.html>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481421/game-of-thrones-s08e01-web-h264-memento%5Brarbg%5D.html>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481330/game-of-thrones-s08e01-kings-landing-720p-amzn-webrip-ddp5-1-got%5Brarbg%5D.html>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8445163/game-of-thrones-the-story-so-far-2018-plutonium%5Btgx%5D.html>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481397/game-of-thrones-s08e01-repack-1080p-web-h264-memento%5Brarbg%5D.html>
+None
+2019-04-15 16:17:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481733/game-of-thrones-s08e01-webrip-652-mb.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481733/game-of-thrones-s08e01-webrip-652-mb.html>
+None
+2019-04-15 16:17:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.torlock.com/torrent/8481427/game-of-thrones-s08e01-repack-1080p-web-h264-memento%5Btgx%5D.html> (referer: https://www.torlock.com/television/torrents/thrones.html?sort=seeds)
+2019-04-15 16:17:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.torlock.com/torrent/8481427/game-of-thrones-s08e01-repack-1080p-web-h264-memento%5Btgx%5D.html>
+None
+2019-04-15 16:17:49 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 16:17:49 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 32758,
+ 'downloader/request_count': 76,
+ 'downloader/request_method_count/GET': 76,
+ 'downloader/response_bytes': 654617,
+ 'downloader/response_count': 76,
+ 'downloader/response_status_count/200': 76,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 8, 17, 49, 197873),
+ 'item_scraped_count': 75,
+ 'log_count/DEBUG': 151,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 76,
+ 'scheduler/dequeued': 76,
+ 'scheduler/dequeued/memory': 76,
+ 'scheduler/enqueued': 76,
+ 'scheduler/enqueued/memory': 76,
+ 'start_time': datetime.datetime(2019, 4, 15, 8, 17, 37, 796328)}
+2019-04-15 16:17:49 [scrapy.core.engine] INFO: Spider closed (finished)

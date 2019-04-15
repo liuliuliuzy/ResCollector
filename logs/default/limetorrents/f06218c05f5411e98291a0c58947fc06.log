@@ -1,0 +1,203 @@
+2019-04-15 16:03:33 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-15 16:03:33 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 16:03:33 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\limetorrents\\f06218c05f5411e98291a0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-15 16:03:33 [scrapy.extensions.telnet] INFO: Telnet Password: 726df32bf2f7416d
+2019-04-15 16:03:33 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 16:03:33 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 16:03:33 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 16:03:33 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-15 16:03:33 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 16:03:33 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 16:03:33 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 16:03:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/search/all/name/seeds/1/> (referer: None)
+2019-04-15 16:03:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/In-the-Name-Of-2013-DVDrip-rar-torrent-3841828.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/In-the-Name-Of-2013-DVDrip-rar-torrent-3841828.html>
+None
+2019-04-15 16:03:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Pusha-T-My-Name-Is-My-Name-2013-Mp3-320-V3nom-GLT-torrent-3501699.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Pusha-T-My-Name-Is-My-Name-2013-Mp3-320-V3nom-GLT-torrent-3545525.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/In-The-Name-Of-The-King-III-2014-rar-torrent-4165575.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Pusha-T-My-Name-Is-My-Name-Explicit-Version-2013-320kbps-CBR-MP3-VX-P2PDL-torrent-3545523.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/In-The-Name-Of-The-King-III-2014-torrent-4170523.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/In-the-Name-Of-2013-DVDRIP-rar-torrent-3842309.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/In-the-Name-Of-(2013)-DVDRip-rar-torrent-3924326.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Pusha-T-My-Name-Is-My-Name-2013-Mp3-320-V3nom-GLT-torrent-3501699.html>
+None
+2019-04-15 16:03:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Pusha-T-My-Name-Is-My-Name-2013-Mp3-320-V3nom-GLT-torrent-3545525.html>
+None
+2019-04-15 16:03:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/In-The-Name-Of-The-King-III-2014-rar-torrent-4165575.html>
+None
+2019-04-15 16:03:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Pusha-T-My-Name-Is-My-Name-Explicit-Version-2013-320kbps-CBR-MP3-VX-P2PDL-torrent-3545523.html>
+None
+2019-04-15 16:03:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/In-The-Name-Of-The-King-III-2014-torrent-4170523.html>
+None
+2019-04-15 16:03:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/In-the-Name-Of-2013-DVDRIP-rar-torrent-3842309.html>
+None
+2019-04-15 16:03:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/In-the-Name-Of-(2013)-DVDRip-rar-torrent-3924326.html>
+None
+2019-04-15 16:03:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Pusha-T-My-Name-Is-My-Name-2013-Mp3-320-V3nom-GLT-torrent-4029428.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Pusha-T-My-Name-Is-My-Name-2013-Mp3-320-V3nom-GLT-torrent-4029428.html>
+None
+2019-04-15 16:03:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3865338.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Rihanna-Whats-My-Name-(Feat-Drake)-HOT-%20Struzzin%20-torrent-656975.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/In-the-Name-of-the-King-2-Two-Worlds-2011-480p-BRRip-XviD-AC3-NY-torrent-938353.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3865338.html>
+None
+2019-04-15 16:03:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Rihanna-Whats-My-Name-(Feat-Drake)-HOT-%20Struzzin%20-torrent-656975.html>
+None
+2019-04-15 16:03:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3459990.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3665801.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3546528.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/In-the-Name-of-the-King-2-Two-Worlds-2011-480p-BRRip-XviD-AC3-NY-torrent-938353.html>
+None
+2019-04-15 16:03:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3838292.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3459990.html>
+None
+2019-04-15 16:03:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3665801.html>
+None
+2019-04-15 16:03:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3546528.html>
+None
+2019-04-15 16:03:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3838292.html>
+None
+2019-04-15 16:03:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/My-Name-Is-Earl-S04E16-HDTV-XviD-LOL-avi-torrent-283234.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/MMD-003-We-do-not-yet-know-the-name-of-the-flower-as-seen-summer-day-Animekkusu-Konishi-Marie-Nagas-torrent-3170185.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/My-Name-is-Earl-S04E17-HDTV-XviD-2HD-avi-torrent-301456.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/My-Name-Is-Earl-S04E16-HDTV-XviD-LOL-avi-torrent-283234.html>
+None
+2019-04-15 16:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3220364.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/In-The-Name-Of-The-King-III2014-rar-torrent-4164995.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3524429.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/MMD-003-We-do-not-yet-know-the-name-of-the-flower-as-seen-summer-day-Animekkusu-Konishi-Marie-Nagas-torrent-3170185.html>
+None
+2019-04-15 16:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3273257.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/My-Name-is-Earl-S04E17-HDTV-XviD-2HD-avi-torrent-301456.html>
+None
+2019-04-15 16:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Your-Name-(2016)-[BluRay]-[1080p]-[YTS-AM]-torrent-10501498.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3220364.html>
+None
+2019-04-15 16:03:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/In-The-Name-Of-The-King-III2014-rar-torrent-4164995.html>
+None
+2019-04-15 16:03:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3524429.html>
+None
+2019-04-15 16:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Call-Me-By-Your-Name-2017-DVDScr-XVID-AC3-HQ-Hive-CM8[EtMovie-torrent-10300666.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3273257.html>
+None
+2019-04-15 16:03:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Your-Name-(2016)-[BluRay]-[1080p]-[YTS-AM]-torrent-10501498.html>
+None
+2019-04-15 16:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3250024.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3151883.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/[Hentai-Manga]-[Namezou]-Name-Chichi-[Digital]-zip-torrent-6152871.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Young-Thug--No%20-My-Name-is-JEFFERY-(2016)-[M4a%20iTunes]%20[Hunter]-torrent-8238749.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Call-Me-By-Your-Name-2017-DVDScr-XVID-AC3-HQ-Hive-CM8[EtMovie-torrent-10300666.html>
+None
+2019-04-15 16:03:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3250024.html>
+None
+2019-04-15 16:03:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3151883.html>
+None
+2019-04-15 16:03:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/[Hentai-Manga]-[Namezou]-Name-Chichi-[Digital]-zip-torrent-6152871.html>
+None
+2019-04-15 16:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3620433.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Young-Thug--No%20-My-Name-is-JEFFERY-(2016)-[M4a%20iTunes]%20[Hunter]-torrent-8238749.html>
+None
+2019-04-15 16:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/In-The-Name-Of-Love-(2011)-[pinoy-koleksyon-net]-DVDRip-[sea-dragon]-torrent-764388.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3620433.html>
+None
+2019-04-15 16:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3586705.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/In-The-Name-Of-Love-(2011)-[pinoy-koleksyon-net]-DVDRip-[sea-dragon]-torrent-764388.html>
+None
+2019-04-15 16:03:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3586705.html>
+None
+2019-04-15 16:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/My-Name-Is-Lenny-(2017)-[1080p]-[YTS-AG]-torrent-9243437.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3177880.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3577361.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/My-Name-Is-Lenny-(2017)-[1080p]-[YTS-AG]-torrent-9243437.html>
+None
+2019-04-15 16:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3168931.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Chuck-S03E08-Chuck-vs-the-Fake-Name-HDTV-XviD-FQM-[eztv]-torrent-432386.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3177880.html>
+None
+2019-04-15 16:03:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3577361.html>
+None
+2019-04-15 16:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/My-Name-is-Earl-S04E18-HDTV-XviD-LOL-[VTV]-avi-torrent-304762.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Helvetica-Ultimate-Family-Fonts-Steevo-Be-Thy-Name-2011-%C3%82%C2%A9-torrent-3168931.html>
+None
+2019-04-15 16:03:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Chuck-S03E08-Chuck-vs-the-Fake-Name-HDTV-XviD-FQM-[eztv]-torrent-432386.html>
+None
+2019-04-15 16:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/In-the-Name-of-Ben-Hur-2016-HDRip-XviD-AC3-EVO-torrent-8200288.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/My-Name-is-Earl-S04E18-HDTV-XviD-LOL-[VTV]-avi-torrent-304762.html>
+None
+2019-04-15 16:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Hello-My-Name-Is-Doris-2015-HDRip-XviD-AC3-EVO-torrent-7777379.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/In-the-Name-of-Ben-Hur-2016-HDRip-XviD-AC3-EVO-torrent-8200288.html>
+None
+2019-04-15 16:03:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Hello-My-Name-Is-Doris-2015-HDRip-XviD-AC3-EVO-torrent-7777379.html>
+None
+2019-04-15 16:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Call-Me-By-Your-Name-2017-DVDSCR-X264-CataVentos[EtMovies]-torrent-10279484.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/In-The-Name-Of-The-King-III-2014-rar-torrent-4165001.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/My-Name-Is-Earl-4x21-(HDTV-FQM)[VTV]-torrent-319875.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Call-Me-By-Your-Name-2017-DVDSCR-X264-CataVentos[EtMovies]-torrent-10279484.html>
+None
+2019-04-15 16:03:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/In-The-Name-Of-The-King-III-2014-rar-torrent-4165001.html>
+None
+2019-04-15 16:03:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/My-Name-Is-Earl-4x21-(HDTV-FQM)[VTV]-torrent-319875.html>
+None
+2019-04-15 16:03:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/My-Name-Is-Earl-S04E16-HDTV-XviD-LOL-[VTV]-avi-torrent-283236.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/My-Name-Is-Earl-4x20-(HDTV-LOL)[VTV]-torrent-313544.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/My-Name-Is-Earl-S04E16-HDTV-XviD-LOL-[VTV]-avi-torrent-283236.html>
+None
+2019-04-15 16:03:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/My-Name-Is-Earl-4x20-(HDTV-LOL)[VTV]-torrent-313544.html>
+None
+2019-04-15 16:03:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/In-the-Name-Of-(2013)-DVDRip-rar-torrent-3852349.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/In-the-Name-Of-2013-DVDRip-rar-torrent-3910704.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/In-The-Name-Of-The-King-III-2014-rar-torrent-4165263.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/In-The-Name-Of-The-King-III-2014-torrent-4169538.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/In-the-Name-Of-(2013)-DVDRip-rar-torrent-3852349.html>
+None
+2019-04-15 16:03:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/In-the-Name-Of-2013-DVDRip-rar-torrent-3910704.html>
+None
+2019-04-15 16:03:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/My-Name-is-Earl-S04E17-HDTV-XviD-2HD-[VTV]-avi-torrent-301454.html> (referer: https://www.limetorrents.info/search/all/name/seeds/1/)
+2019-04-15 16:03:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/In-The-Name-Of-The-King-III-2014-rar-torrent-4165263.html>
+None
+2019-04-15 16:03:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/In-The-Name-Of-The-King-III-2014-torrent-4169538.html>
+None
+2019-04-15 16:03:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/My-Name-is-Earl-S04E17-HDTV-XviD-2HD-[VTV]-avi-torrent-301454.html>
+None
+2019-04-15 16:03:42 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 16:03:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 23179,
+ 'downloader/request_count': 51,
+ 'downloader/request_method_count/GET': 51,
+ 'downloader/response_bytes': 465104,
+ 'downloader/response_count': 51,
+ 'downloader/response_status_count/200': 51,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 8, 3, 42, 628298),
+ 'item_scraped_count': 50,
+ 'log_count/DEBUG': 101,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 51,
+ 'scheduler/dequeued': 51,
+ 'scheduler/dequeued/memory': 51,
+ 'scheduler/enqueued': 51,
+ 'scheduler/enqueued/memory': 51,
+ 'start_time': datetime.datetime(2019, 4, 15, 8, 3, 33, 730847)}
+2019-04-15 16:03:42 [scrapy.core.engine] INFO: Spider closed (finished)

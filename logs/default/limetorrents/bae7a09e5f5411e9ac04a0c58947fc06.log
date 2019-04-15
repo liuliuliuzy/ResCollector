@@ -1,0 +1,106 @@
+2019-04-15 16:02:02 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-15 16:02:02 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 16:02:02 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\limetorrents\\bae7a09e5f5411e9ac04a0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-15 16:02:02 [scrapy.extensions.telnet] INFO: Telnet Password: 77d67324dc45b572
+2019-04-15 16:02:02 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 16:02:02 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 16:02:02 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 16:02:02 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-15 16:02:02 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 16:02:02 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 16:02:02 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 16:02:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/search/all/lust-caution/seeds/1/> (referer: None)
+2019-04-15 16:02:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-2007-Uncut-720p-BluRay-DTS-x264-ESiR-torrent-101371.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-%202007%20-[DVDRip-XviD-miguel]-[ENG]-torrent-684888.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-%C3%AF%C2%BC%CB%86%C3%A8%E2%80%B0%C2%B2%C3%A6%CB%86%E2%80%99%C3%AF%C2%BC%E2%80%B0-torrent-11290436.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-2007-720p-BluRay-x264-AAC-mkv-Zen-Bud-torrent-925447.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Lust-Caution-2007-Uncut-720p-BluRay-DTS-x264-ESiR-torrent-101371.html>
+None
+2019-04-15 16:02:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Lust-Caution-%202007%20-[DVDRip-XviD-miguel]-[ENG]-torrent-684888.html>
+None
+2019-04-15 16:02:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Lust-Caution-%C3%AF%C2%BC%CB%86%C3%A8%E2%80%B0%C2%B2%C3%A6%CB%86%E2%80%99%C3%AF%C2%BC%E2%80%B0-torrent-11290436.html>
+None
+2019-04-15 16:02:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Lust-Caution-2007-720p-BluRay-x264-AAC-mkv-Zen-Bud-torrent-925447.html>
+None
+2019-04-15 16:02:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/%C3%A6%C5%93%C2%AA%C3%A5%CB%86%C2%A0%C3%A5%E2%80%A1%C2%8F%C3%A7%E2%80%B0%CB%86-Lust-Caution-Uncut-2007-BD1080P-X264-AAC-Mandarin-CHS-ENG-52movieba-torrent-11073272.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/[18%20]Lust-Caution-2007-BluRay-720p-x264-torrent-9963883.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust%20-Caution-(2007)-(1080p-BluRay-x265-HEVC-10bit-AAC-7-1-Chinese-Tigole)-torrent-12047181.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/[18%20]Lust-Caution-2007-BluRay-720p-x264-torrent-9963883.html>
+None
+2019-04-15 16:02:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust%20-Caution-(2007)-UNCUT-Blu-ray-1080p-HEVC-10bit-AC3-4Audio-Multisub-MiniFHD-torrent-11237927.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Lust%20-Caution-(2007)-(1080p-BluRay-x265-HEVC-10bit-AAC-7-1-Chinese-Tigole)-torrent-12047181.html>
+None
+2019-04-15 16:02:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-2007-UNRATED-1080p-BluRay-x264-BT-torrent-11002309.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Lust%20-Caution-(2007)-UNCUT-Blu-ray-1080p-HEVC-10bit-AC3-4Audio-Multisub-MiniFHD-torrent-11237927.html>
+None
+2019-04-15 16:02:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-DVDrip-Xvid-Mp3-Sub-Esp-[SBT]-torrent-10932988.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-2007-UNCUT-BluRay-1080p-x265-10bit-AC3-highcal-mkv-torrent-10844768.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust%20Caution-2007-Uncut-Blu-ray-iPad-720P-AAC-X264-CHDPAD-torrent-10621806.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-2007-TS-XViD-RPWT-torrent-9244388.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Se-Jie-aka-Lust-Caution-2007-BRRip-Sonata-Premiere-torrent-9932994.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-2007-BluRay-720p-x264-AC3-CMCT-mkv-torrent-9271056.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-DAT-torrent-9203840.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-2007-720p-BluRay-x264-anoXmous-E-mp4-torrent-11748638.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution%C3%A8%E2%80%B0%C2%B2%C3%82%C2%B7%C3%A6%CB%86%E2%80%99-2007-BDRip-X264-TLF(6F926CBE)-mkv-torrent-8924623.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/%C3%A8%E2%80%B0%C2%B2%C3%82%C2%B7%C3%A6%CB%86%E2%80%99-Lust-Caution-(2007)-BluRay-1080p-x264-DTS-CnSCG-%C3%A5%E2%80%BA%C2%BD%C3%A8%C2%AF%C2%AD%C3%A4%C2%B8%C2%AD%C3%A5%C2%AD%E2%80%9416G-torrent-9169069.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/08-08-06-Lust-Caution-Blu-ray-REMUX-H264-1080P-DTS-HDMA-LPCM-DD51-SILUHD-torrent-8893093.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/OST--%C3%90%E2%80%99%C3%90%C2%BE%C3%90%C2%B6%C3%90%C2%B4%C3%90%C2%B5%C3%90%C2%BB%C3%90%C2%B5%C3%90%C2%BD%C3%90%C2%B8%C3%90%C2%B5--Lust%20-Caution-[Original-Soundtrack]-[Alexandre-Desplat]-(2007)-MP3-torrent-2412064.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-2007-Swesub-DVDrip-Xvid-AC3-Haggebulle-torrent-856242.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-2007-720p-BluRay-x264-anoXmous-torrent-1825706.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Se-Jie-Lust-Caution-(2007)-Mini-BRRip--x264--MP4-torrent-776606.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-2007-REPACK-DVDRip-XviD-CiMG-torrent-96282.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-%C3%AF%C2%BC%CB%86%C3%A8%E2%80%B0%C2%B2%C3%A6%CB%86%E2%80%99%C3%AF%C2%BC%E2%80%B0-torrent-11690174.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Lust-Caution-%C3%AF%C2%BC%CB%86%C3%A8%E2%80%B0%C2%B2%C3%A6%CB%86%E2%80%99%C3%AF%C2%BC%E2%80%B0-torrent-11690174.html>
+None
+2019-04-15 16:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/%C3%90%E2%80%99%C3%90%C2%BE%C3%90%C2%B6%C3%90%C2%B4%C3%90%C2%B5%C3%90%C2%BB%C3%90%C2%B5%C3%90%C2%BD%C3%90%C2%B8%C3%90%C2%B5--Lust%20-Caution--Se%20-jie-(2007)-HDRip-%C3%90%C2%BE%C3%91%E2%80%9A-Scarabey--P-torrent-1932245.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/[pj588-net]%20%20-Lust-Caution-Uncut-2007-720p-x264-torrent-11667191.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-2007-BluRay-720p-x264-DTS-WiKi-torrent-902714.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/%C3%90%E2%80%99%C3%90%C2%BE%C3%90%C2%B6%C3%90%C2%B4%C3%90%C2%B5%C3%90%C2%BB%C3%90%C2%B5%C3%90%C2%BD%C3%90%C2%B8%C3%90%C2%B5--Lust%20-Caution--Se%20-jie-(2007)-HDRip-%C3%90%C2%BE%C3%91%E2%80%9A-Scarabey--P-torrent-1932245.html>
+None
+2019-04-15 16:02:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/[pj588-net]%20%20-Lust-Caution-Uncut-2007-720p-x264-torrent-11667191.html>
+None
+2019-04-15 16:02:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/Lust-Caution-2007-BluRay-720p-x264-DTS-WiKi-torrent-902714.html>
+None
+2019-04-15 16:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-KLAXXON-torrent-105981.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/Lust-Caution-2007-720p-BRRip-1-35GB-MkvCage-torrent-6137276.html> (referer: https://www.limetorrents.info/search/all/lust-caution/seeds/1/)
+2019-04-15 16:02:07 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 16:02:07 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 15269,
+ 'downloader/request_count': 32,
+ 'downloader/request_method_count/GET': 32,
+ 'downloader/response_bytes': 302453,
+ 'downloader/response_count': 32,
+ 'downloader/response_status_count/200': 32,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 8, 2, 7, 107666),
+ 'item_scraped_count': 11,
+ 'log_count/DEBUG': 43,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 32,
+ 'scheduler/dequeued': 32,
+ 'scheduler/dequeued/memory': 32,
+ 'scheduler/enqueued': 32,
+ 'scheduler/enqueued/memory': 32,
+ 'start_time': datetime.datetime(2019, 4, 15, 8, 2, 2, 715086)}
+2019-04-15 16:02:07 [scrapy.core.engine] INFO: Spider closed (finished)

@@ -1,0 +1,673 @@
+2019-04-15 16:17:13 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-15 16:17:13 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 16:17:13 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\eztv\\d7f38e005f5611e98c7ea0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-15 16:17:13 [scrapy.extensions.telnet] INFO: Telnet Password: 2731295dbc06f8e7
+2019-04-15 16:17:13 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 16:17:13 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 16:17:13 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 16:17:13 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-15 16:17:13 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 16:17:13 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 16:17:13 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2019-04-15 16:17:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/search/thrones> (referer: None)
+2019-04-15 16:17:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/1327714/game-of-thrones-s08e01-repack-web-h264-memento/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/624791/the-real-war-of-thrones-the-true-history-of-europe-3of4-the-marriage-game-1461-1483-720p-hdtv-x264-aac-mp4/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/1327714/game-of-thrones-s08e01-repack-web-h264-memento/>
+None
+2019-04-15 16:17:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/624791/the-real-war-of-thrones-the-true-history-of-europe-3of4-the-marriage-game-1461-1483-720p-hdtv-x264-aac-mp4/>
+None
+2019-04-15 16:17:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/1327715/game-of-thrones-s08e01-720p-web-x265-minx/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/1327715/game-of-thrones-s08e01-720p-web-x265-minx/>
+None
+2019-04-15 16:17:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/1327710/game-of-thrones-s08e01-480p-x264-msd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/1327710/game-of-thrones-s08e01-480p-x264-msd/>
+None
+2019-04-15 16:17:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/1327712/game-of-thrones-s08e01-repack-720p-web-h264-memento/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/1327712/game-of-thrones-s08e01-repack-720p-web-h264-memento/>
+None
+2019-04-15 16:17:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/1327708/game-of-thrones-s08e01-kings-landing-720p-amzn-webrip-ddp5-1-x264-got/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/624794/the-real-war-of-thrones-the-true-history-of-europe-4of4-the-king-and-the-emperor-1515-1558-720p-hdtv-x264-aac-mp4/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/1327706/game-of-thrones-s08e01-web-h264-memento/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/624792/the-real-war-of-thrones-the-true-history-of-europe-2of4-the-mad-king-and-the-maiden-1392-1453-720p-hdtv-x264-aac-mp4/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/1327708/game-of-thrones-s08e01-kings-landing-720p-amzn-webrip-ddp5-1-x264-got/>
+None
+2019-04-15 16:17:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/624794/the-real-war-of-thrones-the-true-history-of-europe-4of4-the-king-and-the-emperor-1515-1558-720p-hdtv-x264-aac-mp4/>
+None
+2019-04-15 16:17:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/1327706/game-of-thrones-s08e01-web-h264-memento/>
+None
+2019-04-15 16:17:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/624792/the-real-war-of-thrones-the-true-history-of-europe-2of4-the-mad-king-and-the-maiden-1392-1453-720p-hdtv-x264-aac-mp4/>
+None
+2019-04-15 16:17:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/368502/game-of-thrones-s07e06-hdtv-x264-fleet/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/368502/game-of-thrones-s07e06-hdtv-x264-fleet/>
+None
+2019-04-15 16:17:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/1327707/game-of-thrones-s08e01-720p-web-h264-memento/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/369321/game-of-thrones-s07e07-720p-hdtv-x264-uav/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/368504/game-of-thrones-s07e06-proper-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/1327707/game-of-thrones-s08e01-720p-web-h264-memento/>
+None
+2019-04-15 16:17:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/368505/game-of-thrones-s07e06-proper-hdtv-x264-sva/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/369321/game-of-thrones-s07e07-720p-hdtv-x264-uav/>
+None
+2019-04-15 16:17:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/368504/game-of-thrones-s07e06-proper-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/26882/game-of-thrones-s01e01-hdtv-xvid-fever/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/368505/game-of-thrones-s07e06-proper-hdtv-x264-sva/>
+None
+2019-04-15 16:17:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/368503/game-of-thrones-s07e06-720p-hdtv-x264-fleet/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/26882/game-of-thrones-s01e01-hdtv-xvid-fever/>
+None
+2019-04-15 16:17:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/368503/game-of-thrones-s07e06-720p-hdtv-x264-fleet/>
+None
+2019-04-15 16:17:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/26962/game-of-thrones-s01e02-the-kingsroad-hdtv-xvid-fqm/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/27123/game-of-thrones-s01e03-lord-snow-hdtv-xvid-fqm/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/26962/game-of-thrones-s01e02-the-kingsroad-hdtv-xvid-fqm/>
+None
+2019-04-15 16:17:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/26972/game-of-thrones-s01e02-720p-hdtv-x264-ctu/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/27123/game-of-thrones-s01e03-lord-snow-hdtv-xvid-fqm/>
+None
+2019-04-15 16:17:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/26972/game-of-thrones-s01e02-720p-hdtv-x264-ctu/>
+None
+2019-04-15 16:17:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/27302/game-of-thrones-s01e04-720p-hdtv-x264-ctu/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/26890/game-of-thrones-s01e01-720p-hdtv-x264-ctu/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/27302/game-of-thrones-s01e04-720p-hdtv-x264-ctu/>
+None
+2019-04-15 16:17:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/26890/game-of-thrones-s01e01-720p-hdtv-x264-ctu/>
+None
+2019-04-15 16:17:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/27478/game-of-thrones-s01e05-the-wolf-and-the-lion-hdtv-xvid-fqm/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/624793/the-real-war-of-thrones-the-true-history-of-europe-1of4-war-is-declared-1328-1364-720p-hdtv-x264-aac-mp4/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/27478/game-of-thrones-s01e05-the-wolf-and-the-lion-hdtv-xvid-fqm/>
+None
+2019-04-15 16:17:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/624793/the-real-war-of-thrones-the-true-history-of-europe-1of4-war-is-declared-1328-1364-720p-hdtv-x264-aac-mp4/>
+None
+2019-04-15 16:17:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/27486/game-of-thrones-s01e05-720p-hdtv-x264-ctu/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/27631/game-of-thrones-s01e06-a-golden-crown-hdtv-xvid-fqm/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/27132/game-of-thrones-s01e03-720p-hdtv-x264-ctu/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/27296/game-of-thrones-s01e04-cripples-bastards-and-broken-things-hdtv-xvid-fqm/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/27486/game-of-thrones-s01e05-720p-hdtv-x264-ctu/>
+None
+2019-04-15 16:17:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/27631/game-of-thrones-s01e06-a-golden-crown-hdtv-xvid-fqm/>
+None
+2019-04-15 16:17:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/27132/game-of-thrones-s01e03-720p-hdtv-x264-ctu/>
+None
+2019-04-15 16:17:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/27641/game-of-thrones-s01e06-720p-hdtv-x264-ctu/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/27296/game-of-thrones-s01e04-cripples-bastards-and-broken-things-hdtv-xvid-fqm/>
+None
+2019-04-15 16:17:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/27726/game-of-thrones-s01e07-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/27641/game-of-thrones-s01e06-720p-hdtv-x264-ctu/>
+None
+2019-04-15 16:17:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/27726/game-of-thrones-s01e07-720p-hdtv-x264-immerse/>
+None
+2019-04-15 16:17:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/27724/game-of-thrones-s01e07-hdtv-xvid-asap/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/27724/game-of-thrones-s01e07-hdtv-xvid-asap/>
+None
+2019-04-15 16:17:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/28005/game-of-thrones-s01e10-fire-and-blood-hdtv-xvid-fqm/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/28014/game-of-thrones-s01e10-720p-hdtv-x264-orenji/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/34327/game-of-thrones-s02e01-hdtv-rm-asap/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/28005/game-of-thrones-s01e10-fire-and-blood-hdtv-xvid-fqm/>
+None
+2019-04-15 16:17:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/34326/game-of-thrones-s02e01-720p-hdtv-rm-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/28014/game-of-thrones-s01e10-720p-hdtv-x264-orenji/>
+None
+2019-04-15 16:17:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/34327/game-of-thrones-s02e01-hdtv-rm-asap/>
+None
+2019-04-15 16:17:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/34326/game-of-thrones-s02e01-720p-hdtv-rm-immerse/>
+None
+2019-04-15 16:17:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/27905/game-of-thrones-s01e09-baelor-hdtv-xvid-fqm/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/27916/game-of-thrones-s01e09-proper-720p-hdtv-x264-orenji/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/27905/game-of-thrones-s01e09-baelor-hdtv-xvid-fqm/>
+None
+2019-04-15 16:17:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/27909/game-of-thrones-s01e09-720p-hdtv-x264-ctu/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/27916/game-of-thrones-s01e09-proper-720p-hdtv-x264-orenji/>
+None
+2019-04-15 16:17:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/27909/game-of-thrones-s01e09-720p-hdtv-x264-ctu/>
+None
+2019-04-15 16:17:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/34853/game-of-thrones-s02e04-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/34698/game-of-thrones-s02e03-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/34853/game-of-thrones-s02e04-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/34698/game-of-thrones-s02e03-720p-hdtv-x264-immerse/>
+None
+2019-04-15 16:17:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/34501/game-of-thrones-s02e02-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/34501/game-of-thrones-s02e02-720p-hdtv-x264-immerse/>
+None
+2019-04-15 16:17:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/34863/game-of-thrones-s02e04-hdtv-x264-2hd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/35015/game-of-thrones-s02e05-hdtv-x264-asap/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/34863/game-of-thrones-s02e04-hdtv-x264-2hd/>
+None
+2019-04-15 16:17:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/34862/game-of-thrones-s02e04-repack-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/34697/game-of-thrones-s02e03-hdtv-x264-asap/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/35015/game-of-thrones-s02e05-hdtv-x264-asap/>
+None
+2019-04-15 16:17:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/34862/game-of-thrones-s02e04-repack-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/34697/game-of-thrones-s02e03-hdtv-x264-asap/>
+None
+2019-04-15 16:17:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/34499/game-of-thrones-s02e02-hdtv-x264-asap/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/34499/game-of-thrones-s02e02-hdtv-x264-asap/>
+None
+2019-04-15 16:17:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/35014/game-of-thrones-s02e05-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/35208/game-of-thrones-s02e06-hdtv-x264-2hd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/35014/game-of-thrones-s02e05-720p-hdtv-x264-immerse/>
+None
+2019-04-15 16:17:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/35207/game-of-thrones-s02e06-repack-720p-hdtv-x264-2hd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/35208/game-of-thrones-s02e06-hdtv-x264-2hd/>
+None
+2019-04-15 16:17:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/35207/game-of-thrones-s02e06-repack-720p-hdtv-x264-2hd/>
+None
+2019-04-15 16:17:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/35205/game-of-thrones-s02e06-720p-hdtv-x264-2hd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/35205/game-of-thrones-s02e06-720p-hdtv-x264-2hd/>
+None
+2019-04-15 16:17:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/35370/game-of-thrones-s02e07-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/35522/game-of-thrones-s02e08-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/35370/game-of-thrones-s02e07-720p-hdtv-x264-immerse/>
+None
+2019-04-15 16:17:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/35369/game-of-thrones-s02e07-hdtv-x264-asap/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/35522/game-of-thrones-s02e08-720p-hdtv-x264-immerse/>
+None
+2019-04-15 16:17:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/35369/game-of-thrones-s02e07-hdtv-x264-asap/>
+None
+2019-04-15 16:17:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/35635/game-of-thrones-s02e09-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/35521/game-of-thrones-s02e08-hdtv-x264-asap/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/35635/game-of-thrones-s02e09-720p-hdtv-x264-immerse/>
+None
+2019-04-15 16:17:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/35521/game-of-thrones-s02e08-hdtv-x264-asap/>
+None
+2019-04-15 16:17:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/35763/game-of-thrones-s02e10-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/35758/game-of-thrones-s02e10-hdtv-x264-asap/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/35763/game-of-thrones-s02e10-720p-hdtv-x264-immerse/>
+None
+2019-04-15 16:17:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/35758/game-of-thrones-s02e10-hdtv-x264-asap/>
+None
+2019-04-15 16:17:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/43494/game-of-thrones-s03e01-repack-720p-hdtv-x264-evolve/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/43485/game-of-thrones-s03e01-720p-hdtv-x264-evolve/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/43494/game-of-thrones-s03e01-repack-720p-hdtv-x264-evolve/>
+None
+2019-04-15 16:17:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/43482/game-of-thrones-s03e01-hdtv-x264-2hd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/43485/game-of-thrones-s03e01-720p-hdtv-x264-evolve/>
+None
+2019-04-15 16:17:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/43482/game-of-thrones-s03e01-hdtv-x264-2hd/>
+None
+2019-04-15 16:17:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/35632/game-of-thrones-s02e09-hdtv-x264-asap/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/35632/game-of-thrones-s02e09-hdtv-x264-asap/>
+None
+2019-04-15 16:17:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/43895/game-of-thrones-s03e03-hdtv-x264-evolve/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/43895/game-of-thrones-s03e03-hdtv-x264-evolve/>
+None
+2019-04-15 16:17:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/43908/game-of-thrones-s03e03-proper-hdtv-x264-2hd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/44118/game-of-thrones-s03e04-720p-hdtv-x264-evolve/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/43908/game-of-thrones-s03e03-proper-hdtv-x264-2hd/>
+None
+2019-04-15 16:17:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/44118/game-of-thrones-s03e04-720p-hdtv-x264-evolve/>
+None
+2019-04-15 16:17:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/44113/game-of-thrones-s03e04-hdtv-x264-evolve/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/43698/game-of-thrones-s03e02-hdtv-x264-2hd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/44113/game-of-thrones-s03e04-hdtv-x264-evolve/>
+None
+2019-04-15 16:17:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/43896/game-of-thrones-s03e03-720p-hdtv-x264-evolve/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/43698/game-of-thrones-s03e02-hdtv-x264-2hd/>
+None
+2019-04-15 16:17:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/43896/game-of-thrones-s03e03-720p-hdtv-x264-evolve/>
+None
+2019-04-15 16:17:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/44344/game-of-thrones-s03e05-proper-720p-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/44339/game-of-thrones-s03e05-proper-hdtv-x264-evolve/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/44344/game-of-thrones-s03e05-proper-720p-hdtv-x264-killers/>
+None
+2019-04-15 16:17:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/44339/game-of-thrones-s03e05-proper-hdtv-x264-evolve/>
+None
+2019-04-15 16:17:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/44337/game-of-thrones-s03e05-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/44332/game-of-thrones-s03e05-hdtv-x264-2hd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/44337/game-of-thrones-s03e05-720p-hdtv-x264-immerse/>
+None
+2019-04-15 16:17:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/44332/game-of-thrones-s03e05-hdtv-x264-2hd/>
+None
+2019-04-15 16:17:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/44589/game-of-thrones-s03e06-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/44586/game-of-thrones-s03e06-hdtv-x264-2hd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/44807/game-of-thrones-s03e07-720p-hdtv-x264-evolve/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/44589/game-of-thrones-s03e06-720p-hdtv-x264-immerse/>
+None
+2019-04-15 16:17:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/44586/game-of-thrones-s03e06-hdtv-x264-2hd/>
+None
+2019-04-15 16:17:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/44807/game-of-thrones-s03e07-720p-hdtv-x264-evolve/>
+None
+2019-04-15 16:17:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/45017/game-of-thrones-s03e08-720p-hdtv-x264-evolve/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/45016/game-of-thrones-s03e08-hdtv-x264-evolve/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/45017/game-of-thrones-s03e08-720p-hdtv-x264-evolve/>
+None
+2019-04-15 16:17:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/45016/game-of-thrones-s03e08-hdtv-x264-evolve/>
+None
+2019-04-15 16:17:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/45484/game-of-thrones-s03e10-720p-hdtv-x264-evolve/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/45305/game-of-thrones-s03e09-hdtv-x264-evolve/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/45018/game-of-thrones-s03e08-proper-hdtv-x264-2hd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/45304/game-of-thrones-s03e09-720p-hdtv-x264-evolve/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/45484/game-of-thrones-s03e10-720p-hdtv-x264-evolve/>
+None
+2019-04-15 16:17:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/45305/game-of-thrones-s03e09-hdtv-x264-evolve/>
+None
+2019-04-15 16:17:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/45018/game-of-thrones-s03e08-proper-hdtv-x264-2hd/>
+None
+2019-04-15 16:17:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/44806/game-of-thrones-s03e07-hdtv-x264-2hd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/45304/game-of-thrones-s03e09-720p-hdtv-x264-evolve/>
+None
+2019-04-15 16:17:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/44806/game-of-thrones-s03e07-hdtv-x264-2hd/>
+None
+2019-04-15 16:17:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/53071/game-of-thrones-the-politics-of-power-a-lookback-at-season-3-720p-hdtv-x264-2hd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/45483/game-of-thrones-s03e10-hdtv-x264-evolve/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/53071/game-of-thrones-the-politics-of-power-a-lookback-at-season-3-720p-hdtv-x264-2hd/>
+None
+2019-04-15 16:17:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/45483/game-of-thrones-s03e10-hdtv-x264-evolve/>
+None
+2019-04-15 16:17:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/54003/game-of-thrones-s04e01-720p-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/54231/game-of-thrones-s04e02-720p-hdtv-x264-2hd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/54003/game-of-thrones-s04e01-720p-hdtv-x264-killers/>
+None
+2019-04-15 16:17:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/54002/game-of-thrones-s04e01-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/54226/game-of-thrones-s04e02-hdtv-x264-2hd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/54231/game-of-thrones-s04e02-720p-hdtv-x264-2hd/>
+None
+2019-04-15 16:17:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/54002/game-of-thrones-s04e01-hdtv-x264-killers/>
+None
+2019-04-15 16:17:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/54226/game-of-thrones-s04e02-hdtv-x264-2hd/>
+None
+2019-04-15 16:17:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/54441/game-of-thrones-s04e03-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/54720/game-of-thrones-s04e04-repack-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/54441/game-of-thrones-s04e03-hdtv-x264-killers/>
+None
+2019-04-15 16:17:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/54720/game-of-thrones-s04e04-repack-hdtv-x264-killers/>
+None
+2019-04-15 16:17:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/54716/game-of-thrones-s04e04-720p-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/54715/game-of-thrones-s04e04-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/54716/game-of-thrones-s04e04-720p-hdtv-x264-killers/>
+None
+2019-04-15 16:17:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/54443/game-of-thrones-s04e03-720p-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/54715/game-of-thrones-s04e04-hdtv-x264-killers/>
+None
+2019-04-15 16:17:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/54443/game-of-thrones-s04e03-720p-hdtv-x264-killers/>
+None
+2019-04-15 16:17:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/54967/game-of-thrones-s04e05-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/54969/game-of-thrones-s04e05-720p-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/54967/game-of-thrones-s04e05-hdtv-x264-killers/>
+None
+2019-04-15 16:17:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/55200/game-of-thrones-s04e06-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/54969/game-of-thrones-s04e05-720p-hdtv-x264-killers/>
+None
+2019-04-15 16:17:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/55200/game-of-thrones-s04e06-hdtv-x264-killers/>
+None
+2019-04-15 16:17:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383028/game-of-thrones-s04e06-720p-hdtv-x264-dimension/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383028/game-of-thrones-s04e06-720p-hdtv-x264-dimension/>
+None
+2019-04-15 16:17:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383314/game-of-thrones-s04e07-720p-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383313/game-of-thrones-s04e07-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383314/game-of-thrones-s04e07-720p-hdtv-x264-killers/>
+None
+2019-04-15 16:17:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383313/game-of-thrones-s04e07-hdtv-x264-killers/>
+None
+2019-04-15 16:17:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383312/game-of-thrones-s04e08-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383312/game-of-thrones-s04e08-hdtv-x264-killers/>
+None
+2019-04-15 16:17:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383309/game-of-thrones-s04e09-720p-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383310/game-of-thrones-s04e09-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383309/game-of-thrones-s04e09-720p-hdtv-x264-killers/>
+None
+2019-04-15 16:17:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383310/game-of-thrones-s04e09-hdtv-x264-killers/>
+None
+2019-04-15 16:17:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383308/game-of-thrones-s04e10-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383308/game-of-thrones-s04e10-hdtv-x264-killers/>
+None
+2019-04-15 16:17:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383307/game-of-thrones-s04e10-720p-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383306/game-of-thrones-s04e10-1080p-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383307/game-of-thrones-s04e10-720p-hdtv-x264-killers/>
+None
+2019-04-15 16:17:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383306/game-of-thrones-s04e10-1080p-hdtv-x264-batv/>
+None
+2019-04-15 16:17:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383311/game-of-thrones-s04e08-720p-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383305/game-of-thrones-s05e00-a-day-in-the-life-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383311/game-of-thrones-s04e08-720p-hdtv-x264-killers/>
+None
+2019-04-15 16:17:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383304/game-of-thrones-s05e00-a-day-in-the-life-720p-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383304/game-of-thrones-s05e00-a-day-in-the-life-720p-hdtv-x264-batv/>
+None
+2019-04-15 16:17:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383303/game-of-thrones-s05e01-hdtv-x264-xclusive/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383302/game-of-thrones-s05e02-hdtv-x264-xclusive/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383301/game-of-thrones-s05e01-hdtv-x264-asap/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/64106/worlds-deadliest-game-of-thrones-720p-x264-hdtv-mvgroup/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/64106/worlds-deadliest-game-of-thrones-720p-x264-hdtv-mvgroup/>
+None
+2019-04-15 16:17:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383300/game-of-thrones-s05e01-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383299/game-of-thrones-s05e03-hdtv-x264-xclusive/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383298/game-of-thrones-s05e04-hdtv-x264-xclusive/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383286/game-of-thrones-s05e03-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383286/game-of-thrones-s05e03-hdtv-x264-killers/>
+None
+2019-04-15 16:17:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383285/game-of-thrones-s05e03-hdtv-xvid-fum/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383285/game-of-thrones-s05e03-hdtv-xvid-fum/>
+None
+2019-04-15 16:17:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383279/game-of-thrones-s05e04-internal-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383277/game-of-thrones-s05e04-hdtv-xvid-fum/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383279/game-of-thrones-s05e04-internal-hdtv-x264-batv/>
+None
+2019-04-15 16:17:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383277/game-of-thrones-s05e04-hdtv-xvid-fum/>
+None
+2019-04-15 16:17:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383269/game-of-thrones-s05e06-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383271/game-of-thrones-s05e05-hdtv-xvid-fum/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383270/game-of-thrones-s05e06-hdtv-x264-asap/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383269/game-of-thrones-s05e06-720p-hdtv-x264-immerse/>
+None
+2019-04-15 16:17:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383271/game-of-thrones-s05e05-hdtv-xvid-fum/>
+None
+2019-04-15 16:17:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383270/game-of-thrones-s05e06-hdtv-x264-asap/>
+None
+2019-04-15 16:17:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383268/game-of-thrones-s05e06-1080i-hdtv-mpeg2-dd5-1-ctrlhd/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383267/game-of-thrones-s05e06-internal-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383268/game-of-thrones-s05e06-1080i-hdtv-mpeg2-dd5-1-ctrlhd/>
+None
+2019-04-15 16:17:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383267/game-of-thrones-s05e06-internal-hdtv-x264-batv/>
+None
+2019-04-15 16:17:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383266/game-of-thrones-s05e06-internal-720p-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383266/game-of-thrones-s05e06-internal-720p-hdtv-x264-batv/>
+None
+2019-04-15 16:17:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383265/game-of-thrones-s05e06-1080p-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383265/game-of-thrones-s05e06-1080p-hdtv-x264-batv/>
+None
+2019-04-15 16:17:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383264/game-of-thrones-s05e07-hdtv-x264-asap/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383264/game-of-thrones-s05e07-hdtv-x264-asap/>
+None
+2019-04-15 16:17:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383263/game-of-thrones-s05e07-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383262/game-of-thrones-s05e07-720p-hdtv-x264-0sec/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383263/game-of-thrones-s05e07-720p-hdtv-x264-immerse/>
+None
+2019-04-15 16:17:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383262/game-of-thrones-s05e07-720p-hdtv-x264-0sec/>
+None
+2019-04-15 16:17:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383260/game-of-thrones-s05e08-720p-hdtv-x264-0sec/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383260/game-of-thrones-s05e08-720p-hdtv-x264-0sec/>
+None
+2019-04-15 16:17:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383259/game-of-thrones-s05e08-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383259/game-of-thrones-s05e08-hdtv-x264-killers/>
+None
+2019-04-15 16:17:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383258/game-of-thrones-s05e08-proper-720p-hdtv-x264-0sec/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383261/game-of-thrones-s05e07-internal-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383257/game-of-thrones-s05e09-720p-hdtv-x264-0sec/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383258/game-of-thrones-s05e08-proper-720p-hdtv-x264-0sec/>
+None
+2019-04-15 16:17:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383261/game-of-thrones-s05e07-internal-hdtv-x264-batv/>
+None
+2019-04-15 16:17:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383257/game-of-thrones-s05e09-720p-hdtv-x264-0sec/>
+None
+2019-04-15 16:17:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383255/game-of-thrones-s05e09-internal-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383256/game-of-thrones-s05e09-hdtv-x264-asap/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383254/game-of-thrones-s05e09-proper-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383255/game-of-thrones-s05e09-internal-hdtv-x264-batv/>
+None
+2019-04-15 16:17:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383256/game-of-thrones-s05e09-hdtv-x264-asap/>
+None
+2019-04-15 16:17:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383254/game-of-thrones-s05e09-proper-hdtv-x264-killers/>
+None
+2019-04-15 16:17:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383253/game-of-thrones-s05e10-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383253/game-of-thrones-s05e10-720p-hdtv-x264-immerse/>
+None
+2019-04-15 16:17:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/131764/conan-2015-07-10-the-walking-dead-game-of-thrones-hdtv-x264-crooks/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383251/game-of-thrones-s05e10-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383252/game-of-thrones-s05e10-720p-hdtv-x264-0sec/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383251/game-of-thrones-s05e10-hdtv-x264-killers/>
+None
+2019-04-15 16:17:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383252/game-of-thrones-s05e10-720p-hdtv-x264-0sec/>
+None
+2019-04-15 16:17:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383250/game-of-thrones-s06e01-720p-hdtv-x264-sva/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/131765/conan-2015-07-10-the-walking-dead-game-of-thrones-720p-hdtv-x264-crooks/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/146511/game-of-thrones-s06e01-hdtv-x264-fleet/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383250/game-of-thrones-s06e01-720p-hdtv-x264-sva/>
+None
+2019-04-15 16:17:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/146511/game-of-thrones-s06e01-hdtv-x264-fleet/>
+None
+2019-04-15 16:17:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383249/game-of-thrones-s06e01-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383249/game-of-thrones-s06e01-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383248/game-of-thrones-s06e01-internal-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/146556/game-of-thrones-s06e01-internal-720p-hdtv-x264-turbo/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383248/game-of-thrones-s06e01-internal-hdtv-x264-killers/>
+None
+2019-04-15 16:17:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/146556/game-of-thrones-s06e01-internal-720p-hdtv-x264-turbo/>
+None
+2019-04-15 16:17:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383244/game-of-thrones-s06e02-proper-720p-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383246/game-of-thrones-s06e02-hdtv-x264-fleet/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383245/game-of-thrones-s06e02-proper-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/147482/game-of-thrones-s06e03-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383244/game-of-thrones-s06e02-proper-720p-hdtv-x264-batv/>
+None
+2019-04-15 16:17:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383246/game-of-thrones-s06e02-hdtv-x264-fleet/>
+None
+2019-04-15 16:17:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383245/game-of-thrones-s06e02-proper-hdtv-x264-batv/>
+None
+2019-04-15 16:17:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/147482/game-of-thrones-s06e03-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383247/game-of-thrones-s06e02-720p-hdtv-x264-fleet/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/147474/game-of-thrones-s06e03-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/147495/game-of-thrones-s06e03-rerip-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383247/game-of-thrones-s06e02-720p-hdtv-x264-fleet/>
+None
+2019-04-15 16:17:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/147474/game-of-thrones-s06e03-hdtv-x264-killers/>
+None
+2019-04-15 16:17:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/147495/game-of-thrones-s06e03-rerip-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/147993/game-of-thrones-s06e04-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/147993/game-of-thrones-s06e04-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383241/game-of-thrones-s06e04-das-buch-des-fremden-german-ac3-dubbed-hdtv-x264-ind/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383243/game-of-thrones-s06e04-hdtv-x264-fleet/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383242/game-of-thrones-s06e04-hdtv-x264-fum/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383241/game-of-thrones-s06e04-das-buch-des-fremden-german-ac3-dubbed-hdtv-x264-ind/>
+None
+2019-04-15 16:17:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383243/game-of-thrones-s06e04-hdtv-x264-fleet/>
+None
+2019-04-15 16:17:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383242/game-of-thrones-s06e04-hdtv-x264-fum/>
+None
+2019-04-15 16:17:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383240/game-of-thrones-s06e04-internal-720p-hdtv-x264-turbo/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/148461/game-of-thrones-s06e05-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383239/game-of-thrones-s06e05-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383240/game-of-thrones-s06e04-internal-720p-hdtv-x264-turbo/>
+None
+2019-04-15 16:17:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/148461/game-of-thrones-s06e05-hdtv-x264-killers/>
+None
+2019-04-15 16:17:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383239/game-of-thrones-s06e05-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383238/game-of-thrones-s06e04-internal-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383238/game-of-thrones-s06e04-internal-hdtv-x264-batv/>
+None
+2019-04-15 16:17:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/149026/after-the-thrones-s01e01-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383236/game-of-thrones-s06e06-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383236/game-of-thrones-s06e06-hdtv-x264-killers/>
+None
+2019-04-15 16:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/149029/after-the-thrones-s01e02-720p-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/149028/after-the-thrones-s01e02-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/149027/after-the-thrones-s01e01-720p-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383237/game-of-thrones-s06e06-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/149030/after-the-thrones-s01e03-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383237/game-of-thrones-s06e06-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/149032/after-the-thrones-s01e04-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/149031/after-the-thrones-s01e03-720p-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/149034/after-the-thrones-s01e05-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/149033/after-the-thrones-s01e04-720p-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/149139/game-of-thrones-s06e07-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/149140/game-of-thrones-s06e07-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/149035/after-the-thrones-s01e05-720p-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/149139/game-of-thrones-s06e07-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/149140/game-of-thrones-s06e07-hdtv-x264-killers/>
+None
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/149574/game-of-thrones-s06e08-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/149582/game-of-thrones-s06e08-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/149574/game-of-thrones-s06e08-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383235/game-of-thrones-s06e09-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/150586/game-of-thrones-s06e10-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/149582/game-of-thrones-s06e08-hdtv-x264-killers/>
+None
+2019-04-15 16:17:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/150585/game-of-thrones-s06e10-hdtv-x264-fleet/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383235/game-of-thrones-s06e09-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/150586/game-of-thrones-s06e10-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/150585/game-of-thrones-s06e10-hdtv-x264-fleet/>
+None
+2019-04-15 16:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/152433/conan-2016-07-24-the-cast-and-producers-of-game-of-thrones-hdtv-x264-walmart/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/152433/conan-2016-07-24-the-cast-and-producers-of-game-of-thrones-hdtv-x264-walmart/>
+None
+2019-04-15 16:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/150591/game-of-thrones-s06e10-internal-hdtv-x264-killers/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/150591/game-of-thrones-s06e10-internal-hdtv-x264-killers/>
+None
+2019-04-15 16:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/152432/conan-2016-07-24-the-cast-and-producers-of-game-of-thrones-720p-hdtv-x264-walmart/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383234/game-of-thrones-s06e00-18-hours-at-the-paint-hall-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/362822/game-of-thrones-s07e01-web-h264-tbs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/383233/game-of-thrones-s06e00-18-hours-at-the-paint-hall-720p-hdtv-x264-batv/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383234/game-of-thrones-s06e00-18-hours-at-the-paint-hall-hdtv-x264-batv/>
+None
+2019-04-15 16:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/362822/game-of-thrones-s07e01-web-h264-tbs/>
+None
+2019-04-15 16:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/383233/game-of-thrones-s06e00-18-hours-at-the-paint-hall-720p-hdtv-x264-batv/>
+None
+2019-04-15 16:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/362823/game-of-thrones-s07e01-720p-web-h264-tbs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/362823/game-of-thrones-s07e01-720p-web-h264-tbs/>
+None
+2019-04-15 16:17:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/548432/game-of-thrones-s07e01-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/548430/game-of-thrones-s07e01-hdtv-x264-sva/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/548432/game-of-thrones-s07e01-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/548430/game-of-thrones-s07e01-hdtv-x264-sva/>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/362813/game-of-thrones-s07e01-internal-hdtv-x264-turbo/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/364507/game-of-thrones-s07e02-720p-web-h264-tbs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/364504/game-of-thrones-s07e02-web-h264-tbs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/362812/game-of-thrones-s07e01-internal-720p-hdtv-x264-turbo/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/364513/game-of-thrones-s07e02-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/362813/game-of-thrones-s07e01-internal-hdtv-x264-turbo/>
+None
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/364507/game-of-thrones-s07e02-720p-web-h264-tbs/>
+None
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/364504/game-of-thrones-s07e02-web-h264-tbs/>
+None
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/362812/game-of-thrones-s07e01-internal-720p-hdtv-x264-turbo/>
+None
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/364513/game-of-thrones-s07e02-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/364531/game-of-thrones-s07e02-internal-repack-720p-web-h264-tbs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/548433/game-of-thrones-s07e02-hdtv-x264-sva/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/364531/game-of-thrones-s07e02-internal-repack-720p-web-h264-tbs/>
+None
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/548433/game-of-thrones-s07e02-hdtv-x264-sva/>
+None
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/364719/game-of-thrones-s07e02-internal-720p-hdtv-x264-walmart/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/364712/game-of-thrones-s07e02-internal-hdtv-x264-walmart/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/364600/conan-2017-07-23-the-cast-of-game-of-thrones-web-h264-creed/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/364719/game-of-thrones-s07e02-internal-720p-hdtv-x264-walmart/>
+None
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/365125/game-of-thrones-s07e03-720p-web-h264-tbs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/364712/game-of-thrones-s07e02-internal-hdtv-x264-walmart/>
+None
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/364600/conan-2017-07-23-the-cast-of-game-of-thrones-web-h264-creed/>
+None
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/365125/game-of-thrones-s07e03-720p-web-h264-tbs/>
+None
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/365134/game-of-thrones-s07e03-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/365135/game-of-thrones-s07e03-hdtv-x264-sva/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/365134/game-of-thrones-s07e03-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/365135/game-of-thrones-s07e03-hdtv-x264-sva/>
+None
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/365957/game-of-thrones-s07e04-aac-mp4-ipt/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/366090/game-of-thrones-s07e04-web-h264-tbs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/365957/game-of-thrones-s07e04-aac-mp4-ipt/>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/366090/game-of-thrones-s07e04-web-h264-tbs/>
+None
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/366105/game-of-thrones-s07e04-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/366091/game-of-thrones-s07e04-720p-web-h264-tbs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/365117/game-of-thrones-s07e03-web-h264-tbs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/366105/game-of-thrones-s07e04-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/548431/game-of-thrones-s07e04-hdtv-x264-sva/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/366091/game-of-thrones-s07e04-720p-web-h264-tbs/>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/365117/game-of-thrones-s07e03-web-h264-tbs/>
+None
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/548431/game-of-thrones-s07e04-hdtv-x264-sva/>
+None
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/367405/game-of-thrones-s07e05-web-h264-tbs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/367405/game-of-thrones-s07e05-web-h264-tbs/>
+None
+2019-04-15 16:17:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/367406/game-of-thrones-s07e05-720p-web-h264-tbs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/367418/game-of-thrones-s07e05-repack-web-h264-tbs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/367406/game-of-thrones-s07e05-720p-web-h264-tbs/>
+None
+2019-04-15 16:17:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/367428/game-of-thrones-s07e05-720p-hdtv-x264-avs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/367418/game-of-thrones-s07e05-repack-web-h264-tbs/>
+None
+2019-04-15 16:17:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/367428/game-of-thrones-s07e05-720p-hdtv-x264-avs/>
+None
+2019-04-15 16:17:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/367427/game-of-thrones-s07e05-hdtv-x264-sva/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/367878/game-of-thrones-s07e06-leaked-eclipse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/367440/game-of-thrones-s07e05-eastwatch-720p-amzn-werip-ddp5-1-x264-got/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/367427/game-of-thrones-s07e05-hdtv-x264-sva/>
+None
+2019-04-15 16:17:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/367878/game-of-thrones-s07e06-leaked-eclipse/>
+None
+2019-04-15 16:17:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/367440/game-of-thrones-s07e05-eastwatch-720p-amzn-werip-ddp5-1-x264-got/>
+None
+2019-04-15 16:17:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/368486/game-of-thrones-s07e06-web-h264-tbs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/368486/game-of-thrones-s07e06-web-h264-tbs/>
+None
+2019-04-15 16:17:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/368491/game-of-thrones-s07e06-720p-web-h264-tbs/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/369319/game-of-thrones-s07e07-hdtv-x264-uav/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/368491/game-of-thrones-s07e06-720p-web-h264-tbs/>
+None
+2019-04-15 16:17:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/370711/conan-2017-07-23-the-cast-of-game-of-thrones-720p-hdtv-x264-crooks/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/369319/game-of-thrones-s07e07-hdtv-x264-uav/>
+None
+2019-04-15 16:17:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/370711/conan-2017-07-23-the-cast-of-game-of-thrones-720p-hdtv-x264-crooks/>
+None
+2019-04-15 16:17:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/370710/conan-2017-07-23-the-cast-of-game-of-thrones-hdtv-x264-crooks/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:17:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/370710/conan-2017-07-23-the-cast-of-game-of-thrones-hdtv-x264-crooks/>
+None
+2019-04-15 16:18:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://eztv.io/ep/43700/game-of-thrones-s03e02-720p-hdtv-x264-immerse/> (referer: https://eztv.io/search/thrones)
+2019-04-15 16:18:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://eztv.io/ep/43700/game-of-thrones-s03e02-720p-hdtv-x264-immerse/>
+None
+2019-04-15 16:18:04 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 16:18:04 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 88848,
+ 'downloader/request_count': 221,
+ 'downloader/request_method_count/GET': 221,
+ 'downloader/response_bytes': 2058243,
+ 'downloader/response_count': 221,
+ 'downloader/response_status_count/200': 221,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 8, 18, 4, 189677),
+ 'item_scraped_count': 200,
+ 'log_count/DEBUG': 421,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 221,
+ 'scheduler/dequeued': 221,
+ 'scheduler/dequeued/memory': 221,
+ 'scheduler/enqueued': 221,
+ 'scheduler/enqueued/memory': 221,
+ 'start_time': datetime.datetime(2019, 4, 15, 8, 17, 13, 762465)}
+2019-04-15 16:18:04 [scrapy.core.engine] INFO: Spider closed (finished)

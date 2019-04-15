@@ -10189,8 +10189,17 @@ table.feat {
 
 .tsz{
     text-overflow: ellipsis;
+    font-size: 11px;
+    position: relative;
+    text-align: center;
 }
 
+.tst{
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 11px;
+    position: relative;
+}
 .tul {
     width: 50px;
     height: 23px;

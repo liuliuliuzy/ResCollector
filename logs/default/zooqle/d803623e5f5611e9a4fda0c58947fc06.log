@@ -1,0 +1,1405 @@
+2019-04-15 16:17:42 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-15 16:17:42 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 16:17:42 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\zooqle\\d803623e5f5611e9a4fda0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-15 16:17:42 [scrapy.extensions.telnet] INFO: Telnet Password: b4d51107aa598cf2
+2019-04-15 16:17:42 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 16:17:42 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 16:17:42 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 16:17:42 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-15 16:17:42 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 16:17:42 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 16:17:42 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6025
+2019-04-15 16:17:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://zooqle.com/search?q=thrones+category%3ATV> (referer: None)
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '14,114',
+ 'link': 'magnet:?xt=urn:btih:44995541634768DD8848AA53C99591B450AA0E71&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20WEB%20H264-MEMENTO%5Bettv%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 WEB H264-MEMENTO[ettv]',
+ 'search': 'thrones',
+ 'seeder': '22,099',
+ 'site': 'Zooqle',
+ 'size': '365 MB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-web-h264-memento-ettv-xc8oh.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '27,677',
+ 'link': 'magnet:?xt=urn:btih:96AF8EFBAAA57E7B95679C6B177E971C2FFA6F0A&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%201080p%20WEB%20H264-MEMENTO%5Bettv%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 1080p WEB H264-MEMENTO[ettv]',
+ 'search': 'thrones',
+ 'seeder': '13,975',
+ 'site': 'Zooqle',
+ 'size': '3.3 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-1080p-web-h264-memento-ettv-xc8og.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '28,366',
+ 'link': 'magnet:?xt=urn:btih:6A93B1974D530AB1E9F1FBC71A00E43F6096FEBE&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20Kings%20Landing%201080p%20AMZN%20WEBRip%20DDP5%201%20x264-GoT%5Brarbg%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 Kings Landing 1080p AMZN WEBRip DDP5 1 '
+         'x264-GoT[rarbg]',
+ 'search': 'thrones',
+ 'seeder': '10,960',
+ 'site': 'Zooqle',
+ 'size': '2.8 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-kings-landing-1080p-amzn-webrip-ddp5-1-x2-xc8tr.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '13,819',
+ 'link': 'magnet:?xt=urn:btih:A2BB64D9F18F06117BDB519BA1726162F0B26579&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20REPACK%20WEB%20H264-MEMENTO%5Brarbg%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 REPACK WEB H264-MEMENTO[rarbg]',
+ 'search': 'thrones',
+ 'seeder': '10,057',
+ 'site': 'Zooqle',
+ 'size': '350 MB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-repack-web-h264-memento-rarbg-xc8sq.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '14,695',
+ 'link': 'magnet:?xt=urn:btih:92D283BE8D1A8C87904F1AEE72F8357F19907F63&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20720p%20WEB%20H264-MEMENTO%5Bettv%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 720p WEB H264-MEMENTO[ettv]',
+ 'search': 'thrones',
+ 'seeder': '9,220',
+ 'site': 'Zooqle',
+ 'size': '1.7 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-720p-web-h264-memento-ettv-xc8oi.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '10,666',
+ 'link': 'magnet:?xt=urn:btih:EDB724BCEDBC036467A6422234267C95EC55394E&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20WEB%20H264-MEMENTO%20%5Beztv%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 WEB H264-MEMENTO [eztv]',
+ 'search': 'thrones',
+ 'seeder': '5,891',
+ 'site': 'Zooqle',
+ 'size': '365 MB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-web-h264-memento-eztv-xc8om.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '5,464',
+ 'link': 'magnet:?xt=urn:btih:51401FAD5D16C9EF0C3E0417ECF2A54EE3556CBF&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20WEBRip%20x264-ION10&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 WEBRip x264-ION10',
+ 'search': 'thrones',
+ 'seeder': '5,342',
+ 'site': 'Zooqle',
+ 'size': '540 MB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-webrip-x264-ion10-xc8t6.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '1,592',
+ 'link': 'magnet:?xt=urn:btih:1D876E732CF544D29B45DE72C0D6D6D66E9DB15E&dn=%5Bzooqle.com%5D%20Game%20Of%20Thrones%20The%20Story%20So%20Far%202018%20HDTV%20x264-PLUTONiUM%5BTGx%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game Of Thrones The Story So Far 2018 HDTV x264-PLUTONiUM[TGx]',
+ 'search': 'thrones',
+ 'seeder': '4,798',
+ 'site': 'Zooqle',
+ 'size': '477 MB',
+ 'source': 'https://zooqle.com/game-of-thrones-the-story-so-far-2018-hdtv-x264-plutonium-tgx-xc38e.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '12,502',
+ 'link': 'magnet:?xt=urn:btih:06AF7712A61F0BD433D33BA5A7CDBE36D62F32EB&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20720p%20WEB%20H264-MEMENTO%5Brarbg%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 720p WEB H264-MEMENTO[rarbg]',
+ 'search': 'thrones',
+ 'seeder': '4,674',
+ 'site': 'Zooqle',
+ 'size': '1.7 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-720p-web-h264-memento-rarbg-xc8sx.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '7,903',
+ 'link': 'magnet:?xt=urn:btih:E26D12B2F548132921D9D3D9809812BC33326C6C&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20Kings%20Landing%20720p%20AMZN%20WEBRip%20DDP5%201%20x264-GoT%5Brarbg%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 Kings Landing 720p AMZN WEBRip DDP5 1 '
+         'x264-GoT[rarbg]',
+ 'search': 'thrones',
+ 'seeder': '4,572',
+ 'site': 'Zooqle',
+ 'size': '1.4 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-kings-landing-720p-amzn-webrip-ddp5-1-x26-xc8sr.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '2,479',
+ 'link': 'magnet:?xt=urn:btih:CC20FCA90F26564D46F7C87C4C23035DB882DC78&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20REPACK%201080p%20WEB%20H264-MEMENTO%5Brarbg%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 REPACK 1080p WEB H264-MEMENTO[rarbg]',
+ 'search': 'thrones',
+ 'seeder': '3,581',
+ 'site': 'Zooqle',
+ 'size': '3.2 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-repack-1080p-web-h264-memento-rarbg-xc8u3.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '4,908',
+ 'link': 'magnet:?xt=urn:btih:D8D9ED866416158F9D62F7B12E90A61C9156A831&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20720p%20AMZN%20WEB-DL%20x264-MkvCage&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 720p AMZN WEB-DL x264-MkvCage',
+ 'search': 'thrones',
+ 'seeder': '3,312',
+ 'site': 'Zooqle',
+ 'size': '470 MB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-720p-amzn-web-dl-x264-mkvcage-xc8q4.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '1,731',
+ 'link': 'magnet:?xt=urn:btih:A5FDB366B07C9E86CBF6CADBC646D49C70B1320E&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20720p%20WEB%20x265-MiNX%20%5Beztv%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 720p WEB x265-MiNX [eztv]',
+ 'search': 'thrones',
+ 'seeder': '2,985',
+ 'site': 'Zooqle',
+ 'size': '273 MB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-720p-web-x265-minx-eztv-xc8pu.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '2,802',
+ 'link': 'magnet:?xt=urn:btih:CF780BB259A7BAD095F41A198CCD3746097109F4&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20REPACK%20WEB%20H264-MEMENTO%20%5Beztv%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 REPACK WEB H264-MEMENTO [eztv]',
+ 'search': 'thrones',
+ 'seeder': '2,440',
+ 'site': 'Zooqle',
+ 'size': '350 MB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-repack-web-h264-memento-eztv-xc8p0.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '2,683',
+ 'link': 'magnet:?xt=urn:btih:ACFFEDA8F5C3E97A6843E719DCEA94CB144702BE&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20WEB%20H264-MEMENTO%5Brarbg%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 WEB H264-MEMENTO[rarbg]',
+ 'search': 'thrones',
+ 'seeder': '2,349',
+ 'site': 'Zooqle',
+ 'size': '365 MB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-web-h264-memento-rarbg-xc8sm.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '801',
+ 'link': 'magnet:?xt=urn:btih:6698E0950DCD257A6B03AF2E8B068B7FF9D4619D&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20-%20Season%202%20-%20720p%20BluRay%20-%20x264%20-%20ShAaNiG&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones - Season 2 - 720p BluRay - x264 - ShAaNiG',
+ 'search': 'thrones',
+ 'seeder': '2,212',
+ 'site': 'Zooqle',
+ 'size': '4.4 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-season-2-720p-bluray-x264-shaanig-va6j4.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '1,508',
+ 'link': 'magnet:?xt=urn:btih:16CFA11F321B6BFE7AB414274E85C6B2A2FA5700&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20REPACK%20720p%20WEB%20H264-MEMENTO%5Brarbg%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 REPACK 720p WEB H264-MEMENTO[rarbg]',
+ 'search': 'thrones',
+ 'seeder': '2,149',
+ 'site': 'Zooqle',
+ 'size': '1.6 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-repack-720p-web-h264-memento-rarbg-xc8uz.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '3,862',
+ 'link': 'magnet:?xt=urn:btih:CF6540D565BEDC8EF2D401F4BB8879831B760E43&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20REPACK%20720p%20WEB%20H264-MEMENTO%20%5Beztv%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 REPACK 720p WEB H264-MEMENTO [eztv]',
+ 'search': 'thrones',
+ 'seeder': '2,098',
+ 'site': 'Zooqle',
+ 'size': '1.6 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-repack-720p-web-h264-memento-eztv-xc8p1.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '1,768',
+ 'link': 'magnet:?xt=urn:btih:580B124ADFC019CB4855673115F3F271BD2D393D&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20720p%20WEB%20H264-MEMENTO%5BTGx%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 720p WEB H264-MEMENTO[TGx]',
+ 'search': 'thrones',
+ 'seeder': '1,982',
+ 'site': 'Zooqle',
+ 'size': '1.7 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-720p-web-h264-memento-tgx-xc8ss.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '676',
+ 'link': 'magnet:?xt=urn:btih:5AD72DE4793DF54FA40ADFC1249D30D80D1A5649&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20-%20Season%205%20-%20720p%20BluRay%20-%20x264%20-%20ShAaNiG&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones - Season 5 - 720p BluRay - x264 - ShAaNiG',
+ 'search': 'thrones',
+ 'seeder': '1,969',
+ 'site': 'Zooqle',
+ 'size': '4.6 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-season-5-720p-bluray-x264-shaanig-ky7s8.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '921',
+ 'link': 'magnet:?xt=urn:btih:04BBA4E2F593241AC407CA83B2B44F3849039F76&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20Season%201%20S01%20720p%20BluRay%20x264%20MrLss&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones Season 1 S01 720p BluRay x264 MrLss',
+ 'search': 'thrones',
+ 'seeder': '1,850',
+ 'site': 'Zooqle',
+ 'size': '3.8 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-season-1-s01-720p-bluray-x264-mrlss-nlay9.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '611',
+ 'link': 'magnet:?xt=urn:btih:5A8AB73D09B5CEED22243C21CF3FDD6EC5803D7E&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20-%20Season%204%20-%20720p%20BluRay%20-%20x264%20-%20ShAaNiG&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones - Season 4 - 720p BluRay - x264 - ShAaNiG',
+ 'search': 'thrones',
+ 'seeder': '1,844',
+ 'site': 'Zooqle',
+ 'size': '4.4 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-season-4-720p-bluray-x264-shaanig-vah3h.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '2,080',
+ 'link': 'magnet:?xt=urn:btih:5B2E863E641A1AEC392C53CA3BDF0DCEE4A1FD58&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%201080p%20AMZN%20WEB-DL%20x264-MkvCage&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 1080p AMZN WEB-DL x264-MkvCage',
+ 'search': 'thrones',
+ 'seeder': '1,759',
+ 'site': 'Zooqle',
+ 'size': '1,000 MB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-1080p-amzn-web-dl-x264-mkvcage-xc8q3.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '2,417',
+ 'link': 'magnet:?xt=urn:btih:809E69F6E6F4EC6290BF000396A1A88D73E0A384&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20Kings%20Landing%20720p%20AMZN%20WEBRip%20DDP5%201%20x264-GoT%20%5Beztv%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 Kings Landing 720p AMZN WEBRip DDP5 1 '
+         'x264-GoT [eztv]',
+ 'search': 'thrones',
+ 'seeder': '1,669',
+ 'site': 'Zooqle',
+ 'size': '1.4 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-kings-landing-720p-amzn-webrip-ddp5-1-x26-xc8ol.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '500',
+ 'link': 'magnet:?xt=urn:btih:0B288195F50AB27C52BCB1B88F11A8FD59F64635&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20-%20Season%206%20-%20720p%20HDTV%20-%20x265%20HEVC%20-%20ShAaNiG&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones - Season 6 - 720p HDTV - x265 HEVC - ShAaNiG',
+ 'search': 'thrones',
+ 'seeder': '1,622',
+ 'site': 'Zooqle',
+ 'size': '3.3 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-season-6-720p-hdtv-x265-hevc-shaanig-v8tab.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '1,421',
+ 'link': 'magnet:?xt=urn:btih:892D0B87899575D09E9E6FDB159B428414C528D7&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%201080p%20WEB%20H264-MEMENTO&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 1080p WEB H264-MEMENTO',
+ 'search': 'thrones',
+ 'seeder': '1,530',
+ 'site': 'Zooqle',
+ 'size': '3.3 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-1080p-web-h264-memento-xc8pa.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '1,318',
+ 'link': 'magnet:?xt=urn:btih:405EB9D3235904BAA797DDA39807E97AA34F4CEB&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20WEB%20H264-MEMENTO%5BTGx%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 WEB H264-MEMENTO[TGx]',
+ 'search': 'thrones',
+ 'seeder': '1,344',
+ 'site': 'Zooqle',
+ 'size': '365 MB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-web-h264-memento-tgx-xc8t4.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '1,511',
+ 'link': 'magnet:?xt=urn:btih:666EA4031D75133A7AA8CE2126F00EBB4B2094A1&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20720p%20WEB%20H264-MEMENTO%20%5Beztv%5D&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 720p WEB H264-MEMENTO [eztv]',
+ 'search': 'thrones',
+ 'seeder': '1,342',
+ 'site': 'Zooqle',
+ 'size': '1.7 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-720p-web-h264-memento-eztv-xc8ok.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '681',
+ 'link': 'magnet:?xt=urn:btih:67315E83D81EEB011A280110666914A7948F011B&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20S08E01%20480p%20x264-mSD&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones S08E01 480p x264-mSD',
+ 'search': 'thrones',
+ 'seeder': '1,223',
+ 'site': 'Zooqle',
+ 'size': '213 MB',
+ 'source': 'https://zooqle.com/game-of-thrones-s08e01-480p-x264-msd-xc8pq.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.scraper] ERROR: Error processing {'cat': 'tv',
+ 'leecher': '382',
+ 'link': 'magnet:?xt=urn:btih:106EF6A492DBFF49660694EA16CF157D6654ED20&dn=%5Bzooqle.com%5D%20Game%20of%20Thrones%20Season%207%20COMPLETE%201080p%20Web-DL%2FWeb%20x265-KRAVE&tr=http://explodie.org:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=http://announce.xxx-tracker.com:2710/announce&tr=http://open.acgtracker.com:1096/announce&tr=http://tracker.etree.org:6969/announce',
+ 'name': 'Game of Thrones Season 7 COMPLETE 1080p Web-DL/Web x265-KRAVE',
+ 'search': 'thrones',
+ 'seeder': '1,125',
+ 'site': 'Zooqle',
+ 'size': '9.2 GB',
+ 'source': 'https://zooqle.com/game-of-thrones-season-7-complete-1080p-web-dl-web-x265-krave-xac9r.html'}
+Traceback (most recent call last):
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "C:\Users\lzy\Desktop\ResCollector-master\mybt\pipelines.py", line 10, in process_item
+    item.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\scrapy_djangoitem\__init__.py", line 35, in save
+    self.instance.save()
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1331, in execute_sql
+    for sql, params in self.as_sql():
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in as_sql
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1275, in <listcomp>
+    for obj in self.query.objs
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1274, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\sql\compiler.py", line 1215, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 789, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 784, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "c:\users\lzy\anaconda3\envs\homework\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '22,099'
+2019-04-15 16:17:44 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 16:17:44 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 239,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 19953,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 8, 17, 44, 407064),
+ 'log_count/DEBUG': 1,
+ 'log_count/ERROR': 30,
+ 'log_count/INFO': 9,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 4, 15, 8, 17, 42, 570971)}
+2019-04-15 16:17:44 [scrapy.core.engine] INFO: Spider closed (finished)
