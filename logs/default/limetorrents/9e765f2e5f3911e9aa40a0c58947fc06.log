@@ -1,0 +1,203 @@
+2019-04-15 12:47:57 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-15 12:47:57 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 12:47:57 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\limetorrents\\9e765f2e5f3911e9aa40a0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-15 12:47:57 [scrapy.extensions.telnet] INFO: Telnet Password: f64f104644ee67b6
+2019-04-15 12:47:58 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 12:47:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 12:47:58 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 12:47:58 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-15 12:47:58 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 12:47:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 12:47:58 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2019-04-15 12:47:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/search/movies/world-war/seeds/1/> (referer: None)
+2019-04-15 12:47:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-DVD-RIP-XviD-HDChina-torrent-3725929.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:47:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-DVD-RIP-XviD-HDChina-torrent-3725929.html>
+None
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-DVD-RIP-XviD-SONiDO-torrent-3501203.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-Eng-TELESYNC-DivX-LTT-torrent-3875774.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-DVDRip-X264-AMIABLE-torrent-2736999.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-DVDrip-XviD-EXVID-torrent-3173149.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-ENG-DVDRip-XviD-TASTE-torrent-3355373.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-DVD-RIP-XviD-HDChina-torrent-3152401.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-iTALiAN-MD-TELESYNC-V2-XviD-REV[MT]-torrent-3817108.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-DVD-RIP-XviD-SONiDO-torrent-3501203.html>
+None
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-Eng-TELESYNC-DivX-LTT-torrent-3875774.html>
+None
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-DVDRip-X264-AMIABLE-torrent-2736999.html>
+None
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-DVDrip-XviD-EXVID-torrent-3173149.html>
+None
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-ENG-DVDRip-XviD-TASTE-torrent-3355373.html>
+None
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-DVD-RIP-XviD-HDChina-torrent-3152401.html>
+None
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-iTALiAN-MD-TELESYNC-V2-XviD-REV[MT]-torrent-3817108.html>
+None
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-DVDSCR-XViD-PLaYa-torrent-2730790.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-DVDRip[Xvid]AC3-6ch[Eng]BlueLady-torrent-3893095.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-DVDSCR-XViD-PLaYa-torrent-2730790.html>
+None
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-DVDRip[Xvid]AC3-6ch[Eng]BlueLady-torrent-3893095.html>
+None
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-HQCopy-NvyNt-torrent-2670702.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-DVDCopy-WQPaR-torrent-2578086.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-(2012)-DVDRip-AC3-6ch[Eng]BlueLady-torrent-3946042.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-TS-LiNE-[H264-MP4][RoB]-torrent-4038821.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-HQCopy-NvyNt-torrent-2711042.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-HQCopy-NvyNt-torrent-2670702.html>
+None
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-DVDCopy-WQPaR-torrent-2578086.html>
+None
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-Eng-BlueLady-torrent-3730083.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-(2012)-DVDRip-AC3-6ch[Eng]BlueLady-torrent-3946042.html>
+None
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-TS-LiNE-[H264-MP4][RoB]-torrent-4038821.html>
+None
+2019-04-15 12:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3694507.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-HQCopy-NvyNt-torrent-2711042.html>
+None
+2019-04-15 12:48:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-Eng-BlueLady-torrent-3730083.html>
+None
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3699382.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3694507.html>
+None
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3660666.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3605212.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3699382.html>
+None
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3594564.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3660664.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3660666.html>
+None
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3640279.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3605212.html>
+None
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3605202.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3594564.html>
+None
+2019-04-15 12:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3660664.html>
+None
+2019-04-15 12:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3640279.html>
+None
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3559681.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3605202.html>
+None
+2019-04-15 12:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3559681.html>
+None
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3559662.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3523964.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3504164.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3559662.html>
+None
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/world-war-z-HQ-TS-Xvid-PoonTang-torrent-2956223.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/world-war-z-XVid-CAM-HQ-Audio-Sparks-torrent-2956220.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3523964.html>
+None
+2019-04-15 12:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3504164.html>
+None
+2019-04-15 12:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/world-war-z-HQ-TS-Xvid-PoonTang-torrent-2956223.html>
+None
+2019-04-15 12:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/world-war-z-XVid-CAM-HQ-Audio-Sparks-torrent-2956220.html>
+None
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3542738.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3513959.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/world-war-z-Leaked-Screener-HeRo-torrent-2956221.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3542738.html>
+None
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-ETRG-torrent-3513959.html>
+None
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/world-war-z-HQ-DVD-SCR-LeMi-torrent-2956222.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/world-war-z-Leaked-Screener-HeRo-torrent-2956221.html>
+None
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-REPACK-DVDRip-2014-torrent-3846730.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/world-war-z-HQ-DVD-SCR-LeMi-torrent-2956222.html>
+None
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-[DVDRip-XviD]-torrent-3845863.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-HDTS-XviD-CHEESE-torrent-2731619.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-REPACK-DVDRip-2014-torrent-3846730.html>
+None
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-(2012)-DvdRip-Eng-AFX-2014-torrent-3908036.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-DVDScr-XviD-1xCD-DDR-torrent-2731621.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-(2012)-DvDrip[Eng]-FXG-torrent-4047319.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-NewCopy-EImww-torrent-2702582.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-[DVDRip-XviD]-torrent-3845863.html>
+None
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-HDTS-XviD-CHEESE-torrent-2731619.html>
+None
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2012-Eng-TELESYNC-DivX-LTT-torrent-3710528.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-(2012)-DvdRip-Eng-AFX-2014-torrent-3908036.html>
+None
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-DVDScr-XviD-1xCD-DDR-torrent-2731621.html>
+None
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-(2012)-DvDrip[Eng]-FXG-torrent-4047319.html>
+None
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-NewCopy-EImww-torrent-2702582.html>
+None
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-DVDScr-XviD-Exclusive-torrent-2731620.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2012-Eng-TELESYNC-DivX-LTT-torrent-3710528.html>
+None
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-Hi-DefRip-RBUTu-torrent-2756067.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-HDTS-XviD-CHEESE-torrent-2736993.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-DVDScr-XviD-Exclusive-torrent-2731620.html>
+None
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-Hi-DefRip-RBUTu-torrent-2756067.html>
+None
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-DVDrip-XviD-EXVID-torrent-3556532.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-HDTS-XviD-CHEESE-torrent-2736993.html>
+None
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-DVDrip-XviD-EXVID-torrent-2614625.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-R6Rip-MWOOC-torrent-2646877.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-S4A-torrent-2736998.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-DVDrip-XviD-EXVID-torrent-3556532.html>
+None
+2019-04-15 12:48:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-DVDrip-XviD-EXVID-torrent-2614625.html>
+None
+2019-04-15 12:48:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-R6Rip-MWOOC-torrent-2646877.html>
+None
+2019-04-15 12:48:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-BRRip-XviD-S4A-torrent-2736998.html>
+None
+2019-04-15 12:48:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.limetorrents.info/World-War-Z-2013-CAM-XviD-THC-torrent-2736996.html> (referer: https://www.limetorrents.info/search/movies/world-war/seeds/1/)
+2019-04-15 12:48:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.limetorrents.info/World-War-Z-2013-CAM-XviD-THC-torrent-2736996.html>
+None
+2019-04-15 12:48:03 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 12:48:03 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 22599,
+ 'downloader/request_count': 51,
+ 'downloader/request_method_count/GET': 51,
+ 'downloader/response_bytes': 456366,
+ 'downloader/response_count': 51,
+ 'downloader/response_status_count/200': 51,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 4, 48, 3, 199666),
+ 'item_scraped_count': 50,
+ 'log_count/DEBUG': 101,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 51,
+ 'scheduler/dequeued': 51,
+ 'scheduler/dequeued/memory': 51,
+ 'scheduler/enqueued': 51,
+ 'scheduler/enqueued/memory': 51,
+ 'start_time': datetime.datetime(2019, 4, 15, 4, 47, 58, 176477)}
+2019-04-15 12:48:03 [scrapy.core.engine] INFO: Spider closed (finished)

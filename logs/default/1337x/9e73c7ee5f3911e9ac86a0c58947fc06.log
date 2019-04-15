@@ -1,0 +1,297 @@
+2019-04-15 12:47:51 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: mybt)
+2019-04-15 12:47:51 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.3 (default, Mar 27 2019, 17:13:21) [MSC v.1915 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17134-SP0
+2019-04-15 12:47:51 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'mybt', 'LOG_FILE': 'logs\\default\\1337x\\9e73c7ee5f3911e9ac86a0c58947fc06.log', 'NEWSPIDER_MODULE': 'mybt.spiders', 'SPIDER_MODULES': ['mybt.spiders']}
+2019-04-15 12:47:51 [scrapy.extensions.telnet] INFO: Telnet Password: 6f2d454fa44eed3c
+2019-04-15 12:47:51 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-15 12:47:51 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-15 12:47:51 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-15 12:47:51 [scrapy.middleware] INFO: Enabled item pipelines:
+['mybt.pipelines.MybtPipeline']
+2019-04-15 12:47:51 [scrapy.core.engine] INFO: Spider opened
+2019-04-15 12:47:51 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-15 12:47:51 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-15 12:47:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/category-search/world%20war/Movies/3/> (referer: None)
+2019-04-15 12:47:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/category-search/world%20war/Movies/2/> (referer: None)
+2019-04-15 12:47:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/category-search/world%20war/Movies/1/> (referer: None)
+2019-04-15 12:47:53 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://1337x.to/torrent/2325145/World-War-Z-2013-UNRATED-BluRay-1080p-x264-AAC-5-1-Hon3y/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2019-04-15 12:47:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/620715/World-War-Z-2013-Unrated-Cut-1080p-BRRip-x264-AC3-JYK/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/880614/World-War-Z-Unrated-Edition-2013-BDrip-1080p-ENG-ITA-x264-bluray/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/645611/World-War-Z-2013-ITA-DVDRip-Hx264-iT-_CREW/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/620715/World-War-Z-2013-Unrated-Cut-1080p-BRRip-x264-AC3-JYK/>
+None
+2019-04-15 12:47:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/880614/World-War-Z-Unrated-Edition-2013-BDrip-1080p-ENG-ITA-x264-bluray/>
+None
+2019-04-15 12:47:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/645611/World-War-Z-2013-ITA-DVDRip-Hx264-iT-_CREW/>
+None
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1596667/World-War-Z-2013-720p-Theatrical-Cut-BluRay-x264-DUAL-DMN/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1475420/World-War-Z-2013-720p-10bit-BluRay-x265-HEVC-MZABI/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1994904/World-War-Z-2013-Unrated-BRrip-H264/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1057072/World-War-Z-2013-DVDRip-XviD-AC3-Soup/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1207555/World-War-Z-2013-1080p-UNRATED-Bluray-X264-BARC0DE/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2404205/World-War-Z-2013-1080p-H264-AAC/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3622036/World-War-Z-2013-720p-Obey-TGx/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1596667/World-War-Z-2013-720p-Theatrical-Cut-BluRay-x264-DUAL-DMN/>
+None
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1475420/World-War-Z-2013-720p-10bit-BluRay-x265-HEVC-MZABI/>
+None
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1994904/World-War-Z-2013-Unrated-BRrip-H264/>
+None
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1057072/World-War-Z-2013-DVDRip-XviD-AC3-Soup/>
+None
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1207555/World-War-Z-2013-1080p-UNRATED-Bluray-X264-BARC0DE/>
+None
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2404205/World-War-Z-2013-1080p-H264-AAC/>
+None
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3027267/World-War-Z-2013-Extended-BluRay-720p-x264-Telugu-Line-Tamil-Hindi-Eng-1-1GB-ESub/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3622036/World-War-Z-2013-720p-Obey-TGx/>
+None
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3027267/World-War-Z-2013-Extended-BluRay-720p-x264-Telugu-Line-Tamil-Hindi-Eng-1-1GB-ESub/>
+None
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1824487/World-War-Z-2013-Unrated-Cut-480p-BRRip-XviD-AC3-EVO-BG-SUB/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1368626/Captain-America-Civil-War-Trailer-World-Premiere-1080p-Lucifer22/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1794099/None-Shall-Escape-1944-USA-World-War-II-drama/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2309220/World-War-Z-2013-720p-Dual-Audio-720p-Bluray-x264-Hindi-5-1-English-2-0-moviezworldz/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2244973/World-War-2-On-Film-Mp4-x264-720p-1080p/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/648509/World-War-Z-2013-THEATRICAL-720p-BluRay-x264-HDCLUB-PublicHD/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3539434/World-War-Z-2013-Unrated-1080p-BluRay-x264-Dual-Audio-Hindi-DD5-1-640-Kbps-English-DD5-1-ESUBS-Ranvijay/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1824487/World-War-Z-2013-Unrated-Cut-480p-BRRip-XviD-AC3-EVO-BG-SUB/>
+None
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1368626/Captain-America-Civil-War-Trailer-World-Premiere-1080p-Lucifer22/>
+None
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1794099/None-Shall-Escape-1944-USA-World-War-II-drama/>
+None
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2309220/World-War-Z-2013-720p-Dual-Audio-720p-Bluray-x264-Hindi-5-1-English-2-0-moviezworldz/>
+None
+2019-04-15 12:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3682744/Jurassic-Park-II-The-Lost-World-1997-1080p-BluRay-x265-10bit-7-1ch-xxxpav69/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2244973/World-War-2-On-Film-Mp4-x264-720p-1080p/>
+None
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/648509/World-War-Z-2013-THEATRICAL-720p-BluRay-x264-HDCLUB-PublicHD/>
+None
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3539434/World-War-Z-2013-Unrated-1080p-BluRay-x264-Dual-Audio-Hindi-DD5-1-640-Kbps-English-DD5-1-ESUBS-Ranvijay/>
+None
+2019-04-15 12:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3682744/Jurassic-Park-II-The-Lost-World-1997-1080p-BluRay-x265-10bit-7-1ch-xxxpav69/>
+None
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3385253/World-War-Z-2013-Extended-720p-Esub-BluRay-English-Hindi-Tamil-Telugu-GOPISAHI/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3026238/World-War-Z-2013-720p-BDRip-Extended-Uncut-Hindi-Tamil-Telugu-Eng-x264-1-1GB-ESubs-MOVCR/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1871110/Tuntematon-Sotilas-aka-The-Unknown-Soldier-1955-DVDRip-540p-x264-aac-2-0-English-Sub-MKV/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3571737/World-War-Z-2013-BluRay-1080p-x264-Original-Audios-DD-5-1-640Kbps-Telugu-Tamil-Hindi-Eng-3-8GB-ESub-First-On-NET/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1636422/World-War-Z-2013-BRrip-XviD-Italian-English-Ac3-5-1-sub-ita-eng-iCV-MIRCrew/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3098452/Patton-1970-1080p-Ita-Eng-TNT-Village/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3541280/World-War-Z-2013-Unrated-720p-BluRay-x264-Dual-Audio-Hindi-DD5-1-English-DD5-1-ESUBS-Ranvijay/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3385253/World-War-Z-2013-Extended-720p-Esub-BluRay-English-Hindi-Tamil-Telugu-GOPISAHI/>
+None
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3026238/World-War-Z-2013-720p-BDRip-Extended-Uncut-Hindi-Tamil-Telugu-Eng-x264-1-1GB-ESubs-MOVCR/>
+None
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1871110/Tuntematon-Sotilas-aka-The-Unknown-Soldier-1955-DVDRip-540p-x264-aac-2-0-English-Sub-MKV/>
+None
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3571737/World-War-Z-2013-BluRay-1080p-x264-Original-Audios-DD-5-1-640Kbps-Telugu-Tamil-Hindi-Eng-3-8GB-ESub-First-On-NET/>
+None
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3571738/World-War-Z-2013-BluRay-x264-Original-Audios-Telugu-Tamil-450MB-ESub/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1636422/World-War-Z-2013-BRrip-XviD-Italian-English-Ac3-5-1-sub-ita-eng-iCV-MIRCrew/>
+None
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3098452/Patton-1970-1080p-Ita-Eng-TNT-Village/>
+None
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3541280/World-War-Z-2013-Unrated-720p-BluRay-x264-Dual-Audio-Hindi-DD5-1-English-DD5-1-ESUBS-Ranvijay/>
+None
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3571738/World-War-Z-2013-BluRay-x264-Original-Audios-Telugu-Tamil-450MB-ESub/>
+None
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3027124/World-War-Z-2013-720p-BDRip-ExtendedUncut-Tamil-Telugu-Hindi-Eng-x264-1-1GB-ESubs-TEAMTR/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3571733/World-War-Z-2013-BluRay-720p-x264-Original-Audios-DD-5-1-Telugu-Tamil-Hindi-Eng-1-1GB-ESub/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3571758/World-War-Z-2013-720p-BluRay-Original-Telugu-Tamil-Hindi-Eng-1-1GB-ESub/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1278090/World-War-Z-2013-Unrated-720p-BluRay-x264-AAC-ETRG/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3571957/World-War-Z-2013-720p-BDRip-Tamil-Telugu-Hindi-English-x264-1GB-ESubs-TEAMTR/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3571756/World-War-Z-2013-1080p-BluRay-DD-5-1-640Kbps-Telugu-Tamil-Hindi-Eng-4GB-ESub/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3123718/World-War-Z-2013-720p-BluRay-Telugu-Hindi-Tamil-Eng-ESub/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/619601/World-War-Z-2013-UNRATED-720p-BrRip-x264-YIFY/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3027124/World-War-Z-2013-720p-BDRip-ExtendedUncut-Tamil-Telugu-Hindi-Eng-x264-1-1GB-ESubs-TEAMTR/>
+None
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3571733/World-War-Z-2013-BluRay-720p-x264-Original-Audios-DD-5-1-Telugu-Tamil-Hindi-Eng-1-1GB-ESub/>
+None
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3571758/World-War-Z-2013-720p-BluRay-Original-Telugu-Tamil-Hindi-Eng-1-1GB-ESub/>
+None
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1278090/World-War-Z-2013-Unrated-720p-BluRay-x264-AAC-ETRG/>
+None
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3571957/World-War-Z-2013-720p-BDRip-Tamil-Telugu-Hindi-English-x264-1GB-ESubs-TEAMTR/>
+None
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3571756/World-War-Z-2013-1080p-BluRay-DD-5-1-640Kbps-Telugu-Tamil-Hindi-Eng-4GB-ESub/>
+None
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3123718/World-War-Z-2013-720p-BluRay-Telugu-Hindi-Tamil-Eng-ESub/>
+None
+2019-04-15 12:47:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/619601/World-War-Z-2013-UNRATED-720p-BrRip-x264-YIFY/>
+None
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/619698/World-War-Z-2013-UNRATED-1080p-BrRip-x264-YIFY/> (referer: https://1337x.to/category-search/world%20war/Movies/1/)
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1833944/World-War-Z-2013-BRRip-720p-CRF26-x265-2Ch-HAAC2-Sunil-KITE-METeam/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1884883/World-War-Z-2013-HEVC-D3FiL3R-PRiME/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2239917/World-War-Z-2013-Ext-1080p-BluRay-x265-10bit/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3026215/World-War-Z-2013-Extended-BluRay-Hindi-English-Tamil-Telugu-720p-x264-1GB-Esub/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3200898/World-War-Z-DVDR-Oficial-2013/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2622145/World-War-Z-2013-1080p-x265-HEVC-10bit-AAC-5-1-Prof/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/931209/World-War-Z-Unrated-Edition-2013-BDrip-XviD-ENG-ITA-Ac3/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/619698/World-War-Z-2013-UNRATED-1080p-BrRip-x264-YIFY/>
+None
+2019-04-15 12:47:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1833944/World-War-Z-2013-BRRip-720p-CRF26-x265-2Ch-HAAC2-Sunil-KITE-METeam/>
+None
+2019-04-15 12:47:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1884883/World-War-Z-2013-HEVC-D3FiL3R-PRiME/>
+None
+2019-04-15 12:47:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2239917/World-War-Z-2013-Ext-1080p-BluRay-x265-10bit/>
+None
+2019-04-15 12:47:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3026215/World-War-Z-2013-Extended-BluRay-Hindi-English-Tamil-Telugu-720p-x264-1GB-Esub/>
+None
+2019-04-15 12:47:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3200898/World-War-Z-DVDR-Oficial-2013/>
+None
+2019-04-15 12:47:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2622145/World-War-Z-2013-1080p-x265-HEVC-10bit-AAC-5-1-Prof/>
+None
+2019-04-15 12:47:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/931209/World-War-Z-Unrated-Edition-2013-BDrip-XviD-ENG-ITA-Ac3/>
+None
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2190963/World-War-Z-Extended-Action-Cut-2013-720p-BluRay-x264-DTS-Soup/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2816110/World-War-Z-2013-Brad-Pitt-1080p-H264-AC-3-DTS-5-1-Remastered-nickarad/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2190963/World-War-Z-Extended-Action-Cut-2013-720p-BluRay-x264-DTS-Soup/>
+None
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1396048/The-World-at-War-1973-720p-BRRip-x264-AAC-MED/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2563583/World-War-Z-2013-720p-Blu-Ray-x264-Dual-Audio-English-Hindi/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3095283/World-War-Z-2013-Brad-Pitt-1080p-H264-AC-3-DTS-5-1-Remastered-nickarad/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3103073/World-War-Z-2013-3D-HSBS-1080p-AC-3-DTS-5-1-Remastered-nickarad/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3574218/World-War-Z-2013-Dual-Audio-720p-BluRay-Hindi-DD-5-1-English-DD-5-1-ESubs-Sun-George/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2536132/World-War-Z-2013-Unrated-1080p-Skyler-HD-Dual-Audio-Hin-51-Eng-DTS-Arb-Eng-Sub-Skyler-torrent/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2816110/World-War-Z-2013-Brad-Pitt-1080p-H264-AC-3-DTS-5-1-Remastered-nickarad/>
+None
+2019-04-15 12:47:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1396048/The-World-at-War-1973-720p-BRRip-x264-AAC-MED/>
+None
+2019-04-15 12:47:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2563583/World-War-Z-2013-720p-Blu-Ray-x264-Dual-Audio-English-Hindi/>
+None
+2019-04-15 12:47:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3095283/World-War-Z-2013-Brad-Pitt-1080p-H264-AC-3-DTS-5-1-Remastered-nickarad/>
+None
+2019-04-15 12:47:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3103073/World-War-Z-2013-3D-HSBS-1080p-AC-3-DTS-5-1-Remastered-nickarad/>
+None
+2019-04-15 12:47:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3574218/World-War-Z-2013-Dual-Audio-720p-BluRay-Hindi-DD-5-1-English-DD-5-1-ESubs-Sun-George/>
+None
+2019-04-15 12:47:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2536132/World-War-Z-2013-Unrated-1080p-Skyler-HD-Dual-Audio-Hin-51-Eng-DTS-Arb-Eng-Sub-Skyler-torrent/>
+None
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/623142/World-War-Z-2013-3D-BrRip-x264-YIFY/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1278092/World-War-Z-2013-Unrated-1080p-BluRay-x264-AAC-ETRG/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/623142/World-War-Z-2013-3D-BrRip-x264-YIFY/>
+None
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2891340/World-War-Z-2013-1080p-Dual-Audio-Org-DD-Hindi-Eng-6Ch-DOOMSDAY/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/640026/World-War-Z-2013-UNRATED-CUT-720p-Blu-Ray-x264-Dual-Audio-English-Hindi-Mafiaking/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3571988/World-War-Z-2013-1080p-BDRip-Tamil-Telugu-Hindi-English-x264-2-1GB-ESubs-TEAMTR/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2325145/World-War-Z-2013-UNRATED-BluRay-1080p-x264-AAC-5-1-Hon3y/> (referer: https://1337x.to/category-search/world%20war/Movies/2/)
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/649522/World-War-Z-2013-iTA-ENG-Bluray-720p-x264-TRL/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1278092/World-War-Z-2013-Unrated-1080p-BluRay-x264-AAC-ETRG/>
+None
+2019-04-15 12:47:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2891340/World-War-Z-2013-1080p-Dual-Audio-Org-DD-Hindi-Eng-6Ch-DOOMSDAY/>
+None
+2019-04-15 12:47:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/640026/World-War-Z-2013-UNRATED-CUT-720p-Blu-Ray-x264-Dual-Audio-English-Hindi-Mafiaking/>
+None
+2019-04-15 12:47:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3571988/World-War-Z-2013-1080p-BDRip-Tamil-Telugu-Hindi-English-x264-2-1GB-ESubs-TEAMTR/>
+None
+2019-04-15 12:47:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2325145/World-War-Z-2013-UNRATED-BluRay-1080p-x264-AAC-5-1-Hon3y/>
+None
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/656419/World-War-Z-2013-720p-BRRip-Dual-Audio-Hindi-English-By-Lokioddin-PimpRG/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/649522/World-War-Z-2013-iTA-ENG-Bluray-720p-x264-TRL/>
+None
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/731446/World-War-Z-2013-2012-XviD-Italian-English-Ac3-Sub-Ita-Eng-MIRCrew/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1023677/World-War-Z-2013-UNRATED-BRRip-x264-Dual-Audio-395MB-a2zRG/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/656419/World-War-Z-2013-720p-BRRip-Dual-Audio-Hindi-English-By-Lokioddin-PimpRG/>
+None
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1123986/World-War-III-2014-HDRip-XviD-Arabic-ETRG/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1031493/World-War-Z-2013-UNRATED-1080p-BluRay-x264-SPARKS/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1963085/Bible-Study-45-Chuck-Missler-World-War-III-DVD/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2527108/World-War-3/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/731446/World-War-Z-2013-2012-XviD-Italian-English-Ac3-Sub-Ita-Eng-MIRCrew/>
+None
+2019-04-15 12:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2304994/World-War-Z-2013-10bit-dts-hevc-d3g/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1023677/World-War-Z-2013-UNRATED-BRRip-x264-Dual-Audio-395MB-a2zRG/>
+None
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1123986/World-War-III-2014-HDRip-XviD-Arabic-ETRG/>
+None
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1031493/World-War-Z-2013-UNRATED-1080p-BluRay-x264-SPARKS/>
+None
+2019-04-15 12:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1903744/Apocalypse-The-Second-World-War-COMPLETE-720p-BRRip-2-3GB-MkvCage/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1963085/Bible-Study-45-Chuck-Missler-World-War-III-DVD/>
+None
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2527108/World-War-3/>
+None
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2304994/World-War-Z-2013-10bit-dts-hevc-d3g/>
+None
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1903744/Apocalypse-The-Second-World-War-COMPLETE-720p-BRRip-2-3GB-MkvCage/>
+None
+2019-04-15 12:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2910942/Warrior-Of-The-Lost-World-1983-DVDRip-x264-N1C/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2910946/Warrior-Of-The-Lost-World-1983-DVDRip-x264/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/619965/World-War-Z-2013-EXTRAS-1080p-BluRay-x264-PublicHD/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2910942/Warrior-Of-The-Lost-World-1983-DVDRip-x264-N1C/>
+None
+2019-04-15 12:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/623597/World-War-Z-2013-iTALiAN-DUAL-MD-1080p-UNRATED-CUT-BrRiP-x264_TrTd_TeaM/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1502156/World-War-Z-2013-Theatrical-Cut-720p-BluRay-x264-Dual-Audio-ORG-DD-Hindi-5-1-English-5-1-MRDhila/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1187004/Flight-World-War-II-2015-DVDRip-XviD-EVO/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2910946/Warrior-Of-The-Lost-World-1983-DVDRip-x264/>
+None
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/619965/World-War-Z-2013-EXTRAS-1080p-BluRay-x264-PublicHD/>
+None
+2019-04-15 12:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1545837/World-War-Z-2013-UNRATED-720p-BRRip-1-1GB-MkvCage/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/623597/World-War-Z-2013-iTALiAN-DUAL-MD-1080p-UNRATED-CUT-BrRiP-x264_TrTd_TeaM/>
+None
+2019-04-15 12:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1154502/World-War-Dead-Rise-Of-The-Fallen-2015-English-Movies-BRRip-XviD-AAC-with-Sample-rDX/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1502156/World-War-Z-2013-Theatrical-Cut-720p-BluRay-x264-Dual-Audio-ORG-DD-Hindi-5-1-English-5-1-MRDhila/>
+None
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1187004/Flight-World-War-II-2015-DVDRip-XviD-EVO/>
+None
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1545837/World-War-Z-2013-UNRATED-720p-BRRip-1-1GB-MkvCage/>
+None
+2019-04-15 12:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2022120/World-War-Z-2013-MPEG-4-DaScubaDude/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1154502/World-War-Dead-Rise-Of-The-Fallen-2015-English-Movies-BRRip-XviD-AAC-with-Sample-rDX/>
+None
+2019-04-15 12:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2395346/World-War-Z-2013-3D-HSBS-1080p/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2022120/World-War-Z-2013-MPEG-4-DaScubaDude/>
+None
+2019-04-15 12:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/2426461/World-War-Z-2013-Download-Tamil-Hindi-English-Dubbed-720p-BD-Rip-x264-850MB-TamilMafia/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/1714220/Independents-War-of-the-World-2016-720p-BRRip-x264-AAC-ETRG/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2395346/World-War-Z-2013-3D-HSBS-1080p/>
+None
+2019-04-15 12:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://1337x.to/torrent/3524477/Independents-War-of-the-World-2016-720p-BluRay-H264-AAC/> (referer: https://1337x.to/category-search/world%20war/Movies/3/)
+2019-04-15 12:47:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/2426461/World-War-Z-2013-Download-Tamil-Hindi-English-Dubbed-720p-BD-Rip-x264-850MB-TamilMafia/>
+None
+2019-04-15 12:47:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/1714220/Independents-War-of-the-World-2016-720p-BRRip-x264-AAC-ETRG/>
+None
+2019-04-15 12:47:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://1337x.to/torrent/3524477/Independents-War-of-the-World-2016-720p-BluRay-H264-AAC/>
+None
+2019-04-15 12:47:59 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-15 12:47:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 33594,
+ 'downloader/request_count': 83,
+ 'downloader/request_method_count/GET': 83,
+ 'downloader/response_bytes': 593050,
+ 'downloader/response_count': 83,
+ 'downloader/response_status_count/200': 83,
+ 'dupefilter/filtered': 40,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 15, 4, 47, 59, 101175),
+ 'item_scraped_count': 80,
+ 'log_count/DEBUG': 164,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 83,
+ 'scheduler/dequeued': 83,
+ 'scheduler/dequeued/memory': 83,
+ 'scheduler/enqueued': 83,
+ 'scheduler/enqueued/memory': 83,
+ 'start_time': datetime.datetime(2019, 4, 15, 4, 47, 51, 974050)}
+2019-04-15 12:47:59 [scrapy.core.engine] INFO: Spider closed (finished)
